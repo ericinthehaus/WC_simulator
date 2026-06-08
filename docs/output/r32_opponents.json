@@ -1,0 +1,1170 @@
+{
+  "meta": {
+    "last_updated": "2026-06-07",
+    "n_simulations": 10
+  },
+  "matchups": [
+    {
+      "team_id": 778,
+      "team_name": "Algeria",
+      "group": "J",
+      "opponents": [
+        {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 762,
+      "team_name": "Argentina",
+      "group": "J",
+      "opponents": [
+        {
+          "opponent_id": 803,
+          "opponent_name": "Turkey",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 805,
+          "opponent_name": "Belgium",
+          "opponent_group": "G",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 779,
+      "team_name": "Australia",
+      "group": "D",
+      "opponents": [
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 828,
+          "opponent_name": "Canada",
+          "opponent_group": "B",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 773,
+          "opponent_name": "France",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 816,
+      "team_name": "Austria",
+      "group": "J",
+      "opponents": [
+        {
+          "opponent_id": 8030,
+          "opponent_name": "Qatar",
+          "opponent_group": "B",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 805,
+      "team_name": "Belgium",
+      "group": "G",
+      "opponents": [
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 762,
+          "opponent_name": "Argentina",
+          "opponent_group": "J",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 1060,
+      "team_name": "Bosnia-Herzegovina",
+      "group": "B",
+      "opponents": [
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 764,
+      "team_name": "Brazil",
+      "group": "C",
+      "opponents": [
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 828,
+      "team_name": "Canada",
+      "group": "B",
+      "opponents": [
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 771,
+          "opponent_name": "United States",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 1930,
+      "team_name": "Cape Verde Islands",
+      "group": "H",
+      "opponents": [
+        {
+          "opponent_id": 825,
+          "opponent_name": "Egypt",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
+          "opponent_group": "G",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 818,
+      "team_name": "Colombia",
+      "group": "K",
+      "opponents": [
+        {
+          "opponent_id": 799,
+          "opponent_name": "Croatia",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 770,
+          "opponent_name": "England",
+          "opponent_group": "L",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 1934,
+      "team_name": "Congo DR",
+      "group": "K",
+      "opponents": [
+        {
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 770,
+          "opponent_name": "England",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1836,
+          "opponent_name": "Panama",
+          "opponent_group": "L",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 799,
+      "team_name": "Croatia",
+      "group": "L",
+      "opponents": [
+        {
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 9460,
+      "team_name": "Cura\u00e7ao",
+      "group": "E",
+      "opponents": [
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 764,
+          "opponent_name": "Brazil",
+          "opponent_group": "C",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8873,
+          "opponent_name": "Scotland",
+          "opponent_group": "C",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 771,
+          "opponent_name": "United States",
+          "opponent_group": "D",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 798,
+      "team_name": "Czechia",
+      "group": "A",
+      "opponents": [
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
+          "opponent_group": "G",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 791,
+      "team_name": "Ecuador",
+      "group": "E",
+      "opponents": [
+        {
+          "opponent_id": 8873,
+          "opponent_name": "Scotland",
+          "opponent_group": "C",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 774,
+          "opponent_name": "South Africa",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 772,
+          "opponent_name": "South Korea",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 798,
+          "opponent_name": "Czechia",
+          "opponent_group": "A",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 825,
+      "team_name": "Egypt",
+      "group": "G",
+      "opponents": [
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 1930,
+          "opponent_name": "Cape Verde Islands",
+          "opponent_group": "H",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8030,
+          "opponent_name": "Qatar",
+          "opponent_group": "B",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 770,
+      "team_name": "England",
+      "group": "L",
+      "opponents": [
+        {
+          "opponent_id": 1934,
+          "opponent_name": "Congo DR",
+          "opponent_group": "K",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 773,
+      "team_name": "France",
+      "group": "I",
+      "opponents": [
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8601,
+          "opponent_name": "Netherlands",
+          "opponent_group": "F",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 772,
+          "opponent_name": "South Korea",
+          "opponent_group": "A",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 759,
+      "team_name": "Germany",
+      "group": "E",
+      "opponents": [
+        {
+          "opponent_id": 803,
+          "opponent_name": "Turkey",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8873,
+          "opponent_name": "Scotland",
+          "opponent_group": "C",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 763,
+      "team_name": "Ghana",
+      "group": "L",
+      "opponents": [
+        {
+          "opponent_id": 8070,
+          "opponent_name": "Uzbekistan",
+          "opponent_group": "K",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1934,
+          "opponent_name": "Congo DR",
+          "opponent_group": "K",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 836,
+      "team_name": "Haiti",
+      "group": "C",
+      "opponents": [
+        {
+          "opponent_id": 774,
+          "opponent_name": "South Africa",
+          "opponent_group": "A",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 840,
+      "team_name": "Iran",
+      "group": "G",
+      "opponents": [
+        {
+          "opponent_id": 828,
+          "opponent_name": "Canada",
+          "opponent_group": "B",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 798,
+          "opponent_name": "Czechia",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 772,
+          "opponent_name": "South Korea",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1060,
+          "opponent_name": "Bosnia-Herzegovina",
+          "opponent_group": "B",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8062,
+      "team_name": "Iraq",
+      "group": "I",
+      "opponents": [
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 1934,
+          "opponent_name": "Congo DR",
+          "opponent_group": "K",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 1935,
+      "team_name": "Ivory Coast",
+      "group": "E",
+      "opponents": [
+        {
+          "opponent_id": 803,
+          "opponent_name": "Turkey",
+          "opponent_group": "D",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 772,
+          "opponent_name": "South Korea",
+          "opponent_group": "A",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 766,
+      "team_name": "Japan",
+      "group": "F",
+      "opponents": [
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8049,
+      "team_name": "Jordan",
+      "group": "J",
+      "opponents": [
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 769,
+      "team_name": "Mexico",
+      "group": "A",
+      "opponents": [
+        {
+          "opponent_id": 825,
+          "opponent_name": "Egypt",
+          "opponent_group": "G",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
+          "opponent_group": "H",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 805,
+          "opponent_name": "Belgium",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 801,
+          "opponent_name": "Saudi Arabia",
+          "opponent_group": "H",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 773,
+          "opponent_name": "France",
+          "opponent_group": "I",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8601,
+      "team_name": "Netherlands",
+      "group": "F",
+      "opponents": [
+        {
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 773,
+          "opponent_name": "France",
+          "opponent_group": "I",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 783,
+      "team_name": "New Zealand",
+      "group": "G",
+      "opponents": [
+        {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 798,
+          "opponent_name": "Czechia",
+          "opponent_group": "A",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1930,
+          "opponent_name": "Cape Verde Islands",
+          "opponent_group": "H",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8872,
+      "team_name": "Norway",
+      "group": "I",
+      "opponents": [
+        {
+          "opponent_id": 8601,
+          "opponent_name": "Netherlands",
+          "opponent_group": "F",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 1836,
+      "team_name": "Panama",
+      "group": "L",
+      "opponents": [
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.3
+        },
+        {
+          "opponent_id": 8070,
+          "opponent_name": "Uzbekistan",
+          "opponent_group": "K",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1934,
+          "opponent_name": "Congo DR",
+          "opponent_group": "K",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 761,
+      "team_name": "Paraguay",
+      "group": "D",
+      "opponents": [
+        {
+          "opponent_id": 1060,
+          "opponent_name": "Bosnia-Herzegovina",
+          "opponent_group": "B",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 802,
+          "opponent_name": "Tunisia",
+          "opponent_group": "F",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8049,
+          "opponent_name": "Jordan",
+          "opponent_group": "J",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8030,
+          "opponent_name": "Qatar",
+          "opponent_group": "B",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 765,
+      "team_name": "Portugal",
+      "group": "K",
+      "opponents": [
+        {
+          "opponent_id": 1836,
+          "opponent_name": "Panama",
+          "opponent_group": "L",
+          "probability": 0.3
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 799,
+          "opponent_name": "Croatia",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8030,
+      "team_name": "Qatar",
+      "group": "B",
+      "opponents": [
+        {
+          "opponent_id": 825,
+          "opponent_name": "Egypt",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 816,
+          "opponent_name": "Austria",
+          "opponent_group": "J",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 801,
+      "team_name": "Saudi Arabia",
+      "group": "H",
+      "opponents": [
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8873,
+      "team_name": "Scotland",
+      "group": "C",
+      "opponents": [
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 759,
+          "opponent_name": "Germany",
+          "opponent_group": "E",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 804,
+      "team_name": "Senegal",
+      "group": "I",
+      "opponents": [
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 770,
+          "opponent_name": "England",
+          "opponent_group": "L",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 766,
+          "opponent_name": "Japan",
+          "opponent_group": "F",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 774,
+      "team_name": "South Africa",
+      "group": "A",
+      "opponents": [
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 836,
+          "opponent_name": "Haiti",
+          "opponent_group": "C",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 772,
+      "team_name": "South Korea",
+      "group": "A",
+      "opponents": [
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 773,
+          "opponent_name": "France",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 792,
+      "team_name": "Sweden",
+      "group": "F",
+      "opponents": [
+        {
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 773,
+          "opponent_name": "France",
+          "opponent_group": "I",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 788,
+      "team_name": "Switzerland",
+      "group": "B",
+      "opponents": [
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
+          "opponent_group": "G",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 762,
+          "opponent_name": "Argentina",
+          "opponent_group": "J",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 778,
+          "opponent_name": "Algeria",
+          "opponent_group": "J",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 825,
+          "opponent_name": "Egypt",
+          "opponent_group": "G",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 803,
+          "opponent_name": "Turkey",
+          "opponent_group": "D",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 802,
+      "team_name": "Tunisia",
+      "group": "F",
+      "opponents": [
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 803,
+      "team_name": "Turkey",
+      "group": "D",
+      "opponents": [
+        {
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 762,
+          "opponent_name": "Argentina",
+          "opponent_group": "J",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 759,
+          "opponent_name": "Germany",
+          "opponent_group": "E",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 771,
+      "team_name": "United States",
+      "group": "D",
+      "opponents": [
+        {
+          "opponent_id": 828,
+          "opponent_name": "Canada",
+          "opponent_group": "B",
+          "probability": 0.1
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 758,
+      "team_name": "Uruguay",
+      "group": "H",
+      "opponents": [
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "team_id": 8070,
+      "team_name": "Uzbekistan",
+      "group": "K",
+      "opponents": [
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.2
+        },
+        {
+          "opponent_id": 1836,
+          "opponent_name": "Panama",
+          "opponent_group": "L",
+          "probability": 0.1
+        }
+      ]
+    }
+  ]
+}
