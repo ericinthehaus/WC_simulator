@@ -2,14 +2,16 @@
 
 import logging
 import pandas as pd
-from aggregate_results import (
+from scripts.aggregate_results import (
     run_monte_carlo,
     build_team_probabilities,
     build_r32_opponent_probabilities,
     build_goals_diagnostics
 )
-from third_place_scenarios import THIRD_PLACE_SCENARIOS_BY_GROUPS
+from scripts.third_place_scenarios import THIRD_PLACE_SCENARIOS_BY_GROUPS
 import wc_simulator as wc
+
+import json
 
 logging.basicConfig(level=logging.INFO)
 

@@ -1,12 +1,13 @@
-/.DS_Store
-/.env
-/.venv
-/Unknown-4.pdf
-/__pycache__
+.DS_Store
+.env
+.venv
+__pycache__
+
+
 /aggregate_results.py
 /build_database.py
 /csv_files
-/data_out
+data_out/*
 /notebook.ipynb
 /notebook.py
 /query.sql
@@ -14,7 +15,4 @@
 /rules_ref.md
 /rules_reference.md
 /simulation_functions.py
-/third_place_scenarios.py
-/update_scores.py
-/wc_simulator.py
 /worldcup2026.db
