@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WC 2026 Simulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0a0e14;
+      --surface:  #111820;
+      --border:   #1e2d3d;
+      --green:    #00ff87;
+      --amber:    #ffb700;
+      --text:     #c9d6e3;
+      --muted:    #4a5a6a;
+      --font-display: 'Bebas Neue', sans-serif;
+      --font-mono:    'IBM Plex Mono', monospace;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-mono);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+    }
+
+    header h1 {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      letter-spacing: 0.04em;
+      color: #fff;
+      line-height: 1;
+    }
+
+    header .badge {
+      font-size: 0.65rem;
+      color: var(--green);
+      border: 1px solid var(--green);
+      padding: 0.2rem 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    header .sim-count {
+      margin-left: auto;
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    header .sim-count span {
+      color: var(--amber);
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+    }
+
+    .card-title {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+
+    /* ── Status banner ── */
+    .status-banner {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+      flex-shrink: 0;
+    }
+
+    .dot.live  { background: var(--green); box-shadow: 0 0 6px var(--green); animation: pulse 2s infinite; }
+    .dot.done  { background: var(--amber); }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+
+    /* ── Group grid ── */
+    .group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .group-card {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+    }
+
+    .group-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--green);
+      letter-spacing: 0.06em;
+      margin-bottom: 0.6rem;
+    }
+
+    .team-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.25rem 0;
+      font-size: 0.7rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .team-row:last-child { border-bottom: none; }
+
+    .team-name { color: var(--text); }
+
+    /* probability bar */
+    .prob-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .prob-bar {
+      width: 60px;
+      height: 4px;
+      background: var(--border);
+      position: relative;
+    }
+
+    .prob-bar-fill {
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      background: var(--green);
+      transition: width 0.4s ease;
+    }
+
+    .prob-val {
+      font-size: 0.65rem;
+      color: var(--amber);
+      min-width: 2.5rem;
+      text-align: right;
+    }
+
+    /* ── Loading state ── */
+    .loading {
+      color: var(--muted);
+      font-size: 0.75rem;
+      padding: 1rem 0;
+    }
+
+    .loading::after {
+      content: '';
+      animation: dots 1.5s infinite;
+    }
+
+    @keyframes dots {
+      0%   { content: '.'; }
+      33%  { content: '..'; }
+      66%  { content: '...'; }
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.65rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WC 2026 SIMULATOR</h1>
+    <span class="badge">Group Stage</span>
+    <span class="sim-count">
+      last run: <span id="last-updated">—</span>
+      &nbsp;|&nbsp;
+      n = <span id="sim-n">—</span>
+    </span>
+  </header>
+
+  <main>
+
+    <!-- Status row -->
+    <div class="card">
+      <div class="card-title">Tournament Status</div>
+      <div class="status-banner">
+        <span class="dot" id="status-dot"></span>
+        <span id="status-text">Loading data…</span>
+      </div>
+    </div>
+
+    <!-- Group stage probabilities -->
+    <div class="card">
+      <div class="card-title">Advancement Probability by Group</div>
+      <div class="group-grid" id="group-grid">
+        <span class="loading">Loading</span>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    WC 2026 Simulator &mdash; data updates daily via GitHub Actions &mdash;
+    <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">source</a>
+  </footer>
+
+  <script>
+    // ── Config ──────────────────────────────────────────────
+    const DATA_URL = './output/probabilities.json';
+
+    // ── Helpers ─────────────────────────────────────────────
+    function fmt(p) { return (p * 100).toFixed(1) + '%'; }
+
+    function teamRow(team) {
+      const pct = Math.round(team.p_advances * 100);
+      return `
+        <div class="team-row">
+          <span class="team-name">${team.team_name}</span>
+          <div class="prob-bar-wrap">
+            <div class="prob-bar">
+              <div class="prob-bar-fill" style="width:${pct}%"></div>
+            </div>
+            <span class="prob-val">${fmt(team.p_advances)}</span>
+          </div>
+        </div>`;
+    }
+
+    function groupCard(letter, teams) {
+      const rows = teams
+        .sort((a, b) => b.p_advances - a.p_advances)
+        .map(teamRow)
+        .join('');
+      return `
+        <div class="group-card">
+          <h3>Group ${letter}</h3>
+          ${rows}
+        </div>`;
+    }
+
+    // ── Render ───────────────────────────────────────────────
+    async function init() {
+      try {
+        const res  = await fetch(DATA_URL);
+        const data = await res.json();
+
+        // Meta
+        document.getElementById('last-updated').textContent = data.meta?.last_updated ?? '—';
+        document.getElementById('sim-n').textContent        = data.meta?.n_simulations?.toLocaleString() ?? '—';
+
+        // Status dot
+        const dot  = document.getElementById('status-dot');
+        const txt  = document.getElementById('status-text');
+        const done = data.meta?.matches_completed ?? 0;
+        const total= data.meta?.matches_total ?? 72;
+        if (done === 0) {
+          dot.className = 'dot';
+          txt.textContent = 'Tournament not yet started — all 72 matches simulated';
+        } else if (done < total) {
+          dot.className = 'dot live';
+          txt.textContent = `In progress — ${done} of ${total} group stage matches completed`;
+        } else {
+          dot.className = 'dot done';
+          txt.textContent = 'Group stage complete';
+        }
+
+        // Groups
+        const byGroup = {};
+        for (const team of data.teams) {
+          if (!byGroup[team.group]) byGroup[team.group] = [];
+          byGroup[team.group].push(team);
+        }
+
+        const grid = document.getElementById('group-grid');
+        grid.innerHTML = Object.keys(byGroup).sort()
+          .map(letter => groupCard(letter, byGroup[letter]))
+          .join('');
+
+      } catch (err) {
+        document.getElementById('group-grid').innerHTML =
+          `<span style="color:#ff5555;font-size:0.75rem;">
+            Could not load data. Run run_analysis.py to generate output/probabilities.json.
+          </span>`;
+        console.error(err);
+      }
+    }
+
+    init();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "last_updated": "2026-06-07",
+    "n_simulations": 100,
+    "matches_completed": 0,
+    "matches_total": 72
+  },
+  "teams": [
+    {
+      "team_id": 762,
+      "team_name": "Argentina",
+      "group": "J",
+      "p_1st": 0.41,
+      "p_2nd": 0.35,
+      "p_3rd": 0.18,
+      "p_4th": 0.06,
+      "p_advances": 0.76,
+      "p_eliminated": 0.24
+    }
+  ]
+}
