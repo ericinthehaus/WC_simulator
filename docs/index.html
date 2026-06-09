@@ -625,8 +625,7 @@
         <h3>Team Strength Model</h3>
         <p>
           The current simulation uses equal win/draw/loss probabilities for every match.
-          This section will house a team-strength model that weights match outcomes
-          using FIFA rankings, historical results, and recent form.
+          Match scores are randomly generated on a Poisson distribution. 
         </p>
         <span class="ph-tag">Coming Soon</span>
 
@@ -637,16 +636,9 @@
             <input type="text" value="Dixon-Coles / Poisson" disabled />
           </div>
           <div class="ph-input-group">
-            <label>Strength source</label>
-            <input type="text" value="FIFA World Rankings" disabled />
+            <label>Mean goals scored per match</label>
+            <input id="ph-mean-goals" type="text" value="—" disabled />
           </div>
-          <div class="ph-input-group">
-            <label>Home advantage</label>
-            <input type="text" value="Not yet configured" disabled />
-          </div>
-          <div class="ph-input-group">
-            <label>Last trained</label>
-            <input type="text" value="—" disabled />
           </div>
         </div>
       </div>
@@ -656,7 +648,7 @@
 
   <footer>
     WC 2026 Simulator &mdash; data refreshes daily via GitHub Actions &mdash;
-    <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">source</a>
+    <a href="https://github.com/ericinthehaus/WC_simulator" target="_blank">source</a>
   </footer>
 
   <script>
@@ -784,7 +776,7 @@
         .map(m => {
           const crest = teamCrests[m.team_id] || null;
           const topOpps = m.opponents.slice(0, 5);
-          const maxProb = topOpps[0]?.probability || 1;
+          const maxProb = topOpps[0]?.probability || 1; 
 
           const oppRows = topOpps.map(o => {
             const barW = Math.round((o.probability / maxProb) * 100);
@@ -839,6 +831,8 @@
         // Meta
         document.getElementById('last-updated').textContent =
           probData.meta?.last_updated ?? '—';
+        document.getElementById('ph-mean-goals').value =
+          probData.meta?.mean_goals ?? '—';
         document.getElementById('sim-n').textContent =
           (probData.meta?.n_simulations ?? 0).toLocaleString();
 

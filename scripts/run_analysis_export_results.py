@@ -27,8 +27,7 @@ import wc_simulator as wc
 # CONFIG
 # ============================================================
 
-N_SIMULATIONS = 10_000 
-OUTPUT_DIR    = 'docs/output'
+from constants import N_SIMULATIONS, DB_PATH, MEAN_GOALS, OUTPUT_DIR 
 
 logging.basicConfig(
     level=logging.INFO,
@@ -182,7 +181,8 @@ def build_probabilities_payload(placement_counts, teams_df, matches_df, n_simula
         info = team_lookup.get(tid, {})
         teams_out.append({
             'team_id':      int(tid),
-            'crest_url':    info.get('crest_url',    None),   # ← add this line
+            'crest_url':    info.get('crest_url', None),   # flag
+            'fifa_code':    info.get('fifa_code'),
             'team_name':    info.get('team_name',    'Unknown'),
             'group':        info.get('group_letter', '?'),
             'p_1st':        round(counts['finish_1st']  / n_simulations, 4),
@@ -201,7 +201,8 @@ def build_probabilities_payload(placement_counts, teams_df, matches_df, n_simula
             'last_updated':      str(date.today()),
             'n_simulations':     n_simulations,
             'matches_completed': matches_completed,
-            'matches_total':     matches_total,
+            'matches_total':     matches_total, 
+            'mean_goals_match':  MEAN_GOALS
         },
         'teams': teams_out,
     }
