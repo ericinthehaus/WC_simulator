@@ -769,7 +769,11 @@
     }
 
     // ── VIEW 3: R32 opponents ──────────────────────────────────
-    function buildR32View(matchups, teamCrests) {
+    function buildR32View(matchups, teamCrests, teams) {
+      const advanceLookup = {};
+      for (const t of teams) {
+        advanceLookup[t.team_id] = t.p_advances;
+      }
       // Show top 5 opponents per team, only teams that have opponent data
       return matchups
         .filter(m => m.opponents && m.opponents.length > 0)
@@ -800,6 +804,9 @@
                 ${flagImg(crest, m.team_name)}
                 <span class="r32-team-name">${m.team_name}</span>
                 <span class="r32-group-badge">Grp ${m.group}</span>
+                <span style="margin-left:auto;font-size:0.68rem;font-weight:600;color:var(--green);padding-right:0.5rem;" title="Probability of advancing to R32">
+                  ${fmt(advanceLookup[m.team_id] ?? 0)} to R32
+                </span>
               </div>
               ${oppRows}
             </div>`;
@@ -857,7 +864,7 @@
           buildPlacementView(probData.teams);
 
         document.getElementById('r32-grid').innerHTML =
-          buildR32View(r32Data.matchups, teamCrests);
+          buildR32View(r32Data.matchups, teamCrests, probData.teams);
 
       } catch (err) {
         const msg = `<div class="error-msg">
