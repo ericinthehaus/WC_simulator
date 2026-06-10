@@ -840,52 +840,94 @@ def rank_third_place_teams(final_standings: pd.DataFrame, scenarios: dict) -> tu
 # ============================================================
 # SECTION 5 — THIRD PLACE & BRACKET
 # ============================================================
-def determine_r32_matchups(final_standings, third_place_scenario) -> list[dict]:
+def determine_r32_matchups(final_standings, third_place_df, scenario):
     """
-    Determine the Round of 32 matchups based on group winners, runners-up, and the ranked third-place teams.
+    Build all 16 Round of 32 matchups from group stage results.
+
+    Combines:
+      - 8 fixed matchups between group winners and runners-up
+      - 8 third-place team slots assigned by the scenario lookup
 
     Args:
-        final_standings (pd.DataFrame): Output of apply_all_tiebreakers() with columns:
-            team_id, team_name, group, overall_rank.
-        third_place_scenario (dict): The matched scenario dict from THIRD_PLACE_SCENARIOS_BY_GROUPS,
-            e.g. {"scenario": 45, "slots": {"1A": "3C", "1B": "3G", ...}}.
+        final_standings (pd.DataFrame): Full standings with overall_rank,
+            team_id, team_name, group columns.
+        third_place_df (pd.DataFrame): Ranked third-place teams with
+            advances column. Output of rank_third_place_teams().
+        scenario (dict): Matched scenario from THIRD_PLACE_SCENARIOS_BY_GROUPS.
+            Must have a 'slots' key, e.g. {"1A": "3E", "1B": "3J", ...}
+            Pass None if no scenario was matched (third-place slots skipped).
 
     Returns:
-        list[dict]: List of 16 matchups for the Round of 32. Each matchup is a dictionary:
-            home_team_id: team1 id, 'home_team_name': team1 name, 
-            'away_team_id': team2 id, 'away_team_name': team2 name,
-            where team1 is the higher-seeded team (group winner or runner-up) and
-            team2 is the lower-seeded team (runner-up or third-place finisher).
+        list[dict]: Up to 16 matchup dicts, each with:
+            home_team_id, home_team_name, away_team_id, away_team_name
     """
 
-    # --- Step 1: Create a mapping of group positions to teams ---
-    position_to_team = {}
+    # ── Build lookup helpers ─────────────────────────────────────────────
+    # {(group, rank): (team_id, team_name)}
+    position_lookup = {}
     for _, row in final_standings.iterrows():
-        # # "1A", "2B", etc. Note: overall_rank is a float due to the ranking process, so we format it as an integer string.
-        key = f"{int(row['overall_rank'])}{row['group']}" 
-        position_to_team[key] = (row['team_id'], row['team_name']) # e.g. "1A" → (4, "Brazil"), "2B" → (15, "France"), "3C" → (27, "Japan")
-        logger.debug(f"Mapping position '{key}' to team '{row['team_name']}' (ID: {row['team_id']})")
+        key = (row['group'], int(row['overall_rank']))
+        position_lookup[key] = (row['team_id'], row['team_name'])
 
-    # --- Step 2: Build matchups based on the scenario slots ---
+    # {group: (team_id, team_name)} for third-place teams that advanced
+    third_lookup = {}
+    if third_place_df is not None:
+        for _, row in third_place_df[third_place_df['advances']].iterrows():
+            third_lookup[row['group']] = (row['team_id'], row['team_name'])
+
     matchups = []
-    for slot1, slot2 in third_place_scenario['slots'].items():
-        team1 = position_to_team.get(slot1)
-        team2 = position_to_team.get(slot2)
 
-        if team1 is None or team2 is None:
-            logger.warning(
-                "Missing team for slot '%s' or '%s'. Check standings and scenario slots.",
-                slot1, slot2
-            )
-            continue
+    def get_team(group, rank):
+        """Return (team_id, team_name) for a given group + rank."""
+        return position_lookup.get((group, rank), (None, 'TBD'))
 
-        matchups.append({
-            'home_team_id':   team1[0],
-            'home_team_name': team1[1],
-            'away_team_id':   team2[0],
-            'away_team_name': team2[1],
+    def get_third(group):
+        """Return (team_id, team_name) for a third-place team from a group."""
+        return third_lookup.get(group, (None, 'TBD'))
+
+    def add(t1, t2):
+        """Append a matchup dict if both teams are resolved."""
+        if t1[0] is not None and t2[0] is not None:
+            matchups.append({
+                'home_team_id':   t1[0],
+                'home_team_name': t1[1],
+                'away_team_id':   t2[0],
+                'away_team_name': t2[1],
             })
 
+    # ── 8 fixed matchups (group winners vs runners-up) ───────────────────
+    # Source: FIFA 2026 official bracket (matches 73–88)
+    add(get_team('A', 2), get_team('B', 2))   # M73: 2A vs 2B
+    add(get_team('F', 1), get_team('C', 2))   # M75: 1F vs 2C (note: 1E faces 3rd)
+    add(get_team('C', 1), get_team('F', 2))   # M76: 1C vs 2F
+    add(get_team('E', 2), get_team('I', 2))   # M78: 2E vs 2I
+    add(get_team('H', 1), get_team('J', 2))   # M84: 1H vs 2J
+    add(get_team('J', 1), get_team('H', 2))   # M86: 1J vs 2H
+    add(get_team('K', 2), get_team('L', 2))   # M83: 2K vs 2L
+    add(get_team('D', 2), get_team('G', 2))   # M88: 2D vs 2G
+
+    # ── 8 third-place slots (scenario-dependent) ─────────────────────────
+    # Each slot key maps a group winner to the third-place team they face.
+    # e.g. "1A": "3E" means Winner Group A faces third-place team from Group E
+    if scenario and 'slots' in scenario:
+        slots = scenario['slots']
+        slot_map = {
+            '1A': (get_team('A', 1), None),
+            '1B': (get_team('B', 1), None),
+            '1D': (get_team('D', 1), None),
+            '1E': (get_team('E', 1), None),
+            '1G': (get_team('G', 1), None),
+            '1I': (get_team('I', 1), None),
+            '1K': (get_team('K', 1), None),
+            '1L': (get_team('L', 1), None),
+        }
+        for winner_slot, third_slot in slots.items():
+            winner_team = slot_map.get(winner_slot, (None, 'TBD'))[0]
+            third_group = third_slot[1]  # e.g. "3E" → "E"
+            third_team  = get_third(third_group)
+            add(winner_team, third_team)
+
+    logger.debug("Built %d R32 matchups", len(matchups))
     return matchups
 
 
@@ -930,7 +972,7 @@ def run_simulation(teams_df: pd.DataFrame, matches_df: pd.DataFrame) -> tuple:
     # After your pipeline runs:
     third_place_df, scenario = rank_third_place_teams(final_final_ranked, THIRD_PLACE_SCENARIOS_BY_GROUPS)
 
-    r32_matchups = determine_r32_matchups(final_final_ranked, scenario)
+    r32_matchups = determine_r32_matchups(final_final_ranked, third_place_df, scenario)
 
 
     return final_final_ranked, third_place_df, scenario, r32_matchups, simulated_matches
