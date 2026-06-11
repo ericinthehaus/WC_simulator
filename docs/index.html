@@ -617,28 +617,31 @@
     </div>
 
     <!-- ══════════════════════════════════════════
-         VIEW 4 — Model placeholder
+         VIEW 4 — Model
     ═══════════════════════════════════════════ -->
     <div class="view" id="view-model">
       <div class="placeholder-card">
         <div class="ph-icon">⚙️</div>
-        <h3>Team Strength Model</h3>
+        <h3>How the Simulation Works</h3>
         <p>
-          The current simulation uses equal win/draw/loss probabilities for every match.
-          Match scores are randomly generated on a Poisson distribution. 
+          Each simulation run plays out all unplayed group stage matches by drawing
+          scores from a Poisson distribution, where the number of goals per team per
+          match is modeled by team-specific FIFA ranking points.
+          Group standings are then determined using official FIFA 2026 tiebreaker rules,
+          including head-to-head points, goal difference, and goals scored among tied teams.
+          This process is repeated 10,000 times, and the results are aggregated into
+          the probabilities shown on this dashboard.
         </p>
-        <span class="ph-tag">Coming Soon</span>
 
-        <!-- Placeholder inputs — disabled, for layout preview only -->
+        <!-- Model parameters -->
         <div class="placeholder-inputs">
           <div class="ph-input-group">
             <label>Model type</label>
-            <input type="text" value="Dixon-Coles / Poisson" disabled />
+            <input type="text" value="Poisson distribution" disabled />
           </div>
           <div class="ph-input-group">
-            <label>Mean goals scored per match</label>
-            <input id="ph-mean-goals" type="text" value="—" disabled />
-          </div>
+            <label>Mean goals per team per match</label>
+            <input type="text" value="Team-specific" disabled />
           </div>
         </div>
       </div>
