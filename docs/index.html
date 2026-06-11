@@ -576,7 +576,7 @@
   <main>
 
     <!-- ── Status banner (shared across views) ── -->
-    <div class="status-card">
+    <div class="staftus-card">
       <span class="dot soon" id="status-dot"></span>
       <span id="status-text">Loading tournament data…</span>
     </div>
@@ -841,8 +841,8 @@
         // Meta
         document.getElementById('last-updated').textContent =
           probData.meta?.last_updated ?? '—';
-        document.getElementById('ph-mean-goals').value =
-          probData.meta?.mean_goals_match ?? '—';
+        //document.getElementById('ph-mean-goals').value =
+          //probData.meta?.mean_goals_match ?? '—';
         document.getElementById('sim-n').textContent =
           (probData.meta?.n_simulations ?? 0).toLocaleString();
 
