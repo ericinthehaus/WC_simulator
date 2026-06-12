@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "n_simulations": 1000,
-    "matches_completed": 1,
+    "matches_completed": 2,
     "matches_total": 72,
     "mean_goals_match": 1.38
   },
@@ -13,10 +13,10 @@
       "fifa_code": null,
       "team_name": "Mexico",
       "group": "A",
-      "p_1st": 0.531,
-      "p_2nd": 0.281,
-      "p_3rd": 0.157,
-      "p_4th": 0.031,
+      "p_1st": 0.503,
+      "p_2nd": 0.284,
+      "p_3rd": 0.183,
+      "p_4th": 0.03,
       "p_advances": 0.943,
       "p_eliminated": 0.057
     },
@@ -26,12 +26,12 @@
       "fifa_code": null,
       "team_name": "South Korea",
       "group": "A",
-      "p_1st": 0.242,
-      "p_2nd": 0.313,
-      "p_3rd": 0.256,
-      "p_4th": 0.189,
-      "p_advances": 0.727,
-      "p_eliminated": 0.273
+      "p_1st": 0.423,
+      "p_2nd": 0.398,
+      "p_3rd": 0.135,
+      "p_4th": 0.044,
+      "p_advances": 0.927,
+      "p_eliminated": 0.073
     },
     {
       "team_id": 798,
@@ -39,12 +39,12 @@
       "fifa_code": null,
       "team_name": "Czechia",
       "group": "A",
-      "p_1st": 0.197,
-      "p_2nd": 0.256,
-      "p_3rd": 0.292,
-      "p_4th": 0.255,
-      "p_advances": 0.638,
-      "p_eliminated": 0.362
+      "p_1st": 0.044,
+      "p_2nd": 0.199,
+      "p_3rd": 0.408,
+      "p_4th": 0.349,
+      "p_advances": 0.503,
+      "p_eliminated": 0.497
     },
     {
       "team_id": 774,
@@ -53,11 +53,11 @@
       "team_name": "South Africa",
       "group": "A",
       "p_1st": 0.03,
-      "p_2nd": 0.15,
-      "p_3rd": 0.295,
-      "p_4th": 0.525,
-      "p_advances": 0.343,
-      "p_eliminated": 0.657
+      "p_2nd": 0.119,
+      "p_3rd": 0.274,
+      "p_4th": 0.577,
+      "p_advances": 0.303,
+      "p_eliminated": 0.697
     },
     {
       "team_id": 788,
@@ -65,12 +65,12 @@
       "fifa_code": null,
       "team_name": "Switzerland",
       "group": "B",
-      "p_1st": 0.323,
-      "p_2nd": 0.254,
-      "p_3rd": 0.222,
-      "p_4th": 0.201,
-      "p_advances": 0.734,
-      "p_eliminated": 0.266
+      "p_1st": 0.334,
+      "p_2nd": 0.252,
+      "p_3rd": 0.225,
+      "p_4th": 0.189,
+      "p_advances": 0.74,
+      "p_eliminated": 0.26
     },
     {
       "team_id": 8030,
@@ -78,12 +78,12 @@
       "fifa_code": null,
       "team_name": "Qatar",
       "group": "B",
-      "p_1st": 0.255,
-      "p_2nd": 0.264,
-      "p_3rd": 0.261,
-      "p_4th": 0.22,
-      "p_advances": 0.686,
-      "p_eliminated": 0.314
+      "p_1st": 0.265,
+      "p_2nd": 0.267,
+      "p_3rd": 0.246,
+      "p_4th": 0.222,
+      "p_advances": 0.694,
+      "p_eliminated": 0.306
     },
     {
       "team_id": 828,
@@ -91,12 +91,12 @@
       "fifa_code": null,
       "team_name": "Canada",
       "group": "B",
-      "p_1st": 0.241,
-      "p_2nd": 0.248,
-      "p_3rd": 0.257,
-      "p_4th": 0.254,
-      "p_advances": 0.663,
-      "p_eliminated": 0.337
+      "p_1st": 0.235,
+      "p_2nd": 0.262,
+      "p_3rd": 0.254,
+      "p_4th": 0.249,
+      "p_advances": 0.676,
+      "p_eliminated": 0.324
     },
     {
       "team_id": 1060,
@@ -104,25 +104,12 @@
       "fifa_code": null,
       "team_name": "Bosnia-Herzegovina",
       "group": "B",
-      "p_1st": 0.181,
-      "p_2nd": 0.234,
-      "p_3rd": 0.26,
-      "p_4th": 0.325,
-      "p_advances": 0.594,
-      "p_eliminated": 0.406
-    },
-    {
-      "team_id": 764,
-      "crest_url": "https://crests.football-data.org/764.svg",
-      "fifa_code": null,
-      "team_name": "Brazil",
-      "group": "C",
-      "p_1st": 0.37,
-      "p_2nd": 0.249,
-      "p_3rd": 0.225,
-      "p_4th": 0.156,
-      "p_advances": 0.776,
-      "p_eliminated": 0.224
+      "p_1st": 0.166,
+      "p_2nd": 0.219,
+      "p_3rd": 0.275,
+      "p_4th": 0.34,
+      "p_advances": 0.554,
+      "p_eliminated": 0.446
     },
     {
       "team_id": 815,
@@ -130,10 +117,23 @@
       "fifa_code": null,
       "team_name": "Morocco",
       "group": "C",
-      "p_1st": 0.329,
-      "p_2nd": 0.274,
-      "p_3rd": 0.239,
-      "p_4th": 0.158,
+      "p_1st": 0.348,
+      "p_2nd": 0.277,
+      "p_3rd": 0.209,
+      "p_4th": 0.166,
+      "p_advances": 0.778,
+      "p_eliminated": 0.222
+    },
+    {
+      "team_id": 764,
+      "crest_url": "https://crests.football-data.org/764.svg",
+      "fifa_code": null,
+      "team_name": "Brazil",
+      "group": "C",
+      "p_1st": 0.338,
+      "p_2nd": 0.279,
+      "p_3rd": 0.229,
+      "p_4th": 0.154,
       "p_advances": 0.772,
       "p_eliminated": 0.228
     },
@@ -143,12 +143,12 @@
       "fifa_code": null,
       "team_name": "Scotland",
       "group": "C",
-      "p_1st": 0.203,
-      "p_2nd": 0.261,
-      "p_3rd": 0.26,
-      "p_4th": 0.276,
-      "p_advances": 0.626,
-      "p_eliminated": 0.374
+      "p_1st": 0.211,
+      "p_2nd": 0.244,
+      "p_3rd": 0.286,
+      "p_4th": 0.259,
+      "p_advances": 0.633,
+      "p_eliminated": 0.367
     },
     {
       "team_id": 836,
@@ -156,12 +156,12 @@
       "fifa_code": null,
       "team_name": "Haiti",
       "group": "C",
-      "p_1st": 0.098,
-      "p_2nd": 0.216,
+      "p_1st": 0.103,
+      "p_2nd": 0.2,
       "p_3rd": 0.276,
-      "p_4th": 0.41,
-      "p_advances": 0.463,
-      "p_eliminated": 0.537
+      "p_4th": 0.421,
+      "p_advances": 0.468,
+      "p_eliminated": 0.532
     },
     {
       "team_id": 771,
@@ -169,12 +169,12 @@
       "fifa_code": null,
       "team_name": "United States",
       "group": "D",
-      "p_1st": 0.314,
-      "p_2nd": 0.273,
-      "p_3rd": 0.223,
-      "p_4th": 0.19,
-      "p_advances": 0.75,
-      "p_eliminated": 0.25
+      "p_1st": 0.343,
+      "p_2nd": 0.279,
+      "p_3rd": 0.211,
+      "p_4th": 0.167,
+      "p_advances": 0.78,
+      "p_eliminated": 0.22
     },
     {
       "team_id": 779,
@@ -182,12 +182,12 @@
       "fifa_code": null,
       "team_name": "Australia",
       "group": "D",
-      "p_1st": 0.263,
-      "p_2nd": 0.27,
-      "p_3rd": 0.268,
-      "p_4th": 0.199,
-      "p_advances": 0.711,
-      "p_eliminated": 0.289
+      "p_1st": 0.259,
+      "p_2nd": 0.264,
+      "p_3rd": 0.251,
+      "p_4th": 0.226,
+      "p_advances": 0.699,
+      "p_eliminated": 0.301
     },
     {
       "team_id": 803,
@@ -195,12 +195,12 @@
       "fifa_code": null,
       "team_name": "Turkey",
       "group": "D",
-      "p_1st": 0.224,
-      "p_2nd": 0.234,
-      "p_3rd": 0.257,
-      "p_4th": 0.285,
-      "p_advances": 0.645,
-      "p_eliminated": 0.355
+      "p_1st": 0.203,
+      "p_2nd": 0.235,
+      "p_3rd": 0.286,
+      "p_4th": 0.276,
+      "p_advances": 0.632,
+      "p_eliminated": 0.368
     },
     {
       "team_id": 761,
@@ -208,12 +208,12 @@
       "fifa_code": null,
       "team_name": "Paraguay",
       "group": "D",
-      "p_1st": 0.199,
-      "p_2nd": 0.223,
+      "p_1st": 0.195,
+      "p_2nd": 0.222,
       "p_3rd": 0.252,
-      "p_4th": 0.326,
-      "p_advances": 0.592,
-      "p_eliminated": 0.408
+      "p_4th": 0.331,
+      "p_advances": 0.589,
+      "p_eliminated": 0.411
     },
     {
       "team_id": 759,
@@ -221,12 +221,12 @@
       "fifa_code": null,
       "team_name": "Germany",
       "group": "E",
-      "p_1st": 0.397,
-      "p_2nd": 0.274,
-      "p_3rd": 0.189,
-      "p_4th": 0.14,
-      "p_advances": 0.811,
-      "p_eliminated": 0.189
+      "p_1st": 0.365,
+      "p_2nd": 0.289,
+      "p_3rd": 0.215,
+      "p_4th": 0.131,
+      "p_advances": 0.817,
+      "p_eliminated": 0.183
     },
     {
       "team_id": 791,
@@ -234,12 +234,12 @@
       "fifa_code": null,
       "team_name": "Ecuador",
       "group": "E",
-      "p_1st": 0.259,
-      "p_2nd": 0.259,
-      "p_3rd": 0.269,
-      "p_4th": 0.213,
-      "p_advances": 0.691,
-      "p_eliminated": 0.309
+      "p_1st": 0.268,
+      "p_2nd": 0.242,
+      "p_3rd": 0.273,
+      "p_4th": 0.217,
+      "p_advances": 0.69,
+      "p_eliminated": 0.31
     },
     {
       "team_id": 1935,
@@ -247,12 +247,12 @@
       "fifa_code": null,
       "team_name": "Ivory Coast",
       "group": "E",
-      "p_1st": 0.219,
-      "p_2nd": 0.267,
-      "p_3rd": 0.276,
-      "p_4th": 0.238,
-      "p_advances": 0.671,
-      "p_eliminated": 0.329
+      "p_1st": 0.25,
+      "p_2nd": 0.269,
+      "p_3rd": 0.248,
+      "p_4th": 0.233,
+      "p_advances": 0.678,
+      "p_eliminated": 0.322
     },
     {
       "team_id": 9460,
@@ -260,12 +260,12 @@
       "fifa_code": null,
       "team_name": "Cura\u00e7ao",
       "group": "E",
-      "p_1st": 0.125,
+      "p_1st": 0.117,
       "p_2nd": 0.2,
-      "p_3rd": 0.266,
-      "p_4th": 0.409,
-      "p_advances": 0.488,
-      "p_eliminated": 0.512
+      "p_3rd": 0.264,
+      "p_4th": 0.419,
+      "p_advances": 0.487,
+      "p_eliminated": 0.513
     },
     {
       "team_id": 8601,
@@ -273,12 +273,12 @@
       "fifa_code": null,
       "team_name": "Netherlands",
       "group": "F",
-      "p_1st": 0.327,
-      "p_2nd": 0.269,
-      "p_3rd": 0.219,
-      "p_4th": 0.185,
-      "p_advances": 0.743,
-      "p_eliminated": 0.257
+      "p_1st": 0.308,
+      "p_2nd": 0.275,
+      "p_3rd": 0.23,
+      "p_4th": 0.187,
+      "p_advances": 0.746,
+      "p_eliminated": 0.254
     },
     {
       "team_id": 766,
@@ -286,12 +286,12 @@
       "fifa_code": null,
       "team_name": "Japan",
       "group": "F",
-      "p_1st": 0.295,
-      "p_2nd": 0.257,
-      "p_3rd": 0.236,
-      "p_4th": 0.212,
-      "p_advances": 0.711,
-      "p_eliminated": 0.289
+      "p_1st": 0.291,
+      "p_2nd": 0.26,
+      "p_3rd": 0.239,
+      "p_4th": 0.21,
+      "p_advances": 0.71,
+      "p_eliminated": 0.29
     },
     {
       "team_id": 792,
@@ -299,12 +299,12 @@
       "fifa_code": null,
       "team_name": "Sweden",
       "group": "F",
-      "p_1st": 0.205,
-      "p_2nd": 0.251,
-      "p_3rd": 0.276,
-      "p_4th": 0.268,
-      "p_advances": 0.638,
-      "p_eliminated": 0.362
+      "p_1st": 0.215,
+      "p_2nd": 0.245,
+      "p_3rd": 0.268,
+      "p_4th": 0.272,
+      "p_advances": 0.639,
+      "p_eliminated": 0.361
     },
     {
       "team_id": 802,
@@ -312,12 +312,12 @@
       "fifa_code": null,
       "team_name": "Tunisia",
       "group": "F",
-      "p_1st": 0.173,
-      "p_2nd": 0.223,
-      "p_3rd": 0.269,
-      "p_4th": 0.335,
-      "p_advances": 0.57,
-      "p_eliminated": 0.43
+      "p_1st": 0.186,
+      "p_2nd": 0.22,
+      "p_3rd": 0.263,
+      "p_4th": 0.331,
+      "p_advances": 0.568,
+      "p_eliminated": 0.432
     },
     {
       "team_id": 805,
@@ -326,24 +326,11 @@
       "team_name": "Belgium",
       "group": "G",
       "p_1st": 0.363,
-      "p_2nd": 0.277,
-      "p_3rd": 0.197,
-      "p_4th": 0.163,
-      "p_advances": 0.782,
-      "p_eliminated": 0.218
-    },
-    {
-      "team_id": 825,
-      "crest_url": "https://crests.football-data.org/825.svg",
-      "fifa_code": null,
-      "team_name": "Egypt",
-      "group": "G",
-      "p_1st": 0.243,
-      "p_2nd": 0.293,
-      "p_3rd": 0.267,
-      "p_4th": 0.197,
-      "p_advances": 0.72,
-      "p_eliminated": 0.28
+      "p_2nd": 0.261,
+      "p_3rd": 0.229,
+      "p_4th": 0.147,
+      "p_advances": 0.799,
+      "p_eliminated": 0.201
     },
     {
       "team_id": 840,
@@ -351,12 +338,25 @@
       "fifa_code": null,
       "team_name": "Iran",
       "group": "G",
-      "p_1st": 0.291,
-      "p_2nd": 0.236,
-      "p_3rd": 0.263,
-      "p_4th": 0.21,
-      "p_advances": 0.706,
-      "p_eliminated": 0.294
+      "p_1st": 0.277,
+      "p_2nd": 0.265,
+      "p_3rd": 0.273,
+      "p_4th": 0.185,
+      "p_advances": 0.735,
+      "p_eliminated": 0.265
+    },
+    {
+      "team_id": 825,
+      "crest_url": "https://crests.football-data.org/825.svg",
+      "fifa_code": null,
+      "team_name": "Egypt",
+      "group": "G",
+      "p_1st": 0.246,
+      "p_2nd": 0.274,
+      "p_3rd": 0.248,
+      "p_4th": 0.232,
+      "p_advances": 0.69,
+      "p_eliminated": 0.31
     },
     {
       "team_id": 783,
@@ -364,12 +364,12 @@
       "fifa_code": null,
       "team_name": "New Zealand",
       "group": "G",
-      "p_1st": 0.103,
-      "p_2nd": 0.194,
-      "p_3rd": 0.273,
-      "p_4th": 0.43,
-      "p_advances": 0.474,
-      "p_eliminated": 0.526
+      "p_1st": 0.114,
+      "p_2nd": 0.2,
+      "p_3rd": 0.25,
+      "p_4th": 0.436,
+      "p_advances": 0.461,
+      "p_eliminated": 0.539
     },
     {
       "team_id": 760,
@@ -377,12 +377,12 @@
       "fifa_code": null,
       "team_name": "Spain",
       "group": "H",
-      "p_1st": 0.4,
-      "p_2nd": 0.281,
-      "p_3rd": 0.186,
-      "p_4th": 0.133,
-      "p_advances": 0.823,
-      "p_eliminated": 0.177
+      "p_1st": 0.399,
+      "p_2nd": 0.299,
+      "p_3rd": 0.168,
+      "p_4th": 0.134,
+      "p_advances": 0.821,
+      "p_eliminated": 0.179
     },
     {
       "team_id": 758,
@@ -390,12 +390,12 @@
       "fifa_code": null,
       "team_name": "Uruguay",
       "group": "H",
-      "p_1st": 0.295,
-      "p_2nd": 0.266,
-      "p_3rd": 0.256,
-      "p_4th": 0.183,
-      "p_advances": 0.728,
-      "p_eliminated": 0.272
+      "p_1st": 0.285,
+      "p_2nd": 0.262,
+      "p_3rd": 0.254,
+      "p_4th": 0.199,
+      "p_advances": 0.716,
+      "p_eliminated": 0.284
     },
     {
       "team_id": 801,
@@ -403,12 +403,12 @@
       "fifa_code": null,
       "team_name": "Saudi Arabia",
       "group": "H",
-      "p_1st": 0.161,
-      "p_2nd": 0.216,
-      "p_3rd": 0.308,
-      "p_4th": 0.315,
-      "p_advances": 0.578,
-      "p_eliminated": 0.422
+      "p_1st": 0.169,
+      "p_2nd": 0.229,
+      "p_3rd": 0.299,
+      "p_4th": 0.303,
+      "p_advances": 0.586,
+      "p_eliminated": 0.414
     },
     {
       "team_id": 1930,
@@ -416,12 +416,12 @@
       "fifa_code": null,
       "team_name": "Cape Verde Islands",
       "group": "H",
-      "p_1st": 0.144,
-      "p_2nd": 0.237,
-      "p_3rd": 0.25,
-      "p_4th": 0.369,
-      "p_advances": 0.538,
-      "p_eliminated": 0.462
+      "p_1st": 0.147,
+      "p_2nd": 0.21,
+      "p_3rd": 0.279,
+      "p_4th": 0.364,
+      "p_advances": 0.532,
+      "p_eliminated": 0.468
     },
     {
       "team_id": 773,
@@ -429,12 +429,12 @@
       "fifa_code": null,
       "team_name": "France",
       "group": "I",
-      "p_1st": 0.43,
-      "p_2nd": 0.265,
-      "p_3rd": 0.186,
-      "p_4th": 0.119,
-      "p_advances": 0.846,
-      "p_eliminated": 0.154
+      "p_1st": 0.412,
+      "p_2nd": 0.269,
+      "p_3rd": 0.175,
+      "p_4th": 0.144,
+      "p_advances": 0.814,
+      "p_eliminated": 0.186
     },
     {
       "team_id": 804,
@@ -442,25 +442,12 @@
       "fifa_code": null,
       "team_name": "Senegal",
       "group": "I",
-      "p_1st": 0.232,
-      "p_2nd": 0.288,
-      "p_3rd": 0.249,
-      "p_4th": 0.231,
-      "p_advances": 0.693,
-      "p_eliminated": 0.307
-    },
-    {
-      "team_id": 8062,
-      "crest_url": "https://crests.football-data.org/iraq.svg",
-      "fifa_code": null,
-      "team_name": "Iraq",
-      "group": "I",
-      "p_1st": 0.182,
-      "p_2nd": 0.215,
-      "p_3rd": 0.28,
-      "p_4th": 0.323,
-      "p_advances": 0.574,
-      "p_eliminated": 0.426
+      "p_1st": 0.255,
+      "p_2nd": 0.265,
+      "p_3rd": 0.246,
+      "p_4th": 0.234,
+      "p_advances": 0.685,
+      "p_eliminated": 0.315
     },
     {
       "team_id": 8872,
@@ -468,12 +455,25 @@
       "fifa_code": null,
       "team_name": "Norway",
       "group": "I",
-      "p_1st": 0.156,
-      "p_2nd": 0.232,
-      "p_3rd": 0.285,
-      "p_4th": 0.327,
-      "p_advances": 0.571,
-      "p_eliminated": 0.429
+      "p_1st": 0.165,
+      "p_2nd": 0.241,
+      "p_3rd": 0.304,
+      "p_4th": 0.29,
+      "p_advances": 0.595,
+      "p_eliminated": 0.405
+    },
+    {
+      "team_id": 8062,
+      "crest_url": "https://crests.football-data.org/iraq.svg",
+      "fifa_code": null,
+      "team_name": "Iraq",
+      "group": "I",
+      "p_1st": 0.168,
+      "p_2nd": 0.225,
+      "p_3rd": 0.275,
+      "p_4th": 0.332,
+      "p_advances": 0.561,
+      "p_eliminated": 0.439
     },
     {
       "team_id": 762,
@@ -481,12 +481,12 @@
       "fifa_code": null,
       "team_name": "Argentina",
       "group": "J",
-      "p_1st": 0.433,
-      "p_2nd": 0.274,
-      "p_3rd": 0.177,
-      "p_4th": 0.116,
-      "p_advances": 0.836,
-      "p_eliminated": 0.164
+      "p_1st": 0.441,
+      "p_2nd": 0.256,
+      "p_3rd": 0.176,
+      "p_4th": 0.127,
+      "p_advances": 0.821,
+      "p_eliminated": 0.179
     },
     {
       "team_id": 816,
@@ -494,12 +494,12 @@
       "fifa_code": null,
       "team_name": "Austria",
       "group": "J",
-      "p_1st": 0.238,
-      "p_2nd": 0.258,
-      "p_3rd": 0.261,
-      "p_4th": 0.243,
-      "p_advances": 0.667,
-      "p_eliminated": 0.333
+      "p_1st": 0.235,
+      "p_2nd": 0.293,
+      "p_3rd": 0.269,
+      "p_4th": 0.203,
+      "p_advances": 0.698,
+      "p_eliminated": 0.302
     },
     {
       "team_id": 778,
@@ -507,12 +507,12 @@
       "fifa_code": null,
       "team_name": "Algeria",
       "group": "J",
-      "p_1st": 0.181,
-      "p_2nd": 0.27,
-      "p_3rd": 0.278,
-      "p_4th": 0.271,
-      "p_advances": 0.635,
-      "p_eliminated": 0.365
+      "p_1st": 0.17,
+      "p_2nd": 0.24,
+      "p_3rd": 0.289,
+      "p_4th": 0.301,
+      "p_advances": 0.6,
+      "p_eliminated": 0.4
     },
     {
       "team_id": 8049,
@@ -520,10 +520,10 @@
       "fifa_code": null,
       "team_name": "Jordan",
       "group": "J",
-      "p_1st": 0.148,
-      "p_2nd": 0.198,
-      "p_3rd": 0.284,
-      "p_4th": 0.37,
+      "p_1st": 0.154,
+      "p_2nd": 0.211,
+      "p_3rd": 0.266,
+      "p_4th": 0.369,
       "p_advances": 0.53,
       "p_eliminated": 0.47
     },
@@ -533,12 +533,12 @@
       "fifa_code": null,
       "team_name": "Portugal",
       "group": "K",
-      "p_1st": 0.334,
-      "p_2nd": 0.255,
-      "p_3rd": 0.25,
-      "p_4th": 0.161,
-      "p_advances": 0.756,
-      "p_eliminated": 0.244
+      "p_1st": 0.372,
+      "p_2nd": 0.271,
+      "p_3rd": 0.206,
+      "p_4th": 0.151,
+      "p_advances": 0.788,
+      "p_eliminated": 0.212
     },
     {
       "team_id": 818,
@@ -546,25 +546,12 @@
       "fifa_code": null,
       "team_name": "Colombia",
       "group": "K",
-      "p_1st": 0.324,
-      "p_2nd": 0.269,
-      "p_3rd": 0.216,
-      "p_4th": 0.191,
-      "p_advances": 0.745,
-      "p_eliminated": 0.255
-    },
-    {
-      "team_id": 1934,
-      "crest_url": "https://crests.football-data.org/congo_dr.svg",
-      "fifa_code": null,
-      "team_name": "Congo DR",
-      "group": "K",
-      "p_1st": 0.162,
-      "p_2nd": 0.27,
-      "p_3rd": 0.239,
-      "p_4th": 0.329,
-      "p_advances": 0.587,
-      "p_eliminated": 0.413
+      "p_1st": 0.319,
+      "p_2nd": 0.291,
+      "p_3rd": 0.21,
+      "p_4th": 0.18,
+      "p_advances": 0.757,
+      "p_eliminated": 0.243
     },
     {
       "team_id": 8070,
@@ -572,12 +559,25 @@
       "fifa_code": null,
       "team_name": "Uzbekistan",
       "group": "K",
-      "p_1st": 0.18,
-      "p_2nd": 0.206,
-      "p_3rd": 0.295,
-      "p_4th": 0.319,
-      "p_advances": 0.573,
-      "p_eliminated": 0.427
+      "p_1st": 0.157,
+      "p_2nd": 0.211,
+      "p_3rd": 0.309,
+      "p_4th": 0.323,
+      "p_advances": 0.574,
+      "p_eliminated": 0.426
+    },
+    {
+      "team_id": 1934,
+      "crest_url": "https://crests.football-data.org/congo_dr.svg",
+      "fifa_code": null,
+      "team_name": "Congo DR",
+      "group": "K",
+      "p_1st": 0.152,
+      "p_2nd": 0.227,
+      "p_3rd": 0.275,
+      "p_4th": 0.346,
+      "p_advances": 0.547,
+      "p_eliminated": 0.453
     },
     {
       "team_id": 770,
@@ -585,12 +585,12 @@
       "fifa_code": null,
       "team_name": "England",
       "group": "L",
-      "p_1st": 0.405,
-      "p_2nd": 0.244,
-      "p_3rd": 0.205,
-      "p_4th": 0.146,
-      "p_advances": 0.785,
-      "p_eliminated": 0.215
+      "p_1st": 0.396,
+      "p_2nd": 0.277,
+      "p_3rd": 0.201,
+      "p_4th": 0.126,
+      "p_advances": 0.816,
+      "p_eliminated": 0.184
     },
     {
       "team_id": 799,
@@ -598,12 +598,12 @@
       "fifa_code": null,
       "team_name": "Croatia",
       "group": "L",
-      "p_1st": 0.272,
-      "p_2nd": 0.325,
-      "p_3rd": 0.227,
-      "p_4th": 0.176,
-      "p_advances": 0.75,
-      "p_eliminated": 0.25
+      "p_1st": 0.303,
+      "p_2nd": 0.258,
+      "p_3rd": 0.232,
+      "p_4th": 0.207,
+      "p_advances": 0.729,
+      "p_eliminated": 0.271
     },
     {
       "team_id": 1836,
@@ -611,12 +611,12 @@
       "fifa_code": null,
       "team_name": "Panama",
       "group": "L",
-      "p_1st": 0.192,
-      "p_2nd": 0.229,
-      "p_3rd": 0.269,
-      "p_4th": 0.31,
-      "p_advances": 0.59,
-      "p_eliminated": 0.41
+      "p_1st": 0.167,
+      "p_2nd": 0.23,
+      "p_3rd": 0.289,
+      "p_4th": 0.314,
+      "p_advances": 0.586,
+      "p_eliminated": 0.414
     },
     {
       "team_id": 763,
@@ -624,12 +624,12 @@
       "fifa_code": null,
       "team_name": "Ghana",
       "group": "L",
-      "p_1st": 0.131,
-      "p_2nd": 0.202,
-      "p_3rd": 0.299,
-      "p_4th": 0.368,
-      "p_advances": 0.527,
-      "p_eliminated": 0.473
+      "p_1st": 0.134,
+      "p_2nd": 0.235,
+      "p_3rd": 0.278,
+      "p_4th": 0.353,
+      "p_advances": 0.533,
+      "p_eliminated": 0.467
     }
   ]
 }
