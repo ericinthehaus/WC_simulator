@@ -1,0 +1,1641 @@
+{
+  "meta": {
+    "last_updated": "2026-06-13",
+    "n_simulations": 1000,
+    "show_conditional": true
+  },
+  "teams": [
+    {
+      "team_id": 798,
+      "team_name": "Czechia",
+      "group": "A",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 322,
+          "p_1st": 0.2081,
+          "p_2nd": 0.4099,
+          "p_3rd": 0.1894,
+          "p_4th": 0.1925,
+          "p_advances": 0.7919
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 245,
+          "p_1st": 0.0,
+          "p_2nd": 0.1388,
+          "p_3rd": 0.4694,
+          "p_4th": 0.3918,
+          "p_advances": 0.3796
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 433,
+          "p_1st": 0.0,
+          "p_2nd": 0.0254,
+          "p_3rd": 0.4919,
+          "p_4th": 0.4827,
+          "p_advances": 0.3072
+        }
+      ]
+    },
+    {
+      "team_id": 769,
+      "team_name": "Mexico",
+      "group": "A",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 433,
+          "p_1st": 0.6467,
+          "p_2nd": 0.3487,
+          "p_3rd": 0.0046,
+          "p_4th": 0.0,
+          "p_advances": 1.0
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 245,
+          "p_1st": 0.4735,
+          "p_2nd": 0.4122,
+          "p_3rd": 0.1143,
+          "p_4th": 0.0,
+          "p_advances": 0.9959
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 322,
+          "p_1st": 0.2857,
+          "p_2nd": 0.2391,
+          "p_3rd": 0.4037,
+          "p_4th": 0.0714,
+          "p_advances": 0.8354
+        }
+      ]
+    },
+    {
+      "team_id": 774,
+      "team_name": "South Africa",
+      "group": "A",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 278,
+          "p_1st": 0.0827,
+          "p_2nd": 0.3094,
+          "p_3rd": 0.3094,
+          "p_4th": 0.2986,
+          "p_advances": 0.6475
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 296,
+          "p_1st": 0.0,
+          "p_2nd": 0.0811,
+          "p_3rd": 0.3581,
+          "p_4th": 0.5608,
+          "p_advances": 0.2939
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 426,
+          "p_1st": 0.0,
+          "p_2nd": 0.0047,
+          "p_3rd": 0.2746,
+          "p_4th": 0.7207,
+          "p_advances": 0.1056
+        }
+      ]
+    },
+    {
+      "team_id": 772,
+      "team_name": "South Korea",
+      "group": "A",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 426,
+          "p_1st": 0.5352,
+          "p_2nd": 0.4272,
+          "p_3rd": 0.0376,
+          "p_4th": 0.0,
+          "p_advances": 1.0
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 296,
+          "p_1st": 0.3851,
+          "p_2nd": 0.5169,
+          "p_3rd": 0.098,
+          "p_4th": 0.0,
+          "p_advances": 1.0
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 278,
+          "p_1st": 0.2878,
+          "p_2nd": 0.1691,
+          "p_3rd": 0.3489,
+          "p_4th": 0.1942,
+          "p_advances": 0.7194
+        }
+      ]
+    },
+    {
+      "team_id": 1060,
+      "team_name": "Bosnia-Herzegovina",
+      "group": "B",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 298,
+          "p_1st": 0.3054,
+          "p_2nd": 0.453,
+          "p_3rd": 0.2315,
+          "p_4th": 0.0101,
+          "p_advances": 0.9899
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 274,
+          "p_1st": 0.1241,
+          "p_2nd": 0.2518,
+          "p_3rd": 0.3905,
+          "p_4th": 0.2336,
+          "p_advances": 0.562
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 428,
+          "p_1st": 0.0,
+          "p_2nd": 0.1495,
+          "p_3rd": 0.2991,
+          "p_4th": 0.5514,
+          "p_advances": 0.3107
+        }
+      ]
+    },
+    {
+      "team_id": 828,
+      "team_name": "Canada",
+      "group": "B",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 339,
+          "p_1st": 0.4926,
+          "p_2nd": 0.3599,
+          "p_3rd": 0.1445,
+          "p_4th": 0.0029,
+          "p_advances": 0.9971
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 265,
+          "p_1st": 0.1547,
+          "p_2nd": 0.234,
+          "p_3rd": 0.3698,
+          "p_4th": 0.2415,
+          "p_advances": 0.6113
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 396,
+          "p_1st": 0.0051,
+          "p_2nd": 0.2247,
+          "p_3rd": 0.2879,
+          "p_4th": 0.4823,
+          "p_advances": 0.3864
+        }
+      ]
+    },
+    {
+      "team_id": 8030,
+      "team_name": "Qatar",
+      "group": "B",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 428,
+          "p_1st": 0.4603,
+          "p_2nd": 0.3084,
+          "p_3rd": 0.1963,
+          "p_4th": 0.035,
+          "p_advances": 0.9369
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 274,
+          "p_1st": 0.2482,
+          "p_2nd": 0.2518,
+          "p_3rd": 0.2445,
+          "p_4th": 0.2555,
+          "p_advances": 0.6606
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 298,
+          "p_1st": 0.1141,
+          "p_2nd": 0.0973,
+          "p_3rd": 0.3356,
+          "p_4th": 0.453,
+          "p_advances": 0.4262
+        }
+      ]
+    },
+    {
+      "team_id": 788,
+      "team_name": "Switzerland",
+      "group": "B",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 396,
+          "p_1st": 0.5732,
+          "p_2nd": 0.2652,
+          "p_3rd": 0.1136,
+          "p_4th": 0.048,
+          "p_advances": 0.9318
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 265,
+          "p_1st": 0.3736,
+          "p_2nd": 0.2679,
+          "p_3rd": 0.1925,
+          "p_4th": 0.166,
+          "p_advances": 0.7774
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 339,
+          "p_1st": 0.118,
+          "p_2nd": 0.1563,
+          "p_3rd": 0.2596,
+          "p_4th": 0.4661,
+          "p_advances": 0.4631
+        }
+      ]
+    },
+    {
+      "team_id": 764,
+      "team_name": "Brazil",
+      "group": "C",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 443,
+          "p_1st": 0.5576,
+          "p_2nd": 0.298,
+          "p_3rd": 0.1287,
+          "p_4th": 0.0158,
+          "p_advances": 0.9616
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 248,
+          "p_1st": 0.2661,
+          "p_2nd": 0.2903,
+          "p_3rd": 0.2742,
+          "p_4th": 0.1694,
+          "p_advances": 0.754
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 309,
+          "p_1st": 0.123,
+          "p_2nd": 0.2039,
+          "p_3rd": 0.3528,
+          "p_4th": 0.3204,
+          "p_advances": 0.5307
+        }
+      ]
+    },
+    {
+      "team_id": 836,
+      "team_name": "Haiti",
+      "group": "C",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 235,
+          "p_1st": 0.2936,
+          "p_2nd": 0.3106,
+          "p_3rd": 0.2894,
+          "p_4th": 0.1064,
+          "p_advances": 0.8298
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 251,
+          "p_1st": 0.0717,
+          "p_2nd": 0.239,
+          "p_3rd": 0.2829,
+          "p_4th": 0.4064,
+          "p_advances": 0.4701
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 514,
+          "p_1st": 0.0292,
+          "p_2nd": 0.0914,
+          "p_3rd": 0.2665,
+          "p_4th": 0.6128,
+          "p_advances": 0.2802
+        }
+      ]
+    },
+    {
+      "team_id": 815,
+      "team_name": "Morocco",
+      "group": "C",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 514,
+          "p_1st": 0.4805,
+          "p_2nd": 0.3035,
+          "p_3rd": 0.2004,
+          "p_4th": 0.0156,
+          "p_advances": 0.9377
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 251,
+          "p_1st": 0.2829,
+          "p_2nd": 0.3386,
+          "p_3rd": 0.2311,
+          "p_4th": 0.1474,
+          "p_advances": 0.745
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 235,
+          "p_1st": 0.0979,
+          "p_2nd": 0.1915,
+          "p_3rd": 0.2894,
+          "p_4th": 0.4213,
+          "p_advances": 0.4936
+        }
+      ]
+    },
+    {
+      "team_id": 8873,
+      "team_name": "Scotland",
+      "group": "C",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 309,
+          "p_1st": 0.4272,
+          "p_2nd": 0.3495,
+          "p_3rd": 0.1359,
+          "p_4th": 0.0874,
+          "p_advances": 0.89
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 248,
+          "p_1st": 0.2258,
+          "p_2nd": 0.2984,
+          "p_3rd": 0.3024,
+          "p_4th": 0.1734,
+          "p_advances": 0.7339
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 443,
+          "p_1st": 0.0406,
+          "p_2nd": 0.1919,
+          "p_3rd": 0.3251,
+          "p_4th": 0.4424,
+          "p_advances": 0.3995
+        }
+      ]
+    },
+    {
+      "team_id": 779,
+      "team_name": "Australia",
+      "group": "D",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 409,
+          "p_1st": 0.3472,
+          "p_2nd": 0.3961,
+          "p_3rd": 0.2494,
+          "p_4th": 0.0073,
+          "p_advances": 0.9389
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 266,
+          "p_1st": 0.203,
+          "p_2nd": 0.406,
+          "p_3rd": 0.2293,
+          "p_4th": 0.1617,
+          "p_advances": 0.6992
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 325,
+          "p_1st": 0.12,
+          "p_2nd": 0.12,
+          "p_3rd": 0.2462,
+          "p_4th": 0.5138,
+          "p_advances": 0.4215
+        }
+      ]
+    },
+    {
+      "team_id": 761,
+      "team_name": "Paraguay",
+      "group": "D",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 325,
+          "p_1st": 0.0892,
+          "p_2nd": 0.36,
+          "p_3rd": 0.3723,
+          "p_4th": 0.1785,
+          "p_advances": 0.6831
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 266,
+          "p_1st": 0.0,
+          "p_2nd": 0.1391,
+          "p_3rd": 0.3383,
+          "p_4th": 0.5226,
+          "p_advances": 0.3684
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 409,
+          "p_1st": 0.0,
+          "p_2nd": 0.0122,
+          "p_3rd": 0.2812,
+          "p_4th": 0.7066,
+          "p_advances": 0.1076
+        }
+      ]
+    },
+    {
+      "team_id": 803,
+      "team_name": "Turkey",
+      "group": "D",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 317,
+          "p_1st": 0.4637,
+          "p_2nd": 0.2713,
+          "p_3rd": 0.1388,
+          "p_4th": 0.1262,
+          "p_advances": 0.858
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 239,
+          "p_1st": 0.1046,
+          "p_2nd": 0.2971,
+          "p_3rd": 0.3682,
+          "p_4th": 0.2301,
+          "p_advances": 0.6778
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 444,
+          "p_1st": 0.0023,
+          "p_2nd": 0.2635,
+          "p_3rd": 0.3468,
+          "p_4th": 0.3874,
+          "p_advances": 0.4392
+        }
+      ]
+    },
+    {
+      "team_id": 771,
+      "team_name": "United States",
+      "group": "D",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 444,
+          "p_1st": 0.8108,
+          "p_2nd": 0.1869,
+          "p_3rd": 0.0023,
+          "p_4th": 0.0,
+          "p_advances": 1.0
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 239,
+          "p_1st": 0.5523,
+          "p_2nd": 0.2845,
+          "p_3rd": 0.1632,
+          "p_4th": 0.0,
+          "p_advances": 0.9958
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 317,
+          "p_1st": 0.224,
+          "p_2nd": 0.3375,
+          "p_3rd": 0.3312,
+          "p_4th": 0.1073,
+          "p_advances": 0.8486
+        }
+      ]
+    },
+    {
+      "team_id": 9460,
+      "team_name": "Cura\u00e7ao",
+      "group": "E",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 290,
+          "p_1st": 0.331,
+          "p_2nd": 0.3,
+          "p_3rd": 0.2931,
+          "p_4th": 0.0759,
+          "p_advances": 0.8552
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 267,
+          "p_1st": 0.1049,
+          "p_2nd": 0.1798,
+          "p_3rd": 0.3034,
+          "p_4th": 0.412,
+          "p_advances": 0.427
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 443,
+          "p_1st": 0.0203,
+          "p_2nd": 0.0767,
+          "p_3rd": 0.237,
+          "p_4th": 0.6659,
+          "p_advances": 0.219
+        }
+      ]
+    },
+    {
+      "team_id": 791,
+      "team_name": "Ecuador",
+      "group": "E",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 321,
+          "p_1st": 0.5296,
+          "p_2nd": 0.2897,
+          "p_3rd": 0.1433,
+          "p_4th": 0.0374,
+          "p_advances": 0.9502
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 253,
+          "p_1st": 0.2174,
+          "p_2nd": 0.2767,
+          "p_3rd": 0.3083,
+          "p_4th": 0.1976,
+          "p_advances": 0.7115
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 426,
+          "p_1st": 0.054,
+          "p_2nd": 0.277,
+          "p_3rd": 0.3474,
+          "p_4th": 0.3216,
+          "p_advances": 0.5728
+        }
+      ]
+    },
+    {
+      "team_id": 759,
+      "team_name": "Germany",
+      "group": "E",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 426,
+          "p_1st": 0.6009,
+          "p_2nd": 0.2958,
+          "p_3rd": 0.0728,
+          "p_4th": 0.0305,
+          "p_advances": 0.9601
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 253,
+          "p_1st": 0.2964,
+          "p_2nd": 0.332,
+          "p_3rd": 0.2253,
+          "p_4th": 0.1462,
+          "p_advances": 0.7984
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 321,
+          "p_1st": 0.081,
+          "p_2nd": 0.2991,
+          "p_3rd": 0.3364,
+          "p_4th": 0.2835,
+          "p_advances": 0.5826
+        }
+      ]
+    },
+    {
+      "team_id": 1935,
+      "team_name": "Ivory Coast",
+      "group": "E",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 443,
+          "p_1st": 0.4199,
+          "p_2nd": 0.307,
+          "p_3rd": 0.2506,
+          "p_4th": 0.0226,
+          "p_advances": 0.9278
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 267,
+          "p_1st": 0.1985,
+          "p_2nd": 0.2846,
+          "p_3rd": 0.2734,
+          "p_4th": 0.2434,
+          "p_advances": 0.633
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 290,
+          "p_1st": 0.0793,
+          "p_2nd": 0.1103,
+          "p_3rd": 0.2655,
+          "p_4th": 0.5448,
+          "p_advances": 0.3828
+        }
+      ]
+    },
+    {
+      "team_id": 766,
+      "team_name": "Japan",
+      "group": "F",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 409,
+          "p_1st": 0.4939,
+          "p_2nd": 0.2787,
+          "p_3rd": 0.1907,
+          "p_4th": 0.0367,
+          "p_advances": 0.9315
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 247,
+          "p_1st": 0.2348,
+          "p_2nd": 0.3077,
+          "p_3rd": 0.2591,
+          "p_4th": 0.1984,
+          "p_advances": 0.7085
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 344,
+          "p_1st": 0.0814,
+          "p_2nd": 0.189,
+          "p_3rd": 0.3169,
+          "p_4th": 0.4128,
+          "p_advances": 0.4913
+        }
+      ]
+    },
+    {
+      "team_id": 8601,
+      "team_name": "Netherlands",
+      "group": "F",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 437,
+          "p_1st": 0.5149,
+          "p_2nd": 0.2792,
+          "p_3rd": 0.1716,
+          "p_4th": 0.0343,
+          "p_advances": 0.9451
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 237,
+          "p_1st": 0.27,
+          "p_2nd": 0.27,
+          "p_3rd": 0.2616,
+          "p_4th": 0.1983,
+          "p_advances": 0.6962
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 326,
+          "p_1st": 0.1104,
+          "p_2nd": 0.1871,
+          "p_3rd": 0.3221,
+          "p_4th": 0.3804,
+          "p_advances": 0.546
+        }
+      ]
+    },
+    {
+      "team_id": 792,
+      "team_name": "Sweden",
+      "group": "F",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 344,
+          "p_1st": 0.3983,
+          "p_2nd": 0.3692,
+          "p_3rd": 0.1628,
+          "p_4th": 0.0698,
+          "p_advances": 0.8953
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 247,
+          "p_1st": 0.1943,
+          "p_2nd": 0.2794,
+          "p_3rd": 0.2713,
+          "p_4th": 0.2551,
+          "p_advances": 0.6518
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 409,
+          "p_1st": 0.0465,
+          "p_2nd": 0.1809,
+          "p_3rd": 0.2934,
+          "p_4th": 0.4792,
+          "p_advances": 0.4254
+        }
+      ]
+    },
+    {
+      "team_id": 802,
+      "team_name": "Tunisia",
+      "group": "F",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 326,
+          "p_1st": 0.3926,
+          "p_2nd": 0.316,
+          "p_3rd": 0.2025,
+          "p_4th": 0.089,
+          "p_advances": 0.8773
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 237,
+          "p_1st": 0.173,
+          "p_2nd": 0.2405,
+          "p_3rd": 0.2743,
+          "p_4th": 0.3122,
+          "p_advances": 0.5907
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 437,
+          "p_1st": 0.032,
+          "p_2nd": 0.1556,
+          "p_3rd": 0.3043,
+          "p_4th": 0.508,
+          "p_advances": 0.373
+        }
+      ]
+    },
+    {
+      "team_id": 805,
+      "team_name": "Belgium",
+      "group": "G",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 543,
+          "p_1st": 0.523,
+          "p_2nd": 0.291,
+          "p_3rd": 0.1584,
+          "p_4th": 0.0276,
+          "p_advances": 0.9392
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 251,
+          "p_1st": 0.2908,
+          "p_2nd": 0.3108,
+          "p_3rd": 0.2351,
+          "p_4th": 0.1633,
+          "p_advances": 0.745
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 206,
+          "p_1st": 0.0971,
+          "p_2nd": 0.165,
+          "p_3rd": 0.2864,
+          "p_4th": 0.4515,
+          "p_advances": 0.466
+        }
+      ]
+    },
+    {
+      "team_id": 825,
+      "team_name": "Egypt",
+      "group": "G",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 346,
+          "p_1st": 0.5087,
+          "p_2nd": 0.3208,
+          "p_3rd": 0.1329,
+          "p_4th": 0.0376,
+          "p_advances": 0.9451
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 266,
+          "p_1st": 0.1992,
+          "p_2nd": 0.3158,
+          "p_3rd": 0.2857,
+          "p_4th": 0.1992,
+          "p_advances": 0.7105
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 388,
+          "p_1st": 0.0541,
+          "p_2nd": 0.2062,
+          "p_3rd": 0.3814,
+          "p_4th": 0.3582,
+          "p_advances": 0.482
+        }
+      ]
+    },
+    {
+      "team_id": 840,
+      "team_name": "Iran",
+      "group": "G",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 388,
+          "p_1st": 0.4923,
+          "p_2nd": 0.317,
+          "p_3rd": 0.1443,
+          "p_4th": 0.0464,
+          "p_advances": 0.9304
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 266,
+          "p_1st": 0.2068,
+          "p_2nd": 0.312,
+          "p_3rd": 0.2669,
+          "p_4th": 0.2143,
+          "p_advances": 0.688
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 346,
+          "p_1st": 0.0462,
+          "p_2nd": 0.211,
+          "p_3rd": 0.3468,
+          "p_4th": 0.396,
+          "p_advances": 0.5029
+        }
+      ]
+    },
+    {
+      "team_id": 783,
+      "team_name": "New Zealand",
+      "group": "G",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 206,
+          "p_1st": 0.3058,
+          "p_2nd": 0.301,
+          "p_3rd": 0.2864,
+          "p_4th": 0.1068,
+          "p_advances": 0.8107
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 251,
+          "p_1st": 0.1315,
+          "p_2nd": 0.1992,
+          "p_3rd": 0.2789,
+          "p_4th": 0.3904,
+          "p_advances": 0.494
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 543,
+          "p_1st": 0.0276,
+          "p_2nd": 0.1179,
+          "p_3rd": 0.2762,
+          "p_4th": 0.5783,
+          "p_advances": 0.2762
+        }
+      ]
+    },
+    {
+      "team_id": 1930,
+      "team_name": "Cape Verde Islands",
+      "group": "H",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 336,
+          "p_1st": 0.2619,
+          "p_2nd": 0.3512,
+          "p_3rd": 0.3185,
+          "p_4th": 0.0685,
+          "p_advances": 0.8363
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 267,
+          "p_1st": 0.1161,
+          "p_2nd": 0.2434,
+          "p_3rd": 0.3146,
+          "p_4th": 0.3258,
+          "p_advances": 0.4869
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 397,
+          "p_1st": 0.0428,
+          "p_2nd": 0.0882,
+          "p_3rd": 0.2443,
+          "p_4th": 0.6247,
+          "p_advances": 0.2771
+        }
+      ]
+    },
+    {
+      "team_id": 801,
+      "team_name": "Saudi Arabia",
+      "group": "H",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 397,
+          "p_1st": 0.2922,
+          "p_2nd": 0.3401,
+          "p_3rd": 0.3174,
+          "p_4th": 0.0504,
+          "p_advances": 0.8741
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 267,
+          "p_1st": 0.1199,
+          "p_2nd": 0.2509,
+          "p_3rd": 0.2659,
+          "p_4th": 0.3633,
+          "p_advances": 0.4906
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 336,
+          "p_1st": 0.0357,
+          "p_2nd": 0.1071,
+          "p_3rd": 0.2113,
+          "p_4th": 0.6458,
+          "p_advances": 0.2887
+        }
+      ]
+    },
+    {
+      "team_id": 760,
+      "team_name": "Spain",
+      "group": "H",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 476,
+          "p_1st": 0.6723,
+          "p_2nd": 0.2122,
+          "p_3rd": 0.0924,
+          "p_4th": 0.0231,
+          "p_advances": 0.9664
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 216,
+          "p_1st": 0.3981,
+          "p_2nd": 0.2685,
+          "p_3rd": 0.2269,
+          "p_4th": 0.1065,
+          "p_advances": 0.8472
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 308,
+          "p_1st": 0.0909,
+          "p_2nd": 0.3377,
+          "p_3rd": 0.3312,
+          "p_4th": 0.2403,
+          "p_advances": 0.6494
+        }
+      ]
+    },
+    {
+      "team_id": 758,
+      "team_name": "Uruguay",
+      "group": "H",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 308,
+          "p_1st": 0.6136,
+          "p_2nd": 0.2468,
+          "p_3rd": 0.0942,
+          "p_4th": 0.0455,
+          "p_advances": 0.9416
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 216,
+          "p_1st": 0.2685,
+          "p_2nd": 0.3148,
+          "p_3rd": 0.2593,
+          "p_4th": 0.1574,
+          "p_advances": 0.7917
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 476,
+          "p_1st": 0.0483,
+          "p_2nd": 0.2878,
+          "p_3rd": 0.3445,
+          "p_4th": 0.3193,
+          "p_advances": 0.5546
+        }
+      ]
+    },
+    {
+      "team_id": 773,
+      "team_name": "France",
+      "group": "I",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 531,
+          "p_1st": 0.6177,
+          "p_2nd": 0.2712,
+          "p_3rd": 0.0979,
+          "p_4th": 0.0132,
+          "p_advances": 0.9736
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 224,
+          "p_1st": 0.2768,
+          "p_2nd": 0.3661,
+          "p_3rd": 0.1964,
+          "p_4th": 0.1607,
+          "p_advances": 0.7857
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 245,
+          "p_1st": 0.1224,
+          "p_2nd": 0.2898,
+          "p_3rd": 0.2286,
+          "p_4th": 0.3592,
+          "p_advances": 0.5755
+        }
+      ]
+    },
+    {
+      "team_id": 8062,
+      "team_name": "Iraq",
+      "group": "I",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 315,
+          "p_1st": 0.3841,
+          "p_2nd": 0.3619,
+          "p_3rd": 0.2095,
+          "p_4th": 0.0444,
+          "p_advances": 0.9048
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 267,
+          "p_1st": 0.161,
+          "p_2nd": 0.2697,
+          "p_3rd": 0.2734,
+          "p_4th": 0.2959,
+          "p_advances": 0.5655
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 418,
+          "p_1st": 0.0335,
+          "p_2nd": 0.122,
+          "p_3rd": 0.3062,
+          "p_4th": 0.5383,
+          "p_advances": 0.323
+        }
+      ]
+    },
+    {
+      "team_id": 8872,
+      "team_name": "Norway",
+      "group": "I",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 245,
+          "p_1st": 0.449,
+          "p_2nd": 0.1918,
+          "p_3rd": 0.2531,
+          "p_4th": 0.1061,
+          "p_advances": 0.8327
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 224,
+          "p_1st": 0.1964,
+          "p_2nd": 0.2188,
+          "p_3rd": 0.3125,
+          "p_4th": 0.2723,
+          "p_advances": 0.6116
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 531,
+          "p_1st": 0.0358,
+          "p_2nd": 0.2015,
+          "p_3rd": 0.3258,
+          "p_4th": 0.4369,
+          "p_advances": 0.4331
+        }
+      ]
+    },
+    {
+      "team_id": 804,
+      "team_name": "Senegal",
+      "group": "I",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 418,
+          "p_1st": 0.378,
+          "p_2nd": 0.3469,
+          "p_3rd": 0.2321,
+          "p_4th": 0.0431,
+          "p_advances": 0.9115
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 267,
+          "p_1st": 0.206,
+          "p_2nd": 0.2247,
+          "p_3rd": 0.3034,
+          "p_4th": 0.2659,
+          "p_advances": 0.618
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 315,
+          "p_1st": 0.0508,
+          "p_2nd": 0.1841,
+          "p_3rd": 0.3111,
+          "p_4th": 0.454,
+          "p_advances": 0.4317
+        }
+      ]
+    },
+    {
+      "team_id": 778,
+      "team_name": "Algeria",
+      "group": "J",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 327,
+          "p_1st": 0.4159,
+          "p_2nd": 0.3761,
+          "p_3rd": 0.1468,
+          "p_4th": 0.0612,
+          "p_advances": 0.8991
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 256,
+          "p_1st": 0.168,
+          "p_2nd": 0.3477,
+          "p_3rd": 0.2344,
+          "p_4th": 0.25,
+          "p_advances": 0.6562
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 417,
+          "p_1st": 0.0552,
+          "p_2nd": 0.1918,
+          "p_3rd": 0.3141,
+          "p_4th": 0.4388,
+          "p_advances": 0.4077
+        }
+      ]
+    },
+    {
+      "team_id": 762,
+      "team_name": "Argentina",
+      "group": "J",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 565,
+          "p_1st": 0.6,
+          "p_2nd": 0.2602,
+          "p_3rd": 0.1239,
+          "p_4th": 0.0159,
+          "p_advances": 0.9628
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 217,
+          "p_1st": 0.2765,
+          "p_2nd": 0.3318,
+          "p_3rd": 0.2627,
+          "p_4th": 0.129,
+          "p_advances": 0.7604
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 218,
+          "p_1st": 0.1147,
+          "p_2nd": 0.1972,
+          "p_3rd": 0.3394,
+          "p_4th": 0.3486,
+          "p_advances": 0.5826
+        }
+      ]
+    },
+    {
+      "team_id": 816,
+      "team_name": "Austria",
+      "group": "J",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 417,
+          "p_1st": 0.4412,
+          "p_2nd": 0.3333,
+          "p_3rd": 0.1775,
+          "p_4th": 0.048,
+          "p_advances": 0.9233
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 256,
+          "p_1st": 0.2227,
+          "p_2nd": 0.2539,
+          "p_3rd": 0.2891,
+          "p_4th": 0.2344,
+          "p_advances": 0.6641
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 327,
+          "p_1st": 0.0459,
+          "p_2nd": 0.1346,
+          "p_3rd": 0.37,
+          "p_4th": 0.4495,
+          "p_advances": 0.3884
+        }
+      ]
+    },
+    {
+      "team_id": 8049,
+      "team_name": "Jordan",
+      "group": "J",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 218,
+          "p_1st": 0.3716,
+          "p_2nd": 0.3257,
+          "p_3rd": 0.1972,
+          "p_4th": 0.1055,
+          "p_advances": 0.8532
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 217,
+          "p_1st": 0.1152,
+          "p_2nd": 0.2488,
+          "p_3rd": 0.2627,
+          "p_4th": 0.3733,
+          "p_advances": 0.5484
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 565,
+          "p_1st": 0.0212,
+          "p_2nd": 0.1292,
+          "p_3rd": 0.3381,
+          "p_4th": 0.5115,
+          "p_advances": 0.3628
+        }
+      ]
+    },
+    {
+      "team_id": 818,
+      "team_name": "Colombia",
+      "group": "K",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 355,
+          "p_1st": 0.6254,
+          "p_2nd": 0.2366,
+          "p_3rd": 0.1042,
+          "p_4th": 0.0338,
+          "p_advances": 0.9606
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 203,
+          "p_1st": 0.3153,
+          "p_2nd": 0.2315,
+          "p_3rd": 0.2512,
+          "p_4th": 0.202,
+          "p_advances": 0.6995
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 442,
+          "p_1st": 0.052,
+          "p_2nd": 0.2964,
+          "p_3rd": 0.3167,
+          "p_4th": 0.3348,
+          "p_advances": 0.5362
+        }
+      ]
+    },
+    {
+      "team_id": 1934,
+      "team_name": "Congo DR",
+      "group": "K",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 353,
+          "p_1st": 0.3399,
+          "p_2nd": 0.2975,
+          "p_3rd": 0.3144,
+          "p_4th": 0.0482,
+          "p_advances": 0.8725
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 301,
+          "p_1st": 0.1096,
+          "p_2nd": 0.2591,
+          "p_3rd": 0.2924,
+          "p_4th": 0.3389,
+          "p_advances": 0.5349
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 346,
+          "p_1st": 0.0376,
+          "p_2nd": 0.1272,
+          "p_3rd": 0.2341,
+          "p_4th": 0.6012,
+          "p_advances": 0.3295
+        }
+      ]
+    },
+    {
+      "team_id": 765,
+      "team_name": "Portugal",
+      "group": "K",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 442,
+          "p_1st": 0.6357,
+          "p_2nd": 0.2217,
+          "p_3rd": 0.1086,
+          "p_4th": 0.0339,
+          "p_advances": 0.9615
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 203,
+          "p_1st": 0.2611,
+          "p_2nd": 0.3448,
+          "p_3rd": 0.2562,
+          "p_4th": 0.1379,
+          "p_advances": 0.7833
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 355,
+          "p_1st": 0.0676,
+          "p_2nd": 0.3296,
+          "p_3rd": 0.3521,
+          "p_4th": 0.2507,
+          "p_advances": 0.6113
+        }
+      ]
+    },
+    {
+      "team_id": 8070,
+      "team_name": "Uzbekistan",
+      "group": "K",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 346,
+          "p_1st": 0.3121,
+          "p_2nd": 0.3555,
+          "p_3rd": 0.263,
+          "p_4th": 0.0694,
+          "p_advances": 0.8613
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 301,
+          "p_1st": 0.1329,
+          "p_2nd": 0.2326,
+          "p_3rd": 0.3023,
+          "p_4th": 0.3322,
+          "p_advances": 0.5216
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 353,
+          "p_1st": 0.0538,
+          "p_2nd": 0.0935,
+          "p_3rd": 0.2408,
+          "p_4th": 0.6119,
+          "p_advances": 0.2833
+        }
+      ]
+    },
+    {
+      "team_id": 799,
+      "team_name": "Croatia",
+      "group": "L",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 442,
+          "p_1st": 0.4796,
+          "p_2nd": 0.3145,
+          "p_3rd": 0.181,
+          "p_4th": 0.0249,
+          "p_advances": 0.9434
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 265,
+          "p_1st": 0.2264,
+          "p_2nd": 0.3132,
+          "p_3rd": 0.2415,
+          "p_4th": 0.2189,
+          "p_advances": 0.6528
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 293,
+          "p_1st": 0.1195,
+          "p_2nd": 0.1775,
+          "p_3rd": 0.273,
+          "p_4th": 0.43,
+          "p_advances": 0.4949
+        }
+      ]
+    },
+    {
+      "team_id": 770,
+      "team_name": "England",
+      "group": "L",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 470,
+          "p_1st": 0.5745,
+          "p_2nd": 0.2745,
+          "p_3rd": 0.1298,
+          "p_4th": 0.0213,
+          "p_advances": 0.9596
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 256,
+          "p_1st": 0.3398,
+          "p_2nd": 0.2891,
+          "p_3rd": 0.2109,
+          "p_4th": 0.1602,
+          "p_advances": 0.7734
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 274,
+          "p_1st": 0.0912,
+          "p_2nd": 0.2299,
+          "p_3rd": 0.3467,
+          "p_4th": 0.3321,
+          "p_advances": 0.5657
+        }
+      ]
+    },
+    {
+      "team_id": 763,
+      "team_name": "Ghana",
+      "group": "L",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 293,
+          "p_1st": 0.314,
+          "p_2nd": 0.3515,
+          "p_3rd": 0.2389,
+          "p_4th": 0.0956,
+          "p_advances": 0.8498
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 265,
+          "p_1st": 0.1208,
+          "p_2nd": 0.234,
+          "p_3rd": 0.3094,
+          "p_4th": 0.3358,
+          "p_advances": 0.5396
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 442,
+          "p_1st": 0.0385,
+          "p_2nd": 0.1109,
+          "p_3rd": 0.2964,
+          "p_4th": 0.5543,
+          "p_advances": 0.3258
+        }
+      ]
+    },
+    {
+      "team_id": 1836,
+      "team_name": "Panama",
+      "group": "L",
+      "outcomes": [
+        {
+          "matchday_3_result": "win",
+          "n_sims": 274,
+          "p_1st": 0.4307,
+          "p_2nd": 0.3175,
+          "p_3rd": 0.1861,
+          "p_4th": 0.0657,
+          "p_advances": 0.9051
+        },
+        {
+          "matchday_3_result": "draw",
+          "n_sims": 256,
+          "p_1st": 0.1523,
+          "p_2nd": 0.2734,
+          "p_3rd": 0.293,
+          "p_4th": 0.2812,
+          "p_advances": 0.5977
+        },
+        {
+          "matchday_3_result": "loss",
+          "n_sims": 470,
+          "p_1st": 0.0277,
+          "p_2nd": 0.1894,
+          "p_3rd": 0.334,
+          "p_4th": 0.4489,
+          "p_advances": 0.4191
+        }
+      ]
+    }
+  ]
+}
