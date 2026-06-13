@@ -102,11 +102,6 @@ def run_monte_carlo(matches_df, teams_df, n_simulations, scenarios):
                 r32_counts[home_id][away_id] += 1
                 r32_counts[away_id][home_id] += 1
 
-        # --- Collect all simulated goals for diagnostics ---
-        simulated = matches_df[
-            (matches_df['stage_id'] == 1) &
-            (matches_df['status'] == 'scheduled')
-        ]
         # Note: you'll need run_simulation to return simulated_matches
         # for this to work — see diagnostics note below
 
