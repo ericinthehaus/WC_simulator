@@ -633,9 +633,9 @@
       white-space: nowrap;
     }
 
-    .pill-pts  { background: #e8f4ec; color: var(--green); }
-    .pill-gd   { background: #e8f0ff; color: var(--blue); }
-    .pill-opp  { background: #fff3e0; color: #a05000; border: 1px solid #ffe0b2; }
+    .pill-pts  { background: #ffffff; color: #555555; }
+    .pill-gd   { background: #ffffff; color: #555555; }
+    .pill-opp  { background: #ffffff; color: #555555; border: 1px solid #111111; }
 
     /* W/D/L data rows */
     .conditional-table tr.outcome-row td {
@@ -976,126 +976,125 @@
       });
     });
 
-    // ── VIEW 5: Conditional outcomes table ────────────────
-    // Reads conditional_outcomes.json + probabilities.json (for standings)
-    // Ordered: Group A–L, then alphabetical within group
-    // Each team = 1 header row + 3 outcome rows (win / draw / loss)
-    function buildConditionalView(condData, probTeams, matchData) {
+    // ── VIEW 5: Conditional outcomes table ──────────────── //
+// Reads conditional_outcomes.json + probabilities.json (for standings)
+// Ordered: Group A–L, then alphabetical within group
+// Each team = 1 header row + 3 outcome rows (win / draw / loss)
+function buildConditionalView(condData, probTeams, matchData) {
+    // Build standings lookup from probabilities {team_id: team_obj}
+    const standingsLookup = {};
+    for (const t of probTeams) standingsLookup[t.team_id] = t;
 
-      // Build standings lookup from probabilities {team_id: team_obj}
-      const standingsLookup = {};
-      for (const t of probTeams) standingsLookup[t.team_id] = t;
-
-      // Build opponent lookup from match_outcomes {team_id: opponent_name}
-      // Uses matchday-3 matches only
-      const opponentLookup = {};
-      if (matchData && matchData.matches) {
+    // Build opponent lookup from match_outcomes {team_id: opponent_name}
+    // Uses matchday-3 matches only
+    const opponentLookup = {};
+    if (matchData && matchData.matches) {
         for (const m of matchData.matches) {
-          // match_outcomes has home/away team names but not IDs directly
-          // We rely on team names matching — best effort
-          if (m.matchday === 3 || m.matchday === undefined) {
-            opponentLookup[m.home_team_name] = m.away_team_name;
-            opponentLookup[m.away_team_name] = m.home_team_name;
-          }
+            // match_outcomes has home/away team names but not IDs directly
+            // We rely on team names matching — best effort
+            if (m.matchday === 3 || m.matchday === undefined) {
+                opponentLookup[m.home_team_name] = m.away_team_name;
+                opponentLookup[m.away_team_name] = m.home_team_name;
+            }
         }
-      }
+    }
 
-      // Group teams by group letter, sort alphabetically within group
-      const byGroup = {};
-      for (const t of condData.teams) {
+    // Group teams by group letter, sort alphabetically within group
+    const byGroup = {};
+    for (const t of condData.teams) {
         if (!byGroup[t.group]) byGroup[t.group] = [];
         byGroup[t.group].push(t);
-      }
+    }
 
-      const resultOrder = { win: 0, draw: 1, loss: 2 };
+    const resultOrder = { win: 0, draw: 1, loss: 2 };
 
-      return Object.keys(byGroup).sort().map(letter => {
+    return Object.keys(byGroup).sort().map(letter => {
         const teamsInGroup = byGroup[letter].sort((a, b) =>
-          a.team_name.localeCompare(b.team_name)
+            a.team_name.localeCompare(b.team_name)
         );
 
         const rows = teamsInGroup.map(team => {
-          const info     = standingsLookup[team.team_id] || {};
-          const pts      = info.pts      ?? '—';
-          const gd       = info.goal_diff != null
-            ? (info.goal_diff > 0 ? '+' : '') + info.goal_diff
-            : '—';
-          const opponent = opponentLookup[team.team_name] ?? '—';
-          const crest    = info.crest_url ?? null;
+            const info = standingsLookup[team.team_id] || {};
+            const pts = info.pts ?? '—';
+            const gd = info.goal_diff != null ? (info.goal_diff > 0 ? '+' : '') + info.goal_diff : '—';
+            const opponent = opponentLookup[team.team_name] ?? '—';
+            const crest = info.crest_url ?? null;
 
-          // Sort outcomes win → draw → loss
-          const outcomes = (team.outcomes || []).sort(
-            (a, b) => (resultOrder[a.matchday_3_result] ?? 9) -
-                      (resultOrder[b.matchday_3_result] ?? 9)
-          );
+            // Sort outcomes win → draw → loss
+            const outcomes = (team.outcomes || []).sort(
+                (a, b) => (resultOrder[a.matchday_3_result] ?? 9) - (resultOrder[b.matchday_3_result] ?? 9)
+            );
 
-          // Team header row
-          const headerRow = `
-            <tr class="team-header">
-              <td colspan="7">
-                <div class="team-header-inner">
-                  ${flagImg(crest, team.team_name)}
-                  <strong>${team.team_name}</strong>
-                  <div class="standing-pills">
-                    <span class="standing-pill pill-pts">${pts} pts</span>
-                    <span class="standing-pill pill-gd">GD ${gd}</span>
-                    <span class="standing-pill pill-opp">vs ${opponent}</span>
-                  </div>
-                </div>
-              </td>
-            </tr>`;
+            // CORRECCIÓN 1: Se cambió colspan de 7 a 6 para que coincida con el total de columnas
+            const headerRow = `
+                <tr class="team-header">
+                    <td colspan="6">
+                        <div class="team-header-inner">
+                            ${flagImg(crest, team.team_name)}
+                            <strong>${team.team_name}</strong>
+                            <div class="standing-pills">
+                                <span class="standing-pill pill-pts">${pts} pts</span>
+                                <span class="standing-pill pill-gd">GD ${gd}</span>
+                                <span class="standing-pill pill-opp">vs ${opponent}</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>`;
 
-          // One outcome row per W/D/L
-          const outcomeRows = outcomes.map(o => {
-            const r   = o.matchday_3_result;
-            const dim = v => v < 0.05 ? 'dim' : '';
+            // One outcome row per W/D/L
+            const outcomeRows = outcomes.map(o => {
+                const r = o.matchday_3_result;
+                const dim = v => v < 0.05 ? 'dim' : '';
+                const probCell = (val, cls) => {
+                    const pctVal = Math.round(val * 100);
+                    const isDim = val < 0.05;
+                    return `<td class="prob-cell ${cls} ${isDim ? 'dim' : ''}">${isDim ? '—' : pctVal + '%'}</td>`;
+                };
 
-            const probCell = (val, cls) => {
-              const pctVal = Math.round(val * 100);
-              const isDim  = val < 0.05;
-              return `<td class="prob-cell ${cls} ${isDim ? 'dim' : ''}">${isDim ? '—' : pctVal + '%'}</td>`;
-            };
+                // CORRECCIÓN 2: Se agregó una celda vacía al principio <td></td> 
+                // para empujar los datos a sus columnas correctas.
+                return `
+                    <tr class="outcome-row">
+                        <td></td>
+                        <td class="col-divider">
+                            <span class="result-badge ${r}">${r.toUpperCase()}</span>
+                        </td>
+                        ${probCell(o.p_1st, 'place-1')}
+                        ${probCell(o.p_2nd, 'place-2')}
+                        ${probCell(o.p_3rd, 'place-3')}
+                        ${probCell(o.p_4th, 'place-4')}
+                        <td class="col-divider prob-cell place-adv ${o.p_advances < 0.05 ? 'dim' : ''}">
+                            ${o.p_advances < 0.05 ? '—' : Math.round(o.p_advances * 100) + '%'}
+                        </td>
+                    </tr>`;
+            }).join('');
 
-            return `
-              <tr class="outcome-row">
-                <td class="col-divider">
-                  <span class="result-badge ${r}">${r.toUpperCase()}</span>
-                </td>
-                ${probCell(o.p_1st,     'place-1')}
-                ${probCell(o.p_2nd,     'place-2')}
-                ${probCell(o.p_3rd,     'place-3')}
-                ${probCell(o.p_4th,     'place-4')}
-                <td class="col-divider prob-cell place-adv ${o.p_advances < 0.05 ? 'dim' : ''}">
-                  ${o.p_advances < 0.05 ? '—' : Math.round(o.p_advances * 100) + '%'}
-                </td>
-              </tr>`;
-          }).join('');
-
-          return headerRow + outcomeRows;
+            return headerRow + outcomeRows;
         }).join('');
 
         return `
-          <div class="conditional-section">
-            <div class="conditional-group-header">Group ${letter}</div>
-            <table class="conditional-table">
-              <thead>
-                <tr>
-                  <th colspan="1" style="text-align:left;">Team / Standing</th>
-                  <th class="col-result col-divider">Result</th>
-                  <th class="col-place" style="background:#e8f4ec;color:var(--green);">1st</th>
-                  <th class="col-place" style="background:#e8f0ff;color:var(--blue);">2nd</th>
-                  <th class="col-place" style="background:#fff8e0;color:#a07000;">3rd</th>
-                  <th class="col-place" style="background:#fdecea;color:var(--red);">4th</th>
-                  <th class="col-place col-divider" style="background:#e8f4ec;color:var(--green);">Advance</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${rows}
-              </tbody>
-            </table>
-          </div>`;
-      }).join('');
-    }
+            <div class="conditional-section">
+                <div class="conditional-group-header">Group ${letter}</div>
+                <table class="conditional-table">
+                    <thead>
+                        <tr>
+                            <th colspan="1" style="text-align:left;">Team / Standing</th>
+                            <th class="col-result col-divider">Result</th>
+                            <th class="col-place" style="background:#e8f4ec;color:var(--green);">1st</th>
+                            <th class="col-place" style="background:#e8f0ff;color:var(--blue);">2nd</th>
+                            <th class="col-place" style="background:#fff8e0;color:#a07000;">3rd</th>
+                            <th class="col-place" style="background:#fdecea;color:var(--red);">4th</th>
+                            <th class="col-place col-divider" style="background:#e8f4ec;color:var(--green);">Advance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${rows}
+                    </tbody>
+                </table>
+            </div>`;
+    }).join('');
+}
+
 
     // ── Init ─────────────────────────────────────────────────
     async function init() {
