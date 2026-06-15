@@ -267,7 +267,7 @@ if __name__ == '__main__':
         mean_goals=MEAN_GOALS,
     )
     logger.info("Goals diagnostics summary: %s", diagnostics['summary'])
-    logger.info("Goals diagnostics distribution of sim goals: %s", diagnostics['simlated_dist'])
+    logger.info("Goals diagnostics distribution of sim goals: %s", diagnostics['simulated_dist'])
 
     # ── Build JSON payloads ──────────────────────────────────
     logger.info("Building JSON payloads…")

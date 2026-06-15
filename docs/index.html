@@ -551,6 +551,142 @@
       main   { padding: 1rem; }
       nav    { padding: 0 1rem; overflow-x: auto; }
     }
+
+    /* ── Conditional outcomes table (View 5) ── */
+    .conditional-section {
+      margin-bottom: 2rem;
+    }
+
+    .conditional-group-header {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--surface);
+      background: var(--text);
+      padding: 0.4rem 0.85rem;
+      margin-bottom: 0;
+    }
+
+    .conditional-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      font-size: 0.72rem;
+    }
+
+    /* Column header row */
+    .conditional-table thead tr th {
+      padding: 0.45rem 0.6rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      background: #f7f7f7;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .conditional-table thead tr th:first-child { text-align: left; }
+    .conditional-table thead tr th.col-standing { background: #f0f4ff; }
+    .conditional-table thead tr th.col-result   { background: #f7f7f7; width: 52px; }
+    .conditional-table thead tr th.col-place    { width: 70px; }
+
+    /* Team header row — spans all columns */
+    .conditional-table tr.team-header td {
+      padding: 0.5rem 0.85rem;
+      font-weight: 600;
+      font-size: 0.75rem;
+      background: #fafafa;
+      border-top: 2px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .team-header-inner {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .team-header-inner .team-flag,
+    .team-header-inner .team-flag-placeholder { flex-shrink: 0; }
+
+    /* Standing pills inside team header */
+    .standing-pills {
+      display: flex;
+      gap: 0.4rem;
+      margin-left: auto;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .standing-pill {
+      font-size: 0.62rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+
+    .pill-pts  { background: #e8f4ec; color: var(--green); }
+    .pill-gd   { background: #e8f0ff; color: var(--blue); }
+    .pill-opp  { background: #fff3e0; color: #a05000; border: 1px solid #ffe0b2; }
+
+    /* W/D/L data rows */
+    .conditional-table tr.outcome-row td {
+      padding: 0.38rem 0.6rem;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .conditional-table tr.outcome-row:last-child td { border-bottom: none; }
+
+    /* Result badge */
+    .result-badge {
+      display: inline-block;
+      font-family: var(--font-head);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+      min-width: 2.8rem;
+      text-align: center;
+    }
+
+    .result-badge.win  { background: #e8f4ec; color: var(--green); }
+    .result-badge.draw { background: #fff8e0; color: #a07000; }
+    .result-badge.loss { background: #fdecea; color: var(--red); }
+
+    /* Probability cell shading */
+    .prob-cell {
+      font-weight: 600;
+      font-size: 0.72rem;
+      border-radius: 3px;
+      padding: 0.25rem 0.4rem;
+    }
+
+    /* Color intensity based on probability value — set via inline style */
+    .prob-cell.place-1 { color: var(--green); }
+    .prob-cell.place-2 { color: var(--blue); }
+    .prob-cell.place-3 { color: #a07000; }
+    .prob-cell.place-4 { color: var(--muted); }
+    .prob-cell.place-adv { color: var(--green); font-weight: 700; }
+
+    /* Low probability — dim it */
+    .prob-cell.dim { color: #ccc; font-weight: 400; }
+
+    /* Separator between standing and outcome columns */
+    .col-divider { border-left: 2px solid var(--border) !important; }
+
+
   </style>
 </head>
 <body>
@@ -571,6 +707,7 @@
     <div class="tab" data-view="placement">Placement</div>
     <div class="tab" data-view="r32">Round of 32</div>
     <div class="tab" data-view="model">Model</div>
+    <div class="tab" data-view="conditional">Final Match</div>
   </nav>
 
   <main>
@@ -647,6 +784,18 @@
       </div>
     </div>
 
+    <!-- ══════════════════════════════════════════
+         VIEW 5 — Final match outcomes
+    ═══════════════════════════════════════════ -->
+    <div class="view" id="view-conditional">
+      <div class="section-label">
+        If a team wins / draws / loses their final group match — projected finish
+      </div>
+      <div id="conditional-container">
+        <span class="loading-msg">Loading…</span>
+      </div>
+    </div>
+
   </main>
 
   <footer>
@@ -658,6 +807,7 @@
     // ── Config ────────────────────────────────────────────────
     const PROB_URL = './output/probabilities.json';
     const R32_URL  = './output/r32_opponents.json';
+    const COND_URL = './output/conditional_outcomes.json';
 
     // ── Utilities ─────────────────────────────────────────────
     const fmt  = p  => (p * 100).toFixed(1) + '%';
@@ -826,17 +976,142 @@
       });
     });
 
+    // ── VIEW 5: Conditional outcomes table ────────────────
+    // Reads conditional_outcomes.json + probabilities.json (for standings)
+    // Ordered: Group A–L, then alphabetical within group
+    // Each team = 1 header row + 3 outcome rows (win / draw / loss)
+    function buildConditionalView(condData, probTeams, matchData) {
+
+      // Build standings lookup from probabilities {team_id: team_obj}
+      const standingsLookup = {};
+      for (const t of probTeams) standingsLookup[t.team_id] = t;
+
+      // Build opponent lookup from match_outcomes {team_id: opponent_name}
+      // Uses matchday-3 matches only
+      const opponentLookup = {};
+      if (matchData && matchData.matches) {
+        for (const m of matchData.matches) {
+          // match_outcomes has home/away team names but not IDs directly
+          // We rely on team names matching — best effort
+          if (m.matchday === 3 || m.matchday === undefined) {
+            opponentLookup[m.home_team_name] = m.away_team_name;
+            opponentLookup[m.away_team_name] = m.home_team_name;
+          }
+        }
+      }
+
+      // Group teams by group letter, sort alphabetically within group
+      const byGroup = {};
+      for (const t of condData.teams) {
+        if (!byGroup[t.group]) byGroup[t.group] = [];
+        byGroup[t.group].push(t);
+      }
+
+      const resultOrder = { win: 0, draw: 1, loss: 2 };
+
+      return Object.keys(byGroup).sort().map(letter => {
+        const teamsInGroup = byGroup[letter].sort((a, b) =>
+          a.team_name.localeCompare(b.team_name)
+        );
+
+        const rows = teamsInGroup.map(team => {
+          const info     = standingsLookup[team.team_id] || {};
+          const pts      = info.pts      ?? '—';
+          const gd       = info.goal_diff != null
+            ? (info.goal_diff > 0 ? '+' : '') + info.goal_diff
+            : '—';
+          const opponent = opponentLookup[team.team_name] ?? '—';
+          const crest    = info.crest_url ?? null;
+
+          // Sort outcomes win → draw → loss
+          const outcomes = (team.outcomes || []).sort(
+            (a, b) => (resultOrder[a.matchday_3_result] ?? 9) -
+                      (resultOrder[b.matchday_3_result] ?? 9)
+          );
+
+          // Team header row
+          const headerRow = `
+            <tr class="team-header">
+              <td colspan="7">
+                <div class="team-header-inner">
+                  ${flagImg(crest, team.team_name)}
+                  <strong>${team.team_name}</strong>
+                  <div class="standing-pills">
+                    <span class="standing-pill pill-pts">${pts} pts</span>
+                    <span class="standing-pill pill-gd">GD ${gd}</span>
+                    <span class="standing-pill pill-opp">vs ${opponent}</span>
+                  </div>
+                </div>
+              </td>
+            </tr>`;
+
+          // One outcome row per W/D/L
+          const outcomeRows = outcomes.map(o => {
+            const r   = o.matchday_3_result;
+            const dim = v => v < 0.05 ? 'dim' : '';
+
+            const probCell = (val, cls) => {
+              const pctVal = Math.round(val * 100);
+              const isDim  = val < 0.05;
+              return `<td class="prob-cell ${cls} ${isDim ? 'dim' : ''}">${isDim ? '—' : pctVal + '%'}</td>`;
+            };
+
+            return `
+              <tr class="outcome-row">
+                <td class="col-divider">
+                  <span class="result-badge ${r}">${r.toUpperCase()}</span>
+                </td>
+                ${probCell(o.p_1st,     'place-1')}
+                ${probCell(o.p_2nd,     'place-2')}
+                ${probCell(o.p_3rd,     'place-3')}
+                ${probCell(o.p_4th,     'place-4')}
+                <td class="col-divider prob-cell place-adv ${o.p_advances < 0.05 ? 'dim' : ''}">
+                  ${o.p_advances < 0.05 ? '—' : Math.round(o.p_advances * 100) + '%'}
+                </td>
+              </tr>`;
+          }).join('');
+
+          return headerRow + outcomeRows;
+        }).join('');
+
+        return `
+          <div class="conditional-section">
+            <div class="conditional-group-header">Group ${letter}</div>
+            <table class="conditional-table">
+              <thead>
+                <tr>
+                  <th colspan="1" style="text-align:left;">Team / Standing</th>
+                  <th class="col-result col-divider">Result</th>
+                  <th class="col-place" style="background:#e8f4ec;color:var(--green);">1st</th>
+                  <th class="col-place" style="background:#e8f0ff;color:var(--blue);">2nd</th>
+                  <th class="col-place" style="background:#fff8e0;color:#a07000;">3rd</th>
+                  <th class="col-place" style="background:#fdecea;color:var(--red);">4th</th>
+                  <th class="col-place col-divider" style="background:#e8f4ec;color:var(--green);">Advance</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rows}
+              </tbody>
+            </table>
+          </div>`;
+      }).join('');
+    }
+
     // ── Init ─────────────────────────────────────────────────
     async function init() {
+      // Fetch all the datasets 
       try {
-        // Fetch both files in parallel
-        const [probRes, r32Res] = await Promise.all([
-          fetch(PROB_URL),
-          fetch(R32_URL),
+        const [probRes, r32Res, condRes, outcomesRes] = await Promise.all([
+        fetch(PROB_URL),
+        fetch(R32_URL),
+        fetch(COND_URL),
+        fetch('./output/match_outcomes.json'),
         ]);
-
-        const probData = await probRes.json();
-        const r32Data  = await r32Res.json();
+        
+        const probData     = await probRes.json();
+        const r32Data      = await r32Res.json();
+        const condData     = await condRes.json();
+        const outcomesData = await outcomesRes.json();
 
         // Meta
         document.getElementById('last-updated').textContent =
@@ -868,6 +1143,9 @@
 
         document.getElementById('r32-grid').innerHTML =
           buildR32View(r32Data.matchups, teamCrests, probData.teams);
+
+        document.getElementById('conditional-container').innerHTML =
+          buildConditionalView(condData, probData.teams, outcomesData);
 
       } catch (err) {
         const msg = `<div class="error-msg">
