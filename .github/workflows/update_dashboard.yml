@@ -32,8 +32,6 @@ jobs:
 
       - name: Commit updated files
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add worldcup2026.db docs/output/*.json
           git diff --staged --quiet || git commit -m "Auto-update: scores + simulation $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
