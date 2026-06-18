@@ -20,7 +20,7 @@ Output files (written to docs/output/):
 import json
 import logging
 import os
-from datetime import date
+from datetime import date, datetime
 
 import wc_simulator as wc
 from constants import MEAN_GOALS, N_SIMULATIONS, DB_PATH
@@ -73,7 +73,7 @@ def build_probabilities_payload(team_probs_df, matches_df, n_simulations):
 
     return {
         'meta': {
-            'last_updated':      str(date.today()),
+            'last_updated':      str(datetime.now().astimezone().strftime("%B %d, %Y %H:%M %Z")),
             'n_simulations':     n_simulations,
             'mean_goals':        MEAN_GOALS,
             'matches_completed': matches_completed,
