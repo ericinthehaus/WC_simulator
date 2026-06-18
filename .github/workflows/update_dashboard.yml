@@ -2,7 +2,7 @@ name: Update Dashboard
 
 on:
   schedule:
-    - cron: '0 */4 * * *'   # every 4 hours at :00
+    - cron: '0 0,13,16,19,22 * 6 *'   # every 4 hours at :00
   workflow_dispatch:          # allows manual trigger from GitHub Actions UI
 
 jobs:
