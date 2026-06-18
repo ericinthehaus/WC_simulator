@@ -4,7 +4,6 @@
 __pycache__
 
 
-/aggregate_results.py
 /build_database.py
 /csv_files
 data_out/*
@@ -15,4 +14,3 @@ data_out/*
 /rules_ref.md
 /rules_reference.md
 /simulation_functions.py
-/worldcup2026.db
