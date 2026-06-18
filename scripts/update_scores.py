@@ -9,11 +9,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 logger = logging.getLogger(__name__)
+from constants import DB_PATH
 
-DB_PATH = 'worldcup2026.db'
 API_KEY = os.getenv('FOOTBALL_API_KEY')       # store in env var, not hardcoded
 API_MATCH_URL = 'https://api.football-data.org/v4/competitions/WC/matches'
-
 API_STANDINGS_URL = "http://api.football-data.org/v4/competitions/WC/teams"
 
 def fetch_live_teams(api_key=API_KEY):
@@ -138,5 +137,4 @@ def update_completed_matches(db_path=DB_PATH, api_key=API_KEY):
 if __name__ == "__main__":
     import os
     logging.basicConfig(level=logging.INFO)
-    # api_key = os.getenv("FOOTBALL_API_KEY")  # reads from environment variable
     update_completed_matches(api_key=API_KEY)
