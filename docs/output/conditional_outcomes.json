@@ -12,29 +12,29 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 295,
+          "n_sims": 318,
           "p_1st": 0.0,
-          "p_2nd": 0.2678,
-          "p_3rd": 0.7322,
+          "p_2nd": 0.2484,
+          "p_3rd": 0.7516,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 253,
+          "n_sims": 239,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.7154,
-          "p_4th": 0.2846,
-          "p_advances": 0.0593
+          "p_3rd": 0.7364,
+          "p_4th": 0.2636,
+          "p_advances": 0.0586
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 452,
+          "n_sims": 443,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.4071,
-          "p_4th": 0.5929,
+          "p_3rd": 0.4176,
+          "p_4th": 0.5824,
           "p_advances": 0.0
         }
       ]
@@ -46,7 +46,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 452,
+          "n_sims": 443,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -55,7 +55,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 253,
+          "n_sims": 239,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -64,7 +64,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 295,
+          "n_sims": 318,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -80,29 +80,29 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 268,
+          "n_sims": 250,
           "p_1st": 0.0,
-          "p_2nd": 0.7052,
-          "p_3rd": 0.2948,
+          "p_2nd": 0.684,
+          "p_3rd": 0.316,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 282,
+          "n_sims": 246,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.4397,
-          "p_4th": 0.5603,
-          "p_advances": 0.0
+          "p_3rd": 0.4715,
+          "p_4th": 0.5285,
+          "p_advances": 0.0203
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 450,
+          "n_sims": 504,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.0778,
-          "p_4th": 0.9222,
+          "p_3rd": 0.0774,
+          "p_4th": 0.9226,
           "p_advances": 0.0
         }
       ]
@@ -114,7 +114,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 450,
+          "n_sims": 504,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -123,7 +123,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 282,
+          "n_sims": 246,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -132,11 +132,11 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 268,
+          "n_sims": 250,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.6754,
-          "p_4th": 0.3246,
+          "p_3rd": 0.664,
+          "p_4th": 0.336,
           "p_advances": 0.444
         }
       ]
@@ -148,16 +148,16 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 331,
+          "n_sims": 286,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 1.0,
           "p_4th": 0.0,
-          "p_advances": 0.9909
+          "p_advances": 0.9895
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 276,
+          "n_sims": 280,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 1.0,
@@ -166,7 +166,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 393,
+          "n_sims": 434,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -182,7 +182,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 306,
+          "n_sims": 323,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -191,7 +191,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 269,
+          "n_sims": 265,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -200,7 +200,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 425,
+          "n_sims": 412,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -216,16 +216,16 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 393,
+          "n_sims": 434,
           "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 1.0,
+          "p_2nd": 0.0023,
+          "p_3rd": 0.9977,
           "p_4th": 0.0,
-          "p_advances": 0.9822
+          "p_advances": 0.9585
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 276,
+          "n_sims": 280,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -234,7 +234,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 331,
+          "n_sims": 286,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -250,7 +250,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 425,
+          "n_sims": 412,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -259,7 +259,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 269,
+          "n_sims": 265,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -268,10 +268,10 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 306,
+          "n_sims": 323,
           "p_1st": 0.0,
-          "p_2nd": 1.0,
-          "p_3rd": 0.0,
+          "p_2nd": 0.9969,
+          "p_3rd": 0.0031,
           "p_4th": 0.0,
           "p_advances": 1.0
         }
@@ -284,30 +284,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 452,
-          "p_1st": 0.5265,
-          "p_2nd": 0.3827,
-          "p_3rd": 0.0907,
+          "n_sims": 470,
+          "p_1st": 0.5809,
+          "p_2nd": 0.3426,
+          "p_3rd": 0.0766,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 243,
-          "p_1st": 0.1893,
-          "p_2nd": 0.3786,
-          "p_3rd": 0.251,
-          "p_4th": 0.1811,
-          "p_advances": 0.7984
+          "n_sims": 225,
+          "p_1st": 0.1911,
+          "p_2nd": 0.3556,
+          "p_3rd": 0.2311,
+          "p_4th": 0.2222,
+          "p_advances": 0.7289
         },
         {
           "matchday_3_result": "loss",
           "n_sims": 305,
           "p_1st": 0.0,
           "p_2nd": 0.2361,
-          "p_3rd": 0.4689,
-          "p_4th": 0.2951,
-          "p_advances": 0.5541
+          "p_3rd": 0.482,
+          "p_4th": 0.282,
+          "p_advances": 0.541
         }
       ]
     },
@@ -318,30 +318,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 241,
-          "p_1st": 0.1369,
-          "p_2nd": 0.2697,
-          "p_3rd": 0.3485,
-          "p_4th": 0.2448,
-          "p_advances": 0.6805
+          "n_sims": 248,
+          "p_1st": 0.125,
+          "p_2nd": 0.2218,
+          "p_3rd": 0.3669,
+          "p_4th": 0.2863,
+          "p_advances": 0.629
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 254,
-          "p_1st": 0.0,
-          "p_2nd": 0.1417,
-          "p_3rd": 0.1496,
-          "p_4th": 0.7087,
-          "p_advances": 0.2283
+          "n_sims": 246,
+          "p_1st": 0.0041,
+          "p_2nd": 0.1382,
+          "p_3rd": 0.1382,
+          "p_4th": 0.7195,
+          "p_advances": 0.2358
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 505,
+          "n_sims": 506,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.1188,
-          "p_4th": 0.8812,
-          "p_advances": 0.0752
+          "p_3rd": 0.1206,
+          "p_4th": 0.8794,
+          "p_advances": 0.0791
         }
       ]
     },
@@ -352,30 +352,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 505,
-          "p_1st": 0.4693,
-          "p_2nd": 0.3545,
-          "p_3rd": 0.1762,
+          "n_sims": 506,
+          "p_1st": 0.4862,
+          "p_2nd": 0.3162,
+          "p_3rd": 0.1976,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 254,
-          "p_1st": 0.1496,
-          "p_2nd": 0.3268,
-          "p_3rd": 0.4134,
-          "p_4th": 0.1102,
-          "p_advances": 0.685
+          "n_sims": 246,
+          "p_1st": 0.1423,
+          "p_2nd": 0.3537,
+          "p_3rd": 0.4268,
+          "p_4th": 0.0772,
+          "p_advances": 0.687
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 241,
-          "p_1st": 0.0166,
-          "p_2nd": 0.278,
-          "p_3rd": 0.195,
-          "p_4th": 0.5104,
-          "p_advances": 0.4564
+          "n_sims": 248,
+          "p_1st": 0.0081,
+          "p_2nd": 0.2944,
+          "p_3rd": 0.2016,
+          "p_4th": 0.496,
+          "p_advances": 0.4718
         }
       ]
     },
@@ -387,29 +387,29 @@
         {
           "matchday_3_result": "win",
           "n_sims": 305,
-          "p_1st": 0.8066,
-          "p_2nd": 0.1934,
+          "p_1st": 0.7803,
+          "p_2nd": 0.2197,
           "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 243,
-          "p_1st": 0.3745,
-          "p_2nd": 0.2757,
-          "p_3rd": 0.3498,
+          "n_sims": 225,
+          "p_1st": 0.3111,
+          "p_2nd": 0.3733,
+          "p_3rd": 0.3156,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 452,
-          "p_1st": 0.1482,
-          "p_2nd": 0.2367,
-          "p_3rd": 0.5465,
-          "p_4th": 0.0686,
-          "p_advances": 0.7456
+          "n_sims": 470,
+          "p_1st": 0.1298,
+          "p_2nd": 0.2702,
+          "p_3rd": 0.5383,
+          "p_4th": 0.0617,
+          "p_advances": 0.7532
         }
       ]
     },
@@ -420,30 +420,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 407,
-          "p_1st": 0.4816,
-          "p_2nd": 0.5012,
-          "p_3rd": 0.0172,
+          "n_sims": 440,
+          "p_1st": 0.0,
+          "p_2nd": 0.9636,
+          "p_3rd": 0.0364,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 255,
-          "p_1st": 0.3922,
-          "p_2nd": 0.5686,
-          "p_3rd": 0.0392,
+          "n_sims": 243,
+          "p_1st": 0.0,
+          "p_2nd": 0.8519,
+          "p_3rd": 0.1481,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 338,
-          "p_1st": 0.2189,
-          "p_2nd": 0.1864,
-          "p_3rd": 0.4172,
-          "p_4th": 0.1775,
-          "p_advances": 0.7396
+          "n_sims": 317,
+          "p_1st": 0.0,
+          "p_2nd": 0.0946,
+          "p_3rd": 0.6215,
+          "p_4th": 0.2839,
+          "p_advances": 0.47
         }
       ]
     },
@@ -454,30 +454,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 338,
-          "p_1st": 0.1213,
-          "p_2nd": 0.3462,
-          "p_3rd": 0.2929,
-          "p_4th": 0.2396,
-          "p_advances": 0.6834
+          "n_sims": 317,
+          "p_1st": 0.0,
+          "p_2nd": 0.6372,
+          "p_3rd": 0.3123,
+          "p_4th": 0.0505,
+          "p_advances": 0.8233
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 255,
+          "n_sims": 243,
           "p_1st": 0.0,
-          "p_2nd": 0.0588,
-          "p_3rd": 0.3882,
-          "p_4th": 0.5529,
-          "p_advances": 0.3333
+          "p_2nd": 0.0453,
+          "p_3rd": 0.428,
+          "p_4th": 0.5267,
+          "p_advances": 0.3909
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 407,
+          "n_sims": 440,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.4005,
-          "p_4th": 0.5995,
-          "p_advances": 0.1941
+          "p_3rd": 0.3795,
+          "p_4th": 0.6205,
+          "p_advances": 0.1773
         }
       ]
     },
@@ -488,30 +488,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 292,
-          "p_1st": 0.1747,
-          "p_2nd": 0.3288,
-          "p_3rd": 0.2123,
-          "p_4th": 0.2842,
-          "p_advances": 0.6644
+          "n_sims": 327,
+          "p_1st": 0.2477,
+          "p_2nd": 0.0734,
+          "p_3rd": 0.2752,
+          "p_4th": 0.4037,
+          "p_advances": 0.5963
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 268,
+          "n_sims": 238,
           "p_1st": 0.0,
-          "p_2nd": 0.0896,
-          "p_3rd": 0.4739,
-          "p_4th": 0.4366,
-          "p_advances": 0.3843
+          "p_2nd": 0.0798,
+          "p_3rd": 0.5,
+          "p_4th": 0.4202,
+          "p_advances": 0.4034
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 440,
+          "n_sims": 435,
           "p_1st": 0.0,
-          "p_2nd": 0.0091,
-          "p_3rd": 0.4477,
-          "p_4th": 0.5432,
-          "p_advances": 0.2341
+          "p_2nd": 0.0184,
+          "p_3rd": 0.3816,
+          "p_4th": 0.6,
+          "p_advances": 0.1885
         }
       ]
     },
@@ -522,30 +522,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 440,
-          "p_1st": 0.6636,
-          "p_2nd": 0.3364,
+          "n_sims": 435,
+          "p_1st": 1.0,
+          "p_2nd": 0.0,
           "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 268,
-          "p_1st": 0.5709,
-          "p_2nd": 0.3918,
-          "p_3rd": 0.0373,
+          "n_sims": 238,
+          "p_1st": 1.0,
+          "p_2nd": 0.0,
+          "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 292,
-          "p_1st": 0.3185,
-          "p_2nd": 0.2705,
-          "p_3rd": 0.2911,
-          "p_4th": 0.1199,
-          "p_advances": 0.8459
+          "n_sims": 327,
+          "p_1st": 0.7523,
+          "p_2nd": 0.2294,
+          "p_3rd": 0.0183,
+          "p_4th": 0.0,
+          "p_advances": 1.0
         }
       ]
     },
@@ -556,30 +556,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 262,
-          "p_1st": 0.0992,
-          "p_2nd": 0.3359,
-          "p_3rd": 0.271,
-          "p_4th": 0.2939,
-          "p_advances": 0.584
+          "n_sims": 261,
+          "p_1st": 0.092,
+          "p_2nd": 0.2605,
+          "p_3rd": 0.318,
+          "p_4th": 0.3295,
+          "p_advances": 0.5479
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 286,
+          "n_sims": 292,
           "p_1st": 0.0,
-          "p_2nd": 0.021,
-          "p_3rd": 0.3322,
-          "p_4th": 0.6469,
-          "p_advances": 0.2343
+          "p_2nd": 0.0514,
+          "p_3rd": 0.3596,
+          "p_4th": 0.589,
+          "p_advances": 0.274
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 452,
+          "n_sims": 447,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.2212,
-          "p_4th": 0.7788,
-          "p_advances": 0.0752
+          "p_3rd": 0.2416,
+          "p_4th": 0.7584,
+          "p_advances": 0.0604
         }
       ]
     },
@@ -590,30 +590,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 323,
-          "p_1st": 0.2384,
-          "p_2nd": 0.3963,
-          "p_3rd": 0.1734,
-          "p_4th": 0.192,
-          "p_advances": 0.7926
+          "n_sims": 330,
+          "p_1st": 0.2394,
+          "p_2nd": 0.397,
+          "p_3rd": 0.2091,
+          "p_4th": 0.1545,
+          "p_advances": 0.8273
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 260,
+          "n_sims": 237,
           "p_1st": 0.0,
-          "p_2nd": 0.0731,
-          "p_3rd": 0.6115,
-          "p_4th": 0.3154,
-          "p_advances": 0.5077
+          "p_2nd": 0.0464,
+          "p_3rd": 0.5443,
+          "p_4th": 0.4093,
+          "p_advances": 0.4346
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 417,
+          "n_sims": 433,
           "p_1st": 0.0,
-          "p_2nd": 0.0432,
-          "p_3rd": 0.5635,
-          "p_4th": 0.3933,
-          "p_advances": 0.2998
+          "p_2nd": 0.0439,
+          "p_3rd": 0.5589,
+          "p_4th": 0.3972,
+          "p_advances": 0.3095
         }
       ]
     },
@@ -624,30 +624,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 417,
-          "p_1st": 0.7386,
-          "p_2nd": 0.2614,
+          "n_sims": 433,
+          "p_1st": 0.709,
+          "p_2nd": 0.291,
           "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 260,
-          "p_1st": 0.5731,
-          "p_2nd": 0.4,
-          "p_3rd": 0.0269,
+          "n_sims": 237,
+          "p_1st": 0.5654,
+          "p_2nd": 0.3966,
+          "p_3rd": 0.038,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 323,
-          "p_1st": 0.3127,
-          "p_2nd": 0.2693,
-          "p_3rd": 0.3529,
-          "p_4th": 0.065,
-          "p_advances": 0.9319
+          "n_sims": 330,
+          "p_1st": 0.303,
+          "p_2nd": 0.2758,
+          "p_3rd": 0.3455,
+          "p_4th": 0.0758,
+          "p_advances": 0.9152
         }
       ]
     },
@@ -658,30 +658,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 452,
-          "p_1st": 0.4314,
-          "p_2nd": 0.5243,
-          "p_3rd": 0.0442,
+          "n_sims": 447,
+          "p_1st": 0.434,
+          "p_2nd": 0.5101,
+          "p_3rd": 0.0559,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 286,
-          "p_1st": 0.3462,
-          "p_2nd": 0.5769,
-          "p_3rd": 0.0769,
+          "n_sims": 292,
+          "p_1st": 0.3527,
+          "p_2nd": 0.5822,
+          "p_3rd": 0.0651,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 262,
-          "p_1st": 0.1718,
-          "p_2nd": 0.1489,
-          "p_3rd": 0.4618,
-          "p_4th": 0.2176,
-          "p_advances": 0.6107
+          "n_sims": 261,
+          "p_1st": 0.2261,
+          "p_2nd": 0.1801,
+          "p_3rd": 0.3716,
+          "p_4th": 0.2222,
+          "p_advances": 0.6782
         }
       ]
     },
@@ -692,30 +692,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 417,
-          "p_1st": 0.4772,
-          "p_2nd": 0.3933,
-          "p_3rd": 0.1295,
+          "n_sims": 415,
+          "p_1st": 0.4675,
+          "p_2nd": 0.4145,
+          "p_3rd": 0.1181,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 240,
-          "p_1st": 0.1167,
-          "p_2nd": 0.2875,
-          "p_3rd": 0.3,
-          "p_4th": 0.2958,
-          "p_advances": 0.6375
+          "n_sims": 248,
+          "p_1st": 0.1411,
+          "p_2nd": 0.3427,
+          "p_3rd": 0.25,
+          "p_4th": 0.2661,
+          "p_advances": 0.6613
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 343,
+          "n_sims": 337,
           "p_1st": 0.0,
-          "p_2nd": 0.1953,
-          "p_3rd": 0.4665,
-          "p_4th": 0.3382,
-          "p_advances": 0.4606
+          "p_2nd": 0.184,
+          "p_3rd": 0.5045,
+          "p_4th": 0.3116,
+          "p_advances": 0.4688
         }
       ]
     },
@@ -726,30 +726,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 472,
-          "p_1st": 0.411,
-          "p_2nd": 0.411,
-          "p_3rd": 0.178,
+          "n_sims": 470,
+          "p_1st": 0.4404,
+          "p_2nd": 0.3851,
+          "p_3rd": 0.1745,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 255,
-          "p_1st": 0.1765,
-          "p_2nd": 0.3137,
-          "p_3rd": 0.4118,
-          "p_4th": 0.098,
-          "p_advances": 0.651
+          "n_sims": 250,
+          "p_1st": 0.172,
+          "p_2nd": 0.344,
+          "p_3rd": 0.412,
+          "p_4th": 0.072,
+          "p_advances": 0.72
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 273,
-          "p_1st": 0.0,
-          "p_2nd": 0.2234,
-          "p_3rd": 0.2601,
-          "p_4th": 0.5165,
-          "p_advances": 0.4322
+          "n_sims": 280,
+          "p_1st": 0.0107,
+          "p_2nd": 0.2393,
+          "p_3rd": 0.2107,
+          "p_4th": 0.5393,
+          "p_advances": 0.4286
         }
       ]
     },
@@ -760,30 +760,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 343,
-          "p_1st": 0.8338,
-          "p_2nd": 0.1662,
+          "n_sims": 337,
+          "p_1st": 0.8101,
+          "p_2nd": 0.1899,
           "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 240,
-          "p_1st": 0.5167,
-          "p_2nd": 0.2583,
-          "p_3rd": 0.225,
+          "n_sims": 248,
+          "p_1st": 0.5484,
+          "p_2nd": 0.2016,
+          "p_3rd": 0.25,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 417,
-          "p_1st": 0.2158,
-          "p_2nd": 0.2206,
-          "p_3rd": 0.4676,
-          "p_4th": 0.0959,
-          "p_advances": 0.8729
+          "n_sims": 415,
+          "p_1st": 0.1783,
+          "p_2nd": 0.2361,
+          "p_3rd": 0.4867,
+          "p_4th": 0.0988,
+          "p_advances": 0.8795
         }
       ]
     },
@@ -794,30 +794,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 273,
-          "p_1st": 0.1245,
-          "p_2nd": 0.3736,
-          "p_3rd": 0.3187,
-          "p_4th": 0.1832,
-          "p_advances": 0.663
+          "n_sims": 280,
+          "p_1st": 0.125,
+          "p_2nd": 0.3,
+          "p_3rd": 0.3786,
+          "p_4th": 0.1964,
+          "p_advances": 0.6393
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 255,
+          "n_sims": 250,
           "p_1st": 0.0,
-          "p_2nd": 0.2039,
-          "p_3rd": 0.1294,
-          "p_4th": 0.6667,
-          "p_advances": 0.3216
+          "p_2nd": 0.204,
+          "p_3rd": 0.1,
+          "p_4th": 0.696,
+          "p_advances": 0.3
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 472,
+          "n_sims": 470,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.1801,
-          "p_4th": 0.8199,
-          "p_advances": 0.053
+          "p_3rd": 0.1702,
+          "p_4th": 0.8298,
+          "p_advances": 0.0468
         }
       ]
     },
@@ -828,30 +828,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 523,
-          "p_1st": 0.501,
-          "p_2nd": 0.3423,
-          "p_3rd": 0.1511,
-          "p_4th": 0.0057,
-          "p_advances": 0.9943
+          "n_sims": 539,
+          "p_1st": 0.5195,
+          "p_2nd": 0.2987,
+          "p_3rd": 0.167,
+          "p_4th": 0.0148,
+          "p_advances": 0.9852
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 255,
-          "p_1st": 0.2784,
-          "p_2nd": 0.2118,
-          "p_3rd": 0.2863,
-          "p_4th": 0.2235,
-          "p_advances": 0.6353
+          "n_sims": 234,
+          "p_1st": 0.2393,
+          "p_2nd": 0.2009,
+          "p_3rd": 0.312,
+          "p_4th": 0.2479,
+          "p_advances": 0.6239
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 222,
-          "p_1st": 0.036,
-          "p_2nd": 0.1396,
-          "p_3rd": 0.3063,
-          "p_4th": 0.518,
-          "p_advances": 0.3874
+          "n_sims": 227,
+          "p_1st": 0.022,
+          "p_2nd": 0.1762,
+          "p_3rd": 0.3304,
+          "p_4th": 0.4714,
+          "p_advances": 0.4185
         }
       ]
     },
@@ -862,30 +862,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 355,
-          "p_1st": 0.5662,
-          "p_2nd": 0.2732,
-          "p_3rd": 0.1549,
-          "p_4th": 0.0056,
-          "p_advances": 0.9944
+          "n_sims": 371,
+          "p_1st": 0.5606,
+          "p_2nd": 0.2965,
+          "p_3rd": 0.1294,
+          "p_4th": 0.0135,
+          "p_advances": 0.9865
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 261,
-          "p_1st": 0.2299,
-          "p_2nd": 0.3487,
-          "p_3rd": 0.2261,
-          "p_4th": 0.1954,
-          "p_advances": 0.728
+          "n_sims": 251,
+          "p_1st": 0.1992,
+          "p_2nd": 0.3187,
+          "p_3rd": 0.2789,
+          "p_4th": 0.2032,
+          "p_advances": 0.7131
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 384,
-          "p_1st": 0.0052,
-          "p_2nd": 0.1953,
-          "p_3rd": 0.3802,
-          "p_4th": 0.4193,
-          "p_advances": 0.4974
+          "n_sims": 378,
+          "p_1st": 0.0079,
+          "p_2nd": 0.1931,
+          "p_3rd": 0.3386,
+          "p_4th": 0.4603,
+          "p_advances": 0.4206
         }
       ]
     },
@@ -896,30 +896,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 384,
-          "p_1st": 0.5286,
-          "p_2nd": 0.375,
-          "p_3rd": 0.0781,
-          "p_4th": 0.0182,
-          "p_advances": 0.9818
+          "n_sims": 378,
+          "p_1st": 0.5238,
+          "p_2nd": 0.3519,
+          "p_3rd": 0.119,
+          "p_4th": 0.0053,
+          "p_advances": 0.9947
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 261,
-          "p_1st": 0.3027,
-          "p_2nd": 0.1839,
-          "p_3rd": 0.3602,
-          "p_4th": 0.1533,
-          "p_advances": 0.6207
+          "n_sims": 251,
+          "p_1st": 0.247,
+          "p_2nd": 0.1833,
+          "p_3rd": 0.3785,
+          "p_4th": 0.1912,
+          "p_advances": 0.6175
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 355,
-          "p_1st": 0.0028,
-          "p_2nd": 0.1944,
-          "p_3rd": 0.2986,
-          "p_4th": 0.5042,
-          "p_advances": 0.3127
+          "n_sims": 371,
+          "p_1st": 0.0243,
+          "p_2nd": 0.2345,
+          "p_3rd": 0.2507,
+          "p_4th": 0.4906,
+          "p_advances": 0.3423
         }
       ]
     },
@@ -930,30 +930,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 222,
-          "p_1st": 0.3649,
-          "p_2nd": 0.4099,
-          "p_3rd": 0.2027,
-          "p_4th": 0.0225,
-          "p_advances": 0.9775
+          "n_sims": 227,
+          "p_1st": 0.4009,
+          "p_2nd": 0.3789,
+          "p_3rd": 0.2026,
+          "p_4th": 0.0176,
+          "p_advances": 0.9824
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 255,
-          "p_1st": 0.1176,
-          "p_2nd": 0.1922,
-          "p_3rd": 0.3647,
-          "p_4th": 0.3255,
-          "p_advances": 0.5098
+          "n_sims": 234,
+          "p_1st": 0.1538,
+          "p_2nd": 0.2692,
+          "p_3rd": 0.359,
+          "p_4th": 0.2179,
+          "p_advances": 0.5684
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 523,
-          "p_1st": 0.0038,
-          "p_2nd": 0.1377,
-          "p_3rd": 0.2906,
-          "p_4th": 0.5679,
-          "p_advances": 0.2964
+          "n_sims": 539,
+          "p_1st": 0.0037,
+          "p_2nd": 0.1373,
+          "p_3rd": 0.2839,
+          "p_4th": 0.5751,
+          "p_advances": 0.2653
         }
       ]
     },
@@ -964,30 +964,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 356,
-          "p_1st": 0.3539,
-          "p_2nd": 0.368,
-          "p_3rd": 0.264,
-          "p_4th": 0.014,
-          "p_advances": 0.986
+          "n_sims": 362,
+          "p_1st": 0.3177,
+          "p_2nd": 0.3646,
+          "p_3rd": 0.2956,
+          "p_4th": 0.0221,
+          "p_advances": 0.9779
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 278,
-          "p_1st": 0.1367,
-          "p_2nd": 0.2122,
-          "p_3rd": 0.3561,
-          "p_4th": 0.295,
-          "p_advances": 0.4784
+          "n_sims": 255,
+          "p_1st": 0.1176,
+          "p_2nd": 0.2392,
+          "p_3rd": 0.3255,
+          "p_4th": 0.3176,
+          "p_advances": 0.5333
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 366,
-          "p_1st": 0.0055,
-          "p_2nd": 0.1093,
-          "p_3rd": 0.2486,
-          "p_4th": 0.6366,
-          "p_advances": 0.2732
+          "n_sims": 383,
+          "p_1st": 0.0104,
+          "p_2nd": 0.107,
+          "p_3rd": 0.2715,
+          "p_4th": 0.611,
+          "p_advances": 0.2768
         }
       ]
     },
@@ -998,30 +998,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 366,
-          "p_1st": 0.3825,
-          "p_2nd": 0.3798,
-          "p_3rd": 0.2268,
-          "p_4th": 0.0109,
-          "p_advances": 0.9891
+          "n_sims": 383,
+          "p_1st": 0.3995,
+          "p_2nd": 0.3603,
+          "p_3rd": 0.2272,
+          "p_4th": 0.0131,
+          "p_advances": 0.9869
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 278,
-          "p_1st": 0.205,
-          "p_2nd": 0.205,
-          "p_3rd": 0.3453,
-          "p_4th": 0.2446,
-          "p_advances": 0.5504
+          "n_sims": 255,
+          "p_1st": 0.149,
+          "p_2nd": 0.1765,
+          "p_3rd": 0.3882,
+          "p_4th": 0.2863,
+          "p_advances": 0.4706
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 356,
-          "p_1st": 0.0225,
-          "p_2nd": 0.1011,
-          "p_3rd": 0.2669,
-          "p_4th": 0.6096,
-          "p_advances": 0.264
+          "n_sims": 362,
+          "p_1st": 0.0166,
+          "p_2nd": 0.1409,
+          "p_3rd": 0.2376,
+          "p_4th": 0.605,
+          "p_advances": 0.2873
         }
       ]
     },
@@ -1032,30 +1032,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 434,
-          "p_1st": 0.6475,
-          "p_2nd": 0.2558,
-          "p_3rd": 0.0876,
-          "p_4th": 0.0092,
-          "p_advances": 0.9908
+          "n_sims": 444,
+          "p_1st": 0.6667,
+          "p_2nd": 0.223,
+          "p_3rd": 0.0901,
+          "p_4th": 0.0203,
+          "p_advances": 0.9797
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 228,
-          "p_1st": 0.2588,
-          "p_2nd": 0.2851,
-          "p_3rd": 0.2544,
-          "p_4th": 0.2018,
-          "p_advances": 0.6886
+          "n_sims": 227,
+          "p_1st": 0.2907,
+          "p_2nd": 0.2467,
+          "p_3rd": 0.3128,
+          "p_4th": 0.1498,
+          "p_advances": 0.6916
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 338,
-          "p_1st": 0.0148,
-          "p_2nd": 0.2781,
-          "p_3rd": 0.2811,
-          "p_4th": 0.426,
-          "p_advances": 0.4704
+          "n_sims": 329,
+          "p_1st": 0.0182,
+          "p_2nd": 0.3161,
+          "p_3rd": 0.2766,
+          "p_4th": 0.3891,
+          "p_advances": 0.4833
         }
       ]
     },
@@ -1066,30 +1066,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 338,
-          "p_1st": 0.6095,
-          "p_2nd": 0.2692,
-          "p_3rd": 0.1124,
-          "p_4th": 0.0089,
-          "p_advances": 0.9911
+          "n_sims": 329,
+          "p_1st": 0.6505,
+          "p_2nd": 0.228,
+          "p_3rd": 0.1094,
+          "p_4th": 0.0122,
+          "p_advances": 0.9878
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 228,
-          "p_1st": 0.3246,
-          "p_2nd": 0.2763,
-          "p_3rd": 0.2763,
-          "p_4th": 0.1228,
-          "p_advances": 0.7368
+          "n_sims": 227,
+          "p_1st": 0.2775,
+          "p_2nd": 0.304,
+          "p_3rd": 0.2952,
+          "p_4th": 0.1233,
+          "p_advances": 0.7313
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 434,
-          "p_1st": 0.0092,
-          "p_2nd": 0.2627,
-          "p_3rd": 0.3456,
-          "p_4th": 0.3825,
-          "p_advances": 0.4608
+          "n_sims": 444,
+          "p_1st": 0.0203,
+          "p_2nd": 0.2905,
+          "p_3rd": 0.2905,
+          "p_4th": 0.3986,
+          "p_advances": 0.4685
         }
       ]
     },
@@ -1100,30 +1100,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 537,
-          "p_1st": 0.9106,
-          "p_2nd": 0.0819,
-          "p_3rd": 0.0074,
+          "n_sims": 494,
+          "p_1st": 0.919,
+          "p_2nd": 0.0709,
+          "p_3rd": 0.0101,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 224,
-          "p_1st": 0.4062,
-          "p_2nd": 0.4464,
-          "p_3rd": 0.1473,
-          "p_4th": 0.0,
-          "p_advances": 1.0
+          "n_sims": 237,
+          "p_1st": 0.5105,
+          "p_2nd": 0.3629,
+          "p_3rd": 0.1181,
+          "p_4th": 0.0084,
+          "p_advances": 0.9916
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 239,
-          "p_1st": 0.0711,
-          "p_2nd": 0.6485,
-          "p_3rd": 0.1757,
-          "p_4th": 0.1046,
-          "p_advances": 0.8536
+          "n_sims": 269,
+          "p_1st": 0.0669,
+          "p_2nd": 0.658,
+          "p_3rd": 0.1859,
+          "p_4th": 0.0892,
+          "p_advances": 0.8773
         }
       ]
     },
@@ -1134,30 +1134,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 310,
-          "p_1st": 0.1742,
-          "p_2nd": 0.1871,
-          "p_3rd": 0.5613,
-          "p_4th": 0.0774,
-          "p_advances": 0.7355
+          "n_sims": 309,
+          "p_1st": 0.1359,
+          "p_2nd": 0.1715,
+          "p_3rd": 0.6214,
+          "p_4th": 0.0712,
+          "p_advances": 0.7055
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 272,
+          "n_sims": 260,
           "p_1st": 0.0,
-          "p_2nd": 0.0809,
-          "p_3rd": 0.2574,
-          "p_4th": 0.6618,
-          "p_advances": 0.2059
+          "p_2nd": 0.0577,
+          "p_3rd": 0.2346,
+          "p_4th": 0.7077,
+          "p_advances": 0.2115
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 418,
+          "n_sims": 431,
           "p_1st": 0.0,
-          "p_2nd": 0.0072,
-          "p_3rd": 0.0502,
-          "p_4th": 0.9426,
-          "p_advances": 0.0335
+          "p_2nd": 0.0023,
+          "p_3rd": 0.051,
+          "p_4th": 0.9466,
+          "p_advances": 0.0255
         }
       ]
     },
@@ -1168,30 +1168,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 239,
-          "p_1st": 0.8494,
-          "p_2nd": 0.1046,
-          "p_3rd": 0.046,
+          "n_sims": 269,
+          "p_1st": 0.829,
+          "p_2nd": 0.119,
+          "p_3rd": 0.052,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 224,
-          "p_1st": 0.433,
-          "p_2nd": 0.3348,
-          "p_3rd": 0.2321,
+          "n_sims": 237,
+          "p_1st": 0.3924,
+          "p_2nd": 0.3924,
+          "p_3rd": 0.2152,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 537,
-          "p_1st": 0.0112,
-          "p_2nd": 0.54,
-          "p_3rd": 0.324,
-          "p_4th": 0.1248,
-          "p_advances": 0.8343
+          "n_sims": 494,
+          "p_1st": 0.0223,
+          "p_2nd": 0.5344,
+          "p_3rd": 0.3401,
+          "p_4th": 0.1032,
+          "p_advances": 0.8583
         }
       ]
     },
@@ -1202,30 +1202,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 418,
-          "p_1st": 0.1005,
-          "p_2nd": 0.3421,
-          "p_3rd": 0.5478,
-          "p_4th": 0.0096,
-          "p_advances": 0.9163
+          "n_sims": 431,
+          "p_1st": 0.0835,
+          "p_2nd": 0.3457,
+          "p_3rd": 0.5615,
+          "p_4th": 0.0093,
+          "p_advances": 0.8654
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 272,
-          "p_1st": 0.0037,
-          "p_2nd": 0.2647,
-          "p_3rd": 0.4743,
-          "p_4th": 0.2574,
-          "p_advances": 0.3676
+          "n_sims": 260,
+          "p_1st": 0.0077,
+          "p_2nd": 0.3192,
+          "p_3rd": 0.4808,
+          "p_4th": 0.1923,
+          "p_advances": 0.4577
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 310,
+          "n_sims": 309,
           "p_1st": 0.0,
-          "p_2nd": 0.0419,
-          "p_3rd": 0.1968,
-          "p_4th": 0.7613,
-          "p_advances": 0.1645
+          "p_2nd": 0.0388,
+          "p_3rd": 0.1359,
+          "p_4th": 0.8252,
+          "p_advances": 0.1133
         }
       ]
     },
@@ -1236,30 +1236,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 353,
-          "p_1st": 0.1133,
-          "p_2nd": 0.4306,
-          "p_3rd": 0.2465,
-          "p_4th": 0.2096,
-          "p_advances": 0.7252
+          "n_sims": 335,
+          "p_1st": 0.1164,
+          "p_2nd": 0.4,
+          "p_3rd": 0.2567,
+          "p_4th": 0.2269,
+          "p_advances": 0.7134
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 271,
+          "n_sims": 263,
           "p_1st": 0.0,
-          "p_2nd": 0.0443,
-          "p_3rd": 0.5535,
-          "p_4th": 0.4022,
-          "p_advances": 0.4465
+          "p_2nd": 0.0418,
+          "p_3rd": 0.4905,
+          "p_4th": 0.4677,
+          "p_advances": 0.365
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 376,
+          "n_sims": 402,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.4149,
-          "p_4th": 0.5851,
-          "p_advances": 0.1915
+          "p_3rd": 0.3856,
+          "p_4th": 0.6144,
+          "p_advances": 0.1592
         }
       ]
     },
@@ -1270,30 +1270,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 525,
-          "p_1st": 0.72,
-          "p_2nd": 0.28,
+          "n_sims": 538,
+          "p_1st": 0.7361,
+          "p_2nd": 0.2639,
           "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 235,
-          "p_1st": 0.583,
-          "p_2nd": 0.3745,
-          "p_3rd": 0.0426,
+          "n_sims": 220,
+          "p_1st": 0.5318,
+          "p_2nd": 0.4045,
+          "p_3rd": 0.0636,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 240,
-          "p_1st": 0.3625,
-          "p_2nd": 0.275,
-          "p_3rd": 0.2458,
-          "p_4th": 0.1167,
-          "p_advances": 0.8583
+          "n_sims": 242,
+          "p_1st": 0.343,
+          "p_2nd": 0.2479,
+          "p_3rd": 0.281,
+          "p_4th": 0.1281,
+          "p_advances": 0.8347
         }
       ]
     },
@@ -1304,30 +1304,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 376,
-          "p_1st": 0.4574,
-          "p_2nd": 0.5372,
-          "p_3rd": 0.0053,
+          "n_sims": 402,
+          "p_1st": 0.4229,
+          "p_2nd": 0.5746,
+          "p_3rd": 0.0025,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 271,
-          "p_1st": 0.3321,
-          "p_2nd": 0.6236,
-          "p_3rd": 0.0443,
+          "n_sims": 263,
+          "p_1st": 0.3194,
+          "p_2nd": 0.6312,
+          "p_3rd": 0.0494,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 353,
-          "p_1st": 0.1643,
-          "p_2nd": 0.221,
-          "p_3rd": 0.4873,
-          "p_4th": 0.1275,
-          "p_advances": 0.7819
+          "n_sims": 335,
+          "p_1st": 0.2269,
+          "p_2nd": 0.2179,
+          "p_3rd": 0.4388,
+          "p_4th": 0.1164,
+          "p_advances": 0.794
         }
       ]
     },
@@ -1338,30 +1338,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 240,
-          "p_1st": 0.1583,
-          "p_2nd": 0.3,
-          "p_3rd": 0.2292,
-          "p_4th": 0.3125,
-          "p_advances": 0.6625
+          "n_sims": 242,
+          "p_1st": 0.1446,
+          "p_2nd": 0.3306,
+          "p_3rd": 0.2851,
+          "p_4th": 0.2397,
+          "p_advances": 0.7273
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 235,
+          "n_sims": 220,
           "p_1st": 0.0,
-          "p_2nd": 0.0553,
-          "p_3rd": 0.4043,
-          "p_4th": 0.5404,
-          "p_advances": 0.2936
+          "p_2nd": 0.0545,
+          "p_3rd": 0.4455,
+          "p_4th": 0.5,
+          "p_advances": 0.3182
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 525,
+          "n_sims": 538,
           "p_1st": 0.0,
-          "p_2nd": 0.0019,
-          "p_3rd": 0.3848,
-          "p_4th": 0.6133,
-          "p_advances": 0.1867
+          "p_2nd": 0.0037,
+          "p_3rd": 0.4089,
+          "p_4th": 0.5874,
+          "p_advances": 0.197
         }
       ]
     },
@@ -1372,30 +1372,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 367,
-          "p_1st": 0.9101,
-          "p_2nd": 0.0899,
+          "n_sims": 368,
+          "p_1st": 0.875,
+          "p_2nd": 0.125,
           "p_3rd": 0.0,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 223,
-          "p_1st": 0.6457,
-          "p_2nd": 0.2377,
-          "p_3rd": 0.1166,
+          "n_sims": 222,
+          "p_1st": 0.6577,
+          "p_2nd": 0.1712,
+          "p_3rd": 0.1712,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
           "n_sims": 410,
-          "p_1st": 0.2683,
-          "p_2nd": 0.3488,
-          "p_3rd": 0.3146,
-          "p_4th": 0.0683,
-          "p_advances": 0.8756
+          "p_1st": 0.2463,
+          "p_2nd": 0.3707,
+          "p_3rd": 0.3244,
+          "p_4th": 0.0585,
+          "p_advances": 0.9049
         }
       ]
     },
@@ -1406,30 +1406,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 353,
-          "p_1st": 0.2833,
-          "p_2nd": 0.4306,
-          "p_3rd": 0.2861,
+          "n_sims": 345,
+          "p_1st": 0.3275,
+          "p_2nd": 0.3797,
+          "p_3rd": 0.2928,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 299,
-          "p_1st": 0.0569,
-          "p_2nd": 0.2542,
-          "p_3rd": 0.5251,
-          "p_4th": 0.1639,
-          "p_advances": 0.4983
+          "n_sims": 298,
+          "p_1st": 0.0671,
+          "p_2nd": 0.2383,
+          "p_3rd": 0.5336,
+          "p_4th": 0.1611,
+          "p_advances": 0.5403
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 348,
-          "p_1st": 0.0115,
-          "p_2nd": 0.1149,
-          "p_3rd": 0.2184,
-          "p_4th": 0.6552,
-          "p_advances": 0.2615
+          "n_sims": 357,
+          "p_1st": 0.0056,
+          "p_2nd": 0.1345,
+          "p_3rd": 0.1933,
+          "p_4th": 0.6667,
+          "p_advances": 0.2773
         }
       ]
     },
@@ -1441,29 +1441,29 @@
         {
           "matchday_3_result": "win",
           "n_sims": 410,
-          "p_1st": 0.5439,
-          "p_2nd": 0.3317,
-          "p_3rd": 0.1244,
+          "p_1st": 0.5927,
+          "p_2nd": 0.2537,
+          "p_3rd": 0.1537,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 223,
-          "p_1st": 0.1031,
-          "p_2nd": 0.3632,
-          "p_3rd": 0.287,
-          "p_4th": 0.2466,
-          "p_advances": 0.6457
+          "n_sims": 222,
+          "p_1st": 0.1081,
+          "p_2nd": 0.4459,
+          "p_3rd": 0.2523,
+          "p_4th": 0.1937,
+          "p_advances": 0.7477
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 367,
+          "n_sims": 368,
           "p_1st": 0.0,
-          "p_2nd": 0.346,
-          "p_3rd": 0.3597,
-          "p_4th": 0.2943,
-          "p_advances": 0.5341
+          "p_2nd": 0.3451,
+          "p_3rd": 0.3777,
+          "p_4th": 0.2772,
+          "p_advances": 0.5734
         }
       ]
     },
@@ -1474,30 +1474,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 348,
-          "p_1st": 0.1264,
-          "p_2nd": 0.3017,
-          "p_3rd": 0.454,
-          "p_4th": 0.1178,
-          "p_advances": 0.7356
+          "n_sims": 357,
+          "p_1st": 0.0784,
+          "p_2nd": 0.3445,
+          "p_3rd": 0.4426,
+          "p_4th": 0.1345,
+          "p_advances": 0.7367
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 299,
-          "p_1st": 0.0033,
-          "p_2nd": 0.1806,
-          "p_3rd": 0.1405,
-          "p_4th": 0.6756,
-          "p_advances": 0.2375
+          "n_sims": 298,
+          "p_1st": 0.0034,
+          "p_2nd": 0.2047,
+          "p_3rd": 0.1242,
+          "p_4th": 0.6678,
+          "p_advances": 0.2617
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 353,
+          "n_sims": 345,
           "p_1st": 0.0,
           "p_2nd": 0.0,
-          "p_3rd": 0.1813,
-          "p_4th": 0.8187,
-          "p_advances": 0.1133
+          "p_3rd": 0.1362,
+          "p_4th": 0.8638,
+          "p_advances": 0.0783
         }
       ]
     },
@@ -1508,30 +1508,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 481,
-          "p_1st": 0.1268,
-          "p_2nd": 0.5052,
-          "p_3rd": 0.2391,
-          "p_4th": 0.1289,
-          "p_advances": 0.8503
+          "n_sims": 491,
+          "p_1st": 0.1181,
+          "p_2nd": 0.5153,
+          "p_3rd": 0.2037,
+          "p_4th": 0.1629,
+          "p_advances": 0.8126
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 270,
+          "n_sims": 242,
           "p_1st": 0.0,
-          "p_2nd": 0.1667,
-          "p_3rd": 0.3519,
-          "p_4th": 0.4815,
-          "p_advances": 0.4148
+          "p_2nd": 0.1983,
+          "p_3rd": 0.3719,
+          "p_4th": 0.4298,
+          "p_advances": 0.4669
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 249,
+          "n_sims": 267,
           "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.4458,
-          "p_4th": 0.5542,
-          "p_advances": 0.3173
+          "p_2nd": 0.0037,
+          "p_3rd": 0.4794,
+          "p_4th": 0.5169,
+          "p_advances": 0.3521
         }
       ]
     },
@@ -1542,30 +1542,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 493,
-          "p_1st": 0.787,
-          "p_2nd": 0.2049,
-          "p_3rd": 0.0081,
+          "n_sims": 465,
+          "p_1st": 0.7656,
+          "p_2nd": 0.2323,
+          "p_3rd": 0.0022,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 215,
-          "p_1st": 0.6465,
-          "p_2nd": 0.2837,
-          "p_3rd": 0.0698,
+          "n_sims": 259,
+          "p_1st": 0.6409,
+          "p_2nd": 0.2973,
+          "p_3rd": 0.0618,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 292,
-          "p_1st": 0.3801,
-          "p_2nd": 0.2603,
-          "p_3rd": 0.2192,
-          "p_4th": 0.1404,
-          "p_advances": 0.8288
+          "n_sims": 276,
+          "p_1st": 0.3877,
+          "p_2nd": 0.3007,
+          "p_3rd": 0.2029,
+          "p_4th": 0.1087,
+          "p_advances": 0.8659
         }
       ]
     },
@@ -1576,30 +1576,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 249,
-          "p_1st": 0.3976,
-          "p_2nd": 0.5743,
-          "p_3rd": 0.0281,
+          "n_sims": 267,
+          "p_1st": 0.4307,
+          "p_2nd": 0.5506,
+          "p_3rd": 0.0187,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 270,
-          "p_1st": 0.2963,
-          "p_2nd": 0.5481,
-          "p_3rd": 0.1556,
+          "n_sims": 242,
+          "p_1st": 0.2934,
+          "p_2nd": 0.4711,
+          "p_3rd": 0.2355,
           "p_4th": 0.0,
           "p_advances": 1.0
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 481,
-          "p_1st": 0.1372,
-          "p_2nd": 0.1351,
-          "p_3rd": 0.5343,
-          "p_4th": 0.1933,
-          "p_advances": 0.6466
+          "n_sims": 491,
+          "p_1st": 0.1527,
+          "p_2nd": 0.1181,
+          "p_3rd": 0.5519,
+          "p_4th": 0.1772,
+          "p_advances": 0.6578
         }
       ]
     },
@@ -1610,30 +1610,30 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 292,
-          "p_1st": 0.1918,
-          "p_2nd": 0.2568,
-          "p_3rd": 0.2432,
-          "p_4th": 0.3082,
-          "p_advances": 0.6575
+          "n_sims": 276,
+          "p_1st": 0.1884,
+          "p_2nd": 0.2464,
+          "p_3rd": 0.1812,
+          "p_4th": 0.3841,
+          "p_advances": 0.6051
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 215,
+          "n_sims": 259,
           "p_1st": 0.0,
-          "p_2nd": 0.0884,
-          "p_3rd": 0.3488,
-          "p_4th": 0.5628,
-          "p_advances": 0.3023
+          "p_2nd": 0.0888,
+          "p_3rd": 0.3166,
+          "p_4th": 0.5946,
+          "p_advances": 0.2973
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 493,
+          "n_sims": 465,
           "p_1st": 0.0,
-          "p_2nd": 0.0487,
-          "p_3rd": 0.2921,
-          "p_4th": 0.6592,
-          "p_advances": 0.2434
+          "p_2nd": 0.043,
+          "p_3rd": 0.3097,
+          "p_4th": 0.6473,
+          "p_advances": 0.2344
         }
       ]
     }
