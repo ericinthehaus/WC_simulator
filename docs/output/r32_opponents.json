@@ -11,64 +11,58 @@
       "crest_url": "https://crests.football-data.org/algeria.svg",
       "opponents": [
         {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.224
+        },
+        {
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.235
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.127
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.096
+          "probability": 0.218
         },
         {
           "opponent_id": 758,
           "opponent_name": "Uruguay",
           "opponent_group": "H",
-          "probability": 0.093
-        },
-        {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.087
+          "probability": 0.094
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.06
+          "probability": 0.065
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.043
+          "probability": 0.048
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.027
+          "probability": 0.041
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.025
+          "probability": 0.023
         },
         {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.011
+          "probability": 0.014
+        },
+        {
+          "opponent_id": 799,
+          "opponent_name": "Croatia",
+          "opponent_group": "L",
+          "probability": 0.013
         },
         {
           "opponent_id": 1930,
@@ -77,14 +71,14 @@
           "probability": 0.009
         },
         {
-          "opponent_id": 799,
-          "opponent_name": "Croatia",
-          "opponent_group": "L",
-          "probability": 0.009
-        },
-        {
           "opponent_id": 818,
           "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.002
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
           "opponent_group": "K",
           "probability": 0.002
         }
@@ -100,25 +94,25 @@
           "opponent_id": 1930,
           "opponent_name": "Cape Verde Islands",
           "opponent_group": "H",
-          "probability": 0.456
+          "probability": 0.439
         },
         {
           "opponent_id": 801,
           "opponent_name": "Saudi Arabia",
           "opponent_group": "H",
-          "probability": 0.257
+          "probability": 0.247
         },
         {
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.205
+          "probability": 0.224
         },
         {
           "opponent_id": 758,
           "opponent_name": "Uruguay",
           "opponent_group": "H",
-          "probability": 0.082
+          "probability": 0.09
         }
       ]
     },
@@ -132,25 +126,25 @@
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.355
+          "probability": 0.347
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.243
+          "probability": 0.217
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.127
+          "probability": 0.131
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.085
+          "probability": 0.092
         },
         {
           "opponent_id": 783,
@@ -162,13 +156,7 @@
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.015
-        },
-        {
-          "opponent_id": 8872,
-          "opponent_name": "Norway",
-          "opponent_group": "I",
-          "probability": 0.007
+          "probability": 0.018
         },
         {
           "opponent_id": 765,
@@ -181,6 +169,12 @@
           "opponent_name": "Colombia",
           "opponent_group": "K",
           "probability": 0.004
+        },
+        {
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
+          "opponent_group": "I",
+          "probability": 0.003
         }
       ]
     },
@@ -194,73 +188,67 @@
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.458
+          "probability": 0.452
         },
         {
           "opponent_id": 758,
           "opponent_name": "Uruguay",
           "opponent_group": "H",
-          "probability": 0.184
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.07
+          "probability": 0.199
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.056
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.045
+          "probability": 0.119
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.036
+          "probability": 0.04
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.029
+          "probability": 0.031
         },
         {
           "opponent_id": 1930,
           "opponent_name": "Cape Verde Islands",
           "opponent_group": "H",
-          "probability": 0.021
+          "probability": 0.028
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.02
+          "probability": 0.016
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.012
+          "probability": 0.013
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.01
+          "probability": 0.008
         },
         {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.007
+          "probability": 0.006
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.002
         },
         {
           "opponent_id": 818,
@@ -280,71 +268,77 @@
           "opponent_id": 779,
           "opponent_name": "Australia",
           "opponent_group": "D",
-          "probability": 0.355
+          "probability": 0.347
         },
         {
           "opponent_id": 761,
           "opponent_name": "Paraguay",
           "opponent_group": "D",
-          "probability": 0.176
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.082
+          "probability": 0.186
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.051
-        },
-        {
-          "opponent_id": 778,
-          "opponent_name": "Algeria",
-          "opponent_group": "J",
-          "probability": 0.025
+          "probability": 0.134
         },
         {
           "opponent_id": 798,
           "opponent_name": "Czechia",
           "opponent_group": "A",
-          "probability": 0.022
+          "probability": 0.036
         },
         {
-          "opponent_id": 774,
-          "opponent_name": "South Africa",
-          "opponent_group": "A",
-          "probability": 0.015
-        },
-        {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
+          "opponent_id": 778,
+          "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.012
+          "probability": 0.023
         },
         {
           "opponent_id": 772,
           "opponent_name": "South Korea",
           "opponent_group": "A",
-          "probability": 0.011
+          "probability": 0.014
         },
         {
-          "opponent_id": 801,
-          "opponent_name": "Saudi Arabia",
+          "opponent_id": 816,
+          "opponent_name": "Austria",
+          "opponent_group": "J",
+          "probability": 0.013
+        },
+        {
+          "opponent_id": 774,
+          "opponent_name": "South Africa",
+          "opponent_group": "A",
+          "probability": 0.013
+        },
+        {
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
           "opponent_group": "H",
-          "probability": 0.007
+          "probability": 0.011
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
+          "probability": 0.009
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
           "probability": 0.007
         },
         {
-          "opponent_id": 758,
-          "opponent_name": "Uruguay",
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
+          "opponent_group": "I",
+          "probability": 0.006
+        },
+        {
+          "opponent_id": 760,
+          "opponent_name": "Spain",
           "opponent_group": "H",
           "probability": 0.006
         },
@@ -352,29 +346,17 @@
           "opponent_id": 1930,
           "opponent_name": "Cape Verde Islands",
           "opponent_group": "H",
-          "probability": 0.005
-        },
-        {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
           "probability": 0.004
         },
         {
-          "opponent_id": 8872,
-          "opponent_name": "Norway",
-          "opponent_group": "I",
-          "probability": 0.002
-        },
-        {
-          "opponent_id": 760,
-          "opponent_name": "Spain",
+          "opponent_id": 801,
+          "opponent_name": "Saudi Arabia",
           "opponent_group": "H",
-          "probability": 0.002
+          "probability": 0.003
         },
         {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
           "probability": 0.001
         }
@@ -390,7 +372,7 @@
           "opponent_id": 771,
           "opponent_name": "United States",
           "opponent_group": "D",
-          "probability": 0.303
+          "probability": 1.0
         }
       ]
     },
@@ -404,31 +386,31 @@
           "opponent_id": 8601,
           "opponent_name": "Netherlands",
           "opponent_group": "F",
-          "probability": 0.365
+          "probability": 0.407
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.26
+          "probability": 0.245
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.157
-        },
-        {
-          "opponent_id": 792,
-          "opponent_name": "Sweden",
-          "opponent_group": "F",
-          "probability": 0.124
+          "probability": 0.131
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.094
+          "probability": 0.109
+        },
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.108
         }
       ]
     },
@@ -442,97 +424,19 @@
           "opponent_id": 772,
           "opponent_name": "South Korea",
           "opponent_group": "A",
-          "probability": 0.296
-        },
-        {
-          "opponent_id": 778,
-          "opponent_name": "Algeria",
-          "opponent_group": "J",
-          "probability": 0.127
-        },
-        {
-          "opponent_id": 840,
-          "opponent_name": "Iran",
-          "opponent_group": "G",
-          "probability": 0.126
-        },
-        {
-          "opponent_id": 825,
-          "opponent_name": "Egypt",
-          "opponent_group": "G",
-          "probability": 0.119
-        },
-        {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.082
+          "probability": 0.744
         },
         {
           "opponent_id": 774,
           "opponent_name": "South Africa",
           "opponent_group": "A",
-          "probability": 0.08
-        },
-        {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
-          "opponent_group": "J",
-          "probability": 0.07
-        },
-        {
-          "opponent_id": 783,
-          "opponent_name": "New Zealand",
-          "opponent_group": "G",
-          "probability": 0.041
+          "probability": 0.181
         },
         {
           "opponent_id": 798,
           "opponent_name": "Czechia",
           "opponent_group": "A",
-          "probability": 0.026
-        },
-        {
-          "opponent_id": 792,
-          "opponent_name": "Sweden",
-          "opponent_group": "F",
-          "probability": 0.008
-        },
-        {
-          "opponent_id": 791,
-          "opponent_name": "Ecuador",
-          "opponent_group": "E",
-          "probability": 0.008
-        },
-        {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
-          "opponent_group": "E",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 8601,
-          "opponent_name": "Netherlands",
-          "opponent_group": "F",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 766,
-          "opponent_name": "Japan",
-          "opponent_group": "F",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 9460,
-          "opponent_name": "Cura\u00e7ao",
-          "opponent_group": "E",
-          "probability": 0.001
+          "probability": 0.075
         }
       ]
     },
@@ -546,13 +450,13 @@
           "opponent_id": 762,
           "opponent_name": "Argentina",
           "opponent_group": "J",
-          "probability": 0.456
+          "probability": 0.439
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.068
+          "probability": 0.079
         },
         {
           "opponent_id": 825,
@@ -564,13 +468,13 @@
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.021
+          "probability": 0.028
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.016
+          "probability": 0.011
         },
         {
           "opponent_id": 778,
@@ -579,28 +483,22 @@
           "probability": 0.009
         },
         {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.005
-        },
-        {
-          "opponent_id": 763,
-          "opponent_name": "Ghana",
-          "opponent_group": "L",
-          "probability": 0.004
-        },
-        {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.003
+          "probability": 0.005
         },
         {
-          "opponent_id": 8872,
-          "opponent_name": "Norway",
-          "opponent_group": "I",
-          "probability": 0.002
+          "opponent_id": 805,
+          "opponent_name": "Belgium",
+          "opponent_group": "G",
+          "probability": 0.004
+        },
+        {
+          "opponent_id": 799,
+          "opponent_name": "Croatia",
+          "opponent_group": "L",
+          "probability": 0.004
         },
         {
           "opponent_id": 770,
@@ -609,10 +507,10 @@
           "probability": 0.002
         },
         {
-          "opponent_id": 799,
-          "opponent_name": "Croatia",
-          "opponent_group": "L",
-          "probability": 0.001
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
+          "opponent_group": "I",
+          "probability": 0.002
         }
       ]
     },
@@ -626,7 +524,7 @@
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.402
+          "probability": 0.405
         },
         {
           "opponent_id": 799,
@@ -638,31 +536,31 @@
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.204
+          "probability": 0.201
         },
         {
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
-          "probability": 0.01
+          "probability": 0.011
         },
         {
-          "opponent_id": 761,
-          "opponent_name": "Paraguay",
-          "opponent_group": "D",
-          "probability": 0.009
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.008
         },
         {
           "opponent_id": 791,
           "opponent_name": "Ecuador",
           "opponent_group": "E",
-          "probability": 0.007
+          "probability": 0.006
         },
         {
-          "opponent_id": 9460,
-          "opponent_name": "Cura\u00e7ao",
-          "opponent_group": "E",
-          "probability": 0.004
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.005
         },
         {
           "opponent_id": 779,
@@ -671,10 +569,10 @@
           "probability": 0.004
         },
         {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.002
+          "probability": 0.003
         },
         {
           "opponent_id": 778,
@@ -686,12 +584,6 @@
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
           "probability": 0.001
         }
       ]
@@ -706,19 +598,19 @@
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.191
+          "probability": 0.214
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.108
+          "probability": 0.097
         },
         {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.089
+          "probability": 0.067
         }
       ]
     },
@@ -738,19 +630,25 @@
           "opponent_id": 765,
           "opponent_name": "Portugal",
           "opponent_group": "K",
-          "probability": 0.323
+          "probability": 0.304
         },
         {
           "opponent_id": 1934,
           "opponent_name": "Congo DR",
           "opponent_group": "K",
-          "probability": 0.108
+          "probability": 0.097
         },
         {
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
-          "probability": 0.052
+          "probability": 0.06
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.023
         },
         {
           "opponent_id": 8062,
@@ -759,40 +657,40 @@
           "probability": 0.018
         },
         {
-          "opponent_id": 791,
-          "opponent_name": "Ecuador",
-          "opponent_group": "E",
-          "probability": 0.016
+          "opponent_id": 778,
+          "opponent_name": "Algeria",
+          "opponent_group": "J",
+          "probability": 0.013
         },
         {
           "opponent_id": 1935,
           "opponent_name": "Ivory Coast",
           "opponent_group": "E",
-          "probability": 0.014
+          "probability": 0.012
         },
         {
           "opponent_id": 8070,
           "opponent_name": "Uzbekistan",
           "opponent_group": "K",
-          "probability": 0.013
-        },
-        {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
-          "opponent_group": "J",
-          "probability": 0.01
+          "probability": 0.012
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.009
+          "probability": 0.012
         },
         {
-          "opponent_id": 778,
-          "opponent_name": "Algeria",
+          "opponent_id": 816,
+          "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.009
+          "probability": 0.008
+        },
+        {
+          "opponent_id": 1930,
+          "opponent_name": "Cape Verde Islands",
+          "opponent_group": "H",
+          "probability": 0.004
         },
         {
           "opponent_id": 758,
@@ -801,22 +699,10 @@
           "probability": 0.003
         },
         {
-          "opponent_id": 760,
-          "opponent_name": "Spain",
-          "opponent_group": "H",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 1930,
-          "opponent_name": "Cape Verde Islands",
-          "opponent_group": "H",
-          "probability": 0.001
-        },
-        {
           "opponent_id": 801,
           "opponent_name": "Saudi Arabia",
           "opponent_group": "H",
-          "probability": 0.001
+          "probability": 0.003
         }
       ]
     },
@@ -830,72 +716,72 @@
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.128
-        },
-        {
-          "opponent_id": 773,
-          "opponent_name": "France",
-          "opponent_group": "I",
-          "probability": 0.038
+          "probability": 0.141
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.031
+          "probability": 0.052
         },
         {
-          "opponent_id": 770,
-          "opponent_name": "England",
-          "opponent_group": "L",
-          "probability": 0.017
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.015
+          "opponent_id": 773,
+          "opponent_name": "France",
+          "opponent_group": "I",
+          "probability": 0.039
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.009
+          "probability": 0.012
         },
         {
-          "opponent_id": 763,
-          "opponent_name": "Ghana",
+          "opponent_id": 770,
+          "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.008
-        },
-        {
-          "opponent_id": 825,
-          "opponent_name": "Egypt",
-          "opponent_group": "G",
-          "probability": 0.005
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.004
+          "probability": 0.012
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
+          "probability": 0.008
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
           "probability": 0.004
+        },
+        {
+          "opponent_id": 825,
+          "opponent_name": "Egypt",
+          "opponent_group": "G",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.003
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.001
+          "probability": 0.002
         },
         {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
+          "opponent_id": 805,
+          "opponent_name": "Belgium",
+          "opponent_group": "G",
           "probability": 0.001
         }
       ]
@@ -910,31 +796,25 @@
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.173
-        },
-        {
-          "opponent_id": 840,
-          "opponent_name": "Iran",
-          "opponent_group": "G",
-          "probability": 0.067
-        },
-        {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.044
+          "probability": 0.133
         },
         {
           "opponent_id": 828,
           "opponent_name": "Canada",
           "opponent_group": "B",
-          "probability": 0.026
+          "probability": 0.075
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.072
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.022
+          "probability": 0.036
         }
       ]
     },
@@ -948,37 +828,43 @@
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.084
+          "probability": 0.108
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.071
+          "probability": 0.072
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.045
+          "probability": 0.044
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.024
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.024
+          "probability": 0.028
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.016
+          "probability": 0.023
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.017
+        },
+        {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.015
         },
         {
           "opponent_id": 825,
@@ -987,34 +873,22 @@
           "probability": 0.015
         },
         {
-          "opponent_id": 763,
-          "opponent_name": "Ghana",
-          "opponent_group": "L",
-          "probability": 0.01
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.006
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.005
         },
         {
           "opponent_id": 765,
           "opponent_name": "Portugal",
           "opponent_group": "K",
-          "probability": 0.009
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.008
-        },
-        {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.007
+          "probability": 0.003
         }
       ]
     },
@@ -1025,58 +899,58 @@
       "crest_url": "https://crests.football-data.org/825.svg",
       "opponents": [
         {
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
+          "opponent_group": "B",
+          "probability": 0.205
+        },
+        {
           "opponent_id": 798,
           "opponent_name": "Czechia",
           "opponent_group": "A",
-          "probability": 0.173
+          "probability": 0.133
         },
         {
           "opponent_id": 779,
           "opponent_name": "Australia",
           "opponent_group": "D",
-          "probability": 0.127
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.119
-        },
-        {
-          "opponent_id": 772,
-          "opponent_name": "South Korea",
-          "opponent_group": "A",
-          "probability": 0.085
+          "probability": 0.131
         },
         {
           "opponent_id": 761,
           "opponent_name": "Paraguay",
           "opponent_group": "D",
-          "probability": 0.077
+          "probability": 0.081
         },
         {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.073
+          "opponent_id": 772,
+          "opponent_name": "South Korea",
+          "opponent_group": "A",
+          "probability": 0.07
         },
         {
           "opponent_id": 758,
           "opponent_name": "Uruguay",
           "opponent_group": "H",
-          "probability": 0.072
+          "probability": 0.054
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.049
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.043
+          "probability": 0.048
         },
         {
           "opponent_id": 774,
           "opponent_name": "South Africa",
           "opponent_group": "A",
-          "probability": 0.035
+          "probability": 0.037
         },
         {
           "opponent_id": 1930,
@@ -1085,28 +959,28 @@
           "probability": 0.034
         },
         {
-          "opponent_id": 801,
-          "opponent_name": "Saudi Arabia",
-          "opponent_group": "H",
-          "probability": 0.032
-        },
-        {
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.029
+          "probability": 0.031
+        },
+        {
+          "opponent_id": 801,
+          "opponent_name": "Saudi Arabia",
+          "opponent_group": "H",
+          "probability": 0.03
         },
         {
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.026
+          "probability": 0.025
         },
         {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
-          "probability": 0.021
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.017
         },
         {
           "opponent_id": 791,
@@ -1115,34 +989,28 @@
           "probability": 0.015
         },
         {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
+          "opponent_id": 773,
+          "opponent_name": "France",
           "opponent_group": "I",
           "probability": 0.015
         },
         {
-          "opponent_id": 773,
-          "opponent_name": "France",
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
           "opponent_group": "I",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 9460,
-          "opponent_name": "Cura\u00e7ao",
-          "opponent_group": "E",
-          "probability": 0.005
-        },
-        {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
-          "opponent_group": "E",
-          "probability": 0.005
+          "probability": 0.014
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.004
+          "probability": 0.008
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.003
         }
       ]
     },
@@ -1156,85 +1024,85 @@
           "opponent_id": 765,
           "opponent_name": "Portugal",
           "opponent_group": "K",
-          "probability": 0.268
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.204
+          "probability": 0.274
         },
         {
           "opponent_id": 1934,
           "opponent_name": "Congo DR",
           "opponent_group": "K",
-          "probability": 0.191
+          "probability": 0.214
+        },
+        {
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.201
         },
         {
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
-          "probability": 0.11
+          "probability": 0.096
         },
         {
           "opponent_id": 791,
           "opponent_name": "Ecuador",
           "opponent_group": "E",
-          "probability": 0.045
-        },
-        {
-          "opponent_id": 8070,
-          "opponent_name": "Uzbekistan",
-          "opponent_group": "K",
-          "probability": 0.038
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
-          "probability": 0.036
+          "probability": 0.044
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.027
+          "probability": 0.041
         },
         {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
-          "opponent_group": "J",
-          "probability": 0.02
+          "opponent_id": 8070,
+          "opponent_name": "Uzbekistan",
+          "opponent_group": "K",
+          "probability": 0.031
+        },
+        {
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.03
         },
         {
           "opponent_id": 1935,
           "opponent_name": "Ivory Coast",
           "opponent_group": "E",
-          "probability": 0.019
+          "probability": 0.025
+        },
+        {
+          "opponent_id": 816,
+          "opponent_name": "Austria",
+          "opponent_group": "J",
+          "probability": 0.016
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.017
-        },
-        {
-          "opponent_id": 758,
-          "opponent_name": "Uruguay",
-          "opponent_group": "H",
           "probability": 0.012
-        },
-        {
-          "opponent_id": 760,
-          "opponent_name": "Spain",
-          "opponent_group": "H",
-          "probability": 0.006
         },
         {
           "opponent_id": 801,
           "opponent_name": "Saudi Arabia",
           "opponent_group": "H",
-          "probability": 0.005
+          "probability": 0.007
+        },
+        {
+          "opponent_id": 760,
+          "opponent_name": "Spain",
+          "opponent_group": "H",
+          "probability": 0.004
+        },
+        {
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
+          "opponent_group": "H",
+          "probability": 0.003
         },
         {
           "opponent_id": 1930,
@@ -1254,67 +1122,85 @@
           "opponent_id": 792,
           "opponent_name": "Sweden",
           "opponent_group": "F",
-          "probability": 0.415
-        },
-        {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
-          "opponent_group": "E",
-          "probability": 0.214
+          "probability": 0.391
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.195
+          "probability": 0.201
         },
         {
-          "opponent_id": 761,
-          "opponent_name": "Paraguay",
-          "opponent_group": "D",
-          "probability": 0.042
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.198
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.038
+          "probability": 0.039
+        },
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.032
         },
         {
           "opponent_id": 791,
           "opponent_name": "Ecuador",
           "opponent_group": "E",
-          "probability": 0.024
-        },
-        {
-          "opponent_id": 779,
-          "opponent_name": "Australia",
-          "opponent_group": "D",
-          "probability": 0.015
-        },
-        {
-          "opponent_id": 8601,
-          "opponent_name": "Netherlands",
-          "opponent_group": "F",
-          "probability": 0.012
+          "probability": 0.028
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.011
+          "probability": 0.02
+        },
+        {
+          "opponent_id": 8601,
+          "opponent_name": "Netherlands",
+          "opponent_group": "F",
+          "probability": 0.02
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.018
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.01
+          "probability": 0.015
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.007
+          "probability": 0.009
+        },
+        {
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
+          "opponent_group": "H",
+          "probability": 0.009
+        },
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
+          "opponent_group": "G",
+          "probability": 0.009
+        },
+        {
+          "opponent_id": 1930,
+          "opponent_name": "Cape Verde Islands",
+          "opponent_group": "H",
+          "probability": 0.005
         },
         {
           "opponent_id": 760,
@@ -1323,28 +1209,10 @@
           "probability": 0.004
         },
         {
-          "opponent_id": 758,
-          "opponent_name": "Uruguay",
-          "opponent_group": "H",
-          "probability": 0.004
-        },
-        {
           "opponent_id": 801,
           "opponent_name": "Saudi Arabia",
           "opponent_group": "H",
-          "probability": 0.003
-        },
-        {
-          "opponent_id": 1930,
-          "opponent_name": "Cape Verde Islands",
-          "opponent_group": "H",
-          "probability": 0.003
-        },
-        {
-          "opponent_id": 783,
-          "opponent_name": "New Zealand",
-          "opponent_group": "G",
-          "probability": 0.003
+          "probability": 0.002
         }
       ]
     },
@@ -1358,59 +1226,59 @@
           "opponent_id": 761,
           "opponent_name": "Paraguay",
           "opponent_group": "D",
-          "probability": 0.385
+          "probability": 0.368
         },
         {
           "opponent_id": 779,
           "opponent_name": "Australia",
           "opponent_group": "D",
-          "probability": 0.243
+          "probability": 0.217
         },
         {
           "opponent_id": 8873,
           "opponent_name": "Scotland",
           "opponent_group": "C",
-          "probability": 0.201
+          "probability": 0.21
         },
         {
           "opponent_id": 764,
           "opponent_name": "Brazil",
           "opponent_group": "C",
-          "probability": 0.094
-        },
-        {
-          "opponent_id": 815,
-          "opponent_name": "Morocco",
-          "opponent_group": "C",
-          "probability": 0.034
+          "probability": 0.109
         },
         {
           "opponent_id": 792,
           "opponent_name": "Sweden",
           "opponent_group": "F",
-          "probability": 0.024
+          "probability": 0.039
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.015
+          "probability": 0.027
         },
         {
-          "opponent_id": 772,
-          "opponent_name": "South Korea",
-          "opponent_group": "A",
-          "probability": 0.002
+          "opponent_id": 815,
+          "opponent_name": "Morocco",
+          "opponent_group": "C",
+          "probability": 0.024
         },
         {
           "opponent_id": 8601,
           "opponent_name": "Netherlands",
           "opponent_group": "F",
-          "probability": 0.001
+          "probability": 0.003
         },
         {
           "opponent_id": 774,
           "opponent_name": "South Africa",
+          "opponent_group": "A",
+          "probability": 0.002
+        },
+        {
+          "opponent_id": 772,
+          "opponent_name": "South Korea",
           "opponent_group": "A",
           "probability": 0.001
         }
@@ -1426,79 +1294,79 @@
           "opponent_id": 818,
           "opponent_name": "Colombia",
           "opponent_group": "K",
-          "probability": 0.402
+          "probability": 0.405
         },
         {
           "opponent_id": 765,
           "opponent_name": "Portugal",
           "opponent_group": "K",
-          "probability": 0.381
+          "probability": 0.385
         },
         {
           "opponent_id": 1934,
           "opponent_name": "Congo DR",
           "opponent_group": "K",
-          "probability": 0.089
+          "probability": 0.067
         },
         {
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
-          "probability": 0.044
+          "probability": 0.053
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.017
+        },
+        {
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.016
         },
         {
           "opponent_id": 8070,
           "opponent_name": "Uzbekistan",
           "opponent_group": "K",
-          "probability": 0.017
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
           "probability": 0.014
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.011
+          "probability": 0.014
         },
         {
-          "opponent_id": 791,
-          "opponent_name": "Ecuador",
-          "opponent_group": "E",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
-          "opponent_group": "E",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 9460,
-          "opponent_name": "Cura\u00e7ao",
-          "opponent_group": "E",
-          "probability": 0.008
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.012
         },
         {
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.007
+          "probability": 0.006
         },
         {
-          "opponent_id": 1930,
-          "opponent_name": "Cape Verde Islands",
-          "opponent_group": "H",
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
           "probability": 0.004
+        },
+        {
+          "opponent_id": 801,
+          "opponent_name": "Saudi Arabia",
+          "opponent_group": "H",
+          "probability": 0.003
         },
         {
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.002
+          "probability": 0.003
         },
         {
           "opponent_id": 758,
@@ -1515,118 +1383,112 @@
       "crest_url": "https://crests.football-data.org/iran.svg",
       "opponents": [
         {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.126
+          "probability": 0.164
         },
         {
           "opponent_id": 779,
           "opponent_name": "Australia",
           "opponent_group": "D",
-          "probability": 0.085
-        },
-        {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.07
+          "probability": 0.092
         },
         {
           "opponent_id": 798,
           "opponent_name": "Czechia",
           "opponent_group": "A",
-          "probability": 0.067
+          "probability": 0.072
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.06
+          "probability": 0.065
         },
         {
           "opponent_id": 761,
           "opponent_name": "Paraguay",
           "opponent_group": "D",
-          "probability": 0.046
+          "probability": 0.051
         },
         {
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.036
+          "probability": 0.04
         },
         {
           "opponent_id": 772,
           "opponent_name": "South Korea",
           "opponent_group": "A",
-          "probability": 0.033
-        },
-        {
-          "opponent_id": 758,
-          "opponent_name": "Uruguay",
-          "opponent_group": "H",
-          "probability": 0.026
-        },
-        {
-          "opponent_id": 801,
-          "opponent_name": "Saudi Arabia",
-          "opponent_group": "H",
-          "probability": 0.021
+          "probability": 0.038
         },
         {
           "opponent_id": 774,
           "opponent_name": "South Africa",
           "opponent_group": "A",
-          "probability": 0.02
-        },
-        {
-          "opponent_id": 1930,
-          "opponent_name": "Cape Verde Islands",
-          "opponent_group": "H",
-          "probability": 0.016
+          "probability": 0.023
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
+          "probability": 0.02
+        },
+        {
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
+          "opponent_group": "H",
+          "probability": 0.017
+        },
+        {
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.014
+        },
+        {
+          "opponent_id": 801,
+          "opponent_name": "Saudi Arabia",
+          "opponent_group": "H",
+          "probability": 0.011
+        },
+        {
+          "opponent_id": 1930,
+          "opponent_name": "Cape Verde Islands",
+          "opponent_group": "H",
           "probability": 0.011
         },
         {
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
-          "probability": 0.007
+          "probability": 0.008
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.004
+          "probability": 0.005
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.005
         },
         {
           "opponent_id": 1935,
           "opponent_name": "Ivory Coast",
           "opponent_group": "E",
-          "probability": 0.002
+          "probability": 0.003
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
-          "probability": 0.001
+          "probability": 0.002
         }
       ]
     },
@@ -1640,13 +1502,7 @@
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.036
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.022
+          "probability": 0.03
         },
         {
           "opponent_id": 799,
@@ -1658,43 +1514,25 @@
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.015
+          "probability": 0.014
         },
         {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.014
-        },
-        {
-          "opponent_id": 769,
-          "opponent_name": "Mexico",
-          "opponent_group": "A",
-          "probability": 0.005
-        },
-        {
-          "opponent_id": 840,
-          "opponent_name": "Iran",
-          "opponent_group": "G",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 765,
-          "opponent_name": "Portugal",
-          "opponent_group": "K",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.001
+          "probability": 0.012
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.001
+          "probability": 0.007
+        },
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.003
         }
       ]
     },
@@ -1708,85 +1546,67 @@
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.525
+          "probability": 0.522
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.214
+          "probability": 0.198
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.049
+          "probability": 0.045
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.019
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.018
-        },
-        {
-          "opponent_id": 799,
-          "opponent_name": "Croatia",
-          "opponent_group": "L",
-          "probability": 0.014
-        },
-        {
-          "opponent_id": 763,
-          "opponent_name": "Ghana",
-          "opponent_group": "L",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.007
+          "probability": 0.025
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.005
+          "probability": 0.021
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.005
+          "probability": 0.017
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
+          "probability": 0.016
+        },
+        {
+          "opponent_id": 799,
+          "opponent_name": "Croatia",
+          "opponent_group": "L",
+          "probability": 0.012
         },
         {
           "opponent_id": 818,
           "opponent_name": "Colombia",
           "opponent_group": "K",
-          "probability": 0.002
-        },
-        {
-          "opponent_id": 840,
-          "opponent_name": "Iran",
-          "opponent_group": "G",
-          "probability": 0.002
-        },
-        {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.001
+          "probability": 0.008
         },
         {
           "opponent_id": 765,
           "opponent_name": "Portugal",
           "opponent_group": "K",
-          "probability": 0.001
+          "probability": 0.004
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.003
         }
       ]
     },
@@ -1800,55 +1620,43 @@
           "opponent_id": 815,
           "opponent_name": "Morocco",
           "opponent_group": "C",
-          "probability": 0.311
+          "probability": 0.338
         },
         {
           "opponent_id": 764,
           "opponent_name": "Brazil",
           "opponent_group": "C",
-          "probability": 0.26
+          "probability": 0.245
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.195
+          "probability": 0.201
         },
         {
           "opponent_id": 8873,
           "opponent_name": "Scotland",
           "opponent_group": "C",
-          "probability": 0.117
+          "probability": 0.103
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.09
+          "probability": 0.076
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.015
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.007
+          "probability": 0.027
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.004
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.001
+          "probability": 0.01
         }
       ]
     },
@@ -1862,79 +1670,79 @@
           "opponent_id": 8873,
           "opponent_name": "Scotland",
           "opponent_group": "C",
-          "probability": 0.365
+          "probability": 0.323
         },
         {
           "opponent_id": 764,
           "opponent_name": "Brazil",
           "opponent_group": "C",
-          "probability": 0.157
+          "probability": 0.131
         },
         {
           "opponent_id": 791,
           "opponent_name": "Ecuador",
           "opponent_group": "E",
-          "probability": 0.084
-        },
-        {
-          "opponent_id": 758,
-          "opponent_name": "Uruguay",
-          "opponent_group": "H",
-          "probability": 0.082
+          "probability": 0.108
         },
         {
           "opponent_id": 1930,
           "opponent_name": "Cape Verde Islands",
           "opponent_group": "H",
-          "probability": 0.068
+          "probability": 0.079
         },
         {
           "opponent_id": 801,
           "opponent_name": "Saudi Arabia",
           "opponent_group": "H",
-          "probability": 0.054
+          "probability": 0.069
+        },
+        {
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
+          "opponent_group": "H",
+          "probability": 0.065
         },
         {
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.05
-        },
-        {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
-          "opponent_group": "E",
-          "probability": 0.049
-        },
-        {
-          "opponent_id": 815,
-          "opponent_name": "Morocco",
-          "opponent_group": "C",
-          "probability": 0.037
+          "probability": 0.056
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.031
+          "probability": 0.052
+        },
+        {
+          "opponent_id": 1935,
+          "opponent_name": "Ivory Coast",
+          "opponent_group": "E",
+          "probability": 0.045
+        },
+        {
+          "opponent_id": 815,
+          "opponent_name": "Morocco",
+          "opponent_group": "C",
+          "probability": 0.045
         },
         {
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
-          "probability": 0.016
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
-          "probability": 0.005
+          "probability": 0.018
         },
         {
           "opponent_id": 792,
           "opponent_name": "Sweden",
           "opponent_group": "F",
-          "probability": 0.002
+          "probability": 0.006
+        },
+        {
+          "opponent_id": 8062,
+          "opponent_name": "Iraq",
+          "opponent_group": "I",
+          "probability": 0.003
         }
       ]
     },
@@ -1948,31 +1756,31 @@
           "opponent_id": 8601,
           "opponent_name": "Netherlands",
           "opponent_group": "F",
-          "probability": 0.447
+          "probability": 0.413
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.311
+          "probability": 0.338
         },
         {
           "opponent_id": 792,
           "opponent_name": "Sweden",
           "opponent_group": "F",
-          "probability": 0.171
+          "probability": 0.18
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.037
+          "probability": 0.045
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.034
+          "probability": 0.024
         }
       ]
     },
@@ -1986,43 +1794,43 @@
           "opponent_id": 815,
           "opponent_name": "Morocco",
           "opponent_group": "C",
-          "probability": 0.447
+          "probability": 0.413
         },
         {
           "opponent_id": 764,
           "opponent_name": "Brazil",
           "opponent_group": "C",
-          "probability": 0.365
+          "probability": 0.407
         },
         {
           "opponent_id": 8873,
           "opponent_name": "Scotland",
           "opponent_group": "C",
-          "probability": 0.164
+          "probability": 0.146
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.012
+          "probability": 0.02
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.01
+          "probability": 0.009
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.001
+          "probability": 0.003
         },
         {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
+          "opponent_id": 788,
+          "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.001
+          "probability": 0.002
         }
       ]
     },
@@ -2039,34 +1847,28 @@
           "probability": 0.082
         },
         {
-          "opponent_id": 761,
-          "opponent_name": "Paraguay",
-          "opponent_group": "D",
-          "probability": 0.052
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.041
-        },
-        {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.033
+          "probability": 0.063
+        },
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
+          "probability": 0.03
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.003
+          "probability": 0.009
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.001
+          "probability": 0.002
         }
       ]
     },
@@ -2080,65 +1882,77 @@
           "opponent_id": 1935,
           "opponent_name": "Ivory Coast",
           "opponent_group": "E",
-          "probability": 0.525
-        },
-        {
-          "opponent_id": 792,
-          "opponent_name": "Sweden",
-          "opponent_group": "F",
-          "probability": 0.143
+          "probability": 0.522
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.128
+          "probability": 0.141
+        },
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.137
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.09
+          "probability": 0.076
         },
         {
           "opponent_id": 791,
           "opponent_name": "Ecuador",
           "opponent_group": "E",
-          "probability": 0.071
+          "probability": 0.072
         },
         {
           "opponent_id": 761,
           "opponent_name": "Paraguay",
           "opponent_group": "D",
-          "probability": 0.01
+          "probability": 0.011
         },
         {
           "opponent_id": 8601,
           "opponent_name": "Netherlands",
           "opponent_group": "F",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 779,
-          "opponent_name": "Australia",
-          "opponent_group": "D",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 840,
-          "opponent_name": "Iran",
-          "opponent_group": "G",
-          "probability": 0.004
+          "probability": 0.009
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.004
+          "probability": 0.008
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
+          "opponent_group": "G",
+          "probability": 0.006
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.005
+        },
+        {
+          "opponent_id": 801,
+          "opponent_name": "Saudi Arabia",
+          "opponent_group": "H",
+          "probability": 0.004
+        },
+        {
+          "opponent_id": 779,
+          "opponent_name": "Australia",
+          "opponent_group": "D",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
           "opponent_group": "G",
           "probability": 0.002
         },
@@ -2149,28 +1963,10 @@
           "probability": 0.002
         },
         {
-          "opponent_id": 8873,
-          "opponent_name": "Scotland",
-          "opponent_group": "C",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 760,
-          "opponent_name": "Spain",
+          "opponent_id": 758,
+          "opponent_name": "Uruguay",
           "opponent_group": "H",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 783,
-          "opponent_name": "New Zealand",
-          "opponent_group": "G",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 801,
-          "opponent_name": "Saudi Arabia",
-          "opponent_group": "H",
-          "probability": 0.001
+          "probability": 0.002
         }
       ]
     },
@@ -2184,53 +1980,53 @@
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.385
+          "probability": 0.368
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.176
+          "probability": 0.186
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.077
-        },
-        {
-          "opponent_id": 783,
-          "opponent_name": "New Zealand",
-          "opponent_group": "G",
-          "probability": 0.052
+          "probability": 0.081
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.046
+          "probability": 0.051
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.042
+          "probability": 0.032
+        },
+        {
+          "opponent_id": 783,
+          "opponent_name": "New Zealand",
+          "opponent_group": "G",
+          "probability": 0.03
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.009
+          "probability": 0.011
         },
         {
           "opponent_id": 765,
           "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.007
+        },
+        {
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
           "opponent_group": "K",
           "probability": 0.005
         }
@@ -2246,30 +2042,30 @@
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.381
+          "probability": 0.385
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.323
+          "probability": 0.304
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.268
-        },
-        {
-          "opponent_id": 791,
-          "opponent_name": "Ecuador",
-          "opponent_group": "E",
-          "probability": 0.009
+          "probability": 0.274
         },
         {
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
+          "probability": 0.011
+        },
+        {
+          "opponent_id": 761,
+          "opponent_name": "Paraguay",
+          "opponent_group": "D",
           "probability": 0.007
         },
         {
@@ -2279,42 +2075,34 @@
           "probability": 0.005
         },
         {
-          "opponent_id": 761,
-          "opponent_name": "Paraguay",
-          "opponent_group": "D",
-          "probability": 0.005
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
-          "probability": 0.001
-        },
-        {
           "opponent_id": 1935,
           "opponent_name": "Ivory Coast",
           "opponent_group": "E",
-          "probability": 0.001
-        }
-      ]
-    },
-    {
-      "team_id": 8030,
-      "team_name": "Qatar",
-      "group": "B",
-      "crest_url": "https://crests.football-data.org/8030.svg",
-      "opponents": [
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.406
+          "probability": 0.004
         },
         {
-          "opponent_id": 772,
-          "opponent_name": "South Korea",
-          "opponent_group": "A",
-          "probability": 0.001
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 9460,
+          "opponent_name": "Cura\u00e7ao",
+          "opponent_group": "E",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 816,
+          "opponent_name": "Austria",
+          "opponent_group": "J",
+          "probability": 0.002
+        },
+        {
+          "opponent_id": 778,
+          "opponent_name": "Algeria",
+          "opponent_group": "J",
+          "probability": 0.002
         }
       ]
     },
@@ -2328,55 +2116,61 @@
           "opponent_id": 762,
           "opponent_name": "Argentina",
           "opponent_group": "J",
-          "probability": 0.257
+          "probability": 0.247
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.054
+          "probability": 0.069
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.032
+          "probability": 0.03
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.021
-        },
-        {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.007
+          "probability": 0.011
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.005
+          "probability": 0.007
         },
         {
-          "opponent_id": 773,
-          "opponent_name": "France",
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
           "opponent_group": "I",
+          "probability": 0.004
+        },
+        {
+          "opponent_id": 763,
+          "opponent_name": "Ghana",
+          "opponent_group": "L",
           "probability": 0.003
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.001
+          "probability": 0.003
         },
         {
-          "opponent_id": 8872,
-          "opponent_name": "Norway",
+          "opponent_id": 805,
+          "opponent_name": "Belgium",
+          "opponent_group": "G",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 773,
+          "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.001
+          "probability": 0.002
         }
       ]
     },
@@ -2390,37 +2184,31 @@
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.365
+          "probability": 0.323
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.201
+          "probability": 0.21
         },
         {
           "opponent_id": 8601,
           "opponent_name": "Netherlands",
           "opponent_group": "F",
-          "probability": 0.164
+          "probability": 0.146
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.117
+          "probability": 0.103
         },
         {
           "opponent_id": 792,
           "opponent_name": "Sweden",
           "opponent_group": "F",
-          "probability": 0.041
-        },
-        {
-          "opponent_id": 8872,
-          "opponent_name": "Norway",
-          "opponent_group": "I",
-          "probability": 0.001
+          "probability": 0.06
         }
       ]
     },
@@ -2434,73 +2222,61 @@
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.11
+          "probability": 0.096
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.052
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.047
+          "probability": 0.06
         },
         {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.044
+          "probability": 0.053
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.021
-        },
-        {
-          "opponent_id": 769,
-          "opponent_name": "Mexico",
-          "opponent_group": "A",
-          "probability": 0.016
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.01
-        },
-        {
-          "opponent_id": 840,
-          "opponent_name": "Iran",
-          "opponent_group": "G",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 765,
-          "opponent_name": "Portugal",
-          "opponent_group": "K",
-          "probability": 0.007
+          "probability": 0.049
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.007
+          "probability": 0.019
+        },
+        {
+          "opponent_id": 769,
+          "opponent_name": "Mexico",
+          "opponent_group": "A",
+          "probability": 0.018
+        },
+        {
+          "opponent_id": 840,
+          "opponent_name": "Iran",
+          "opponent_group": "G",
+          "probability": 0.014
+        },
+        {
+          "opponent_id": 818,
+          "opponent_name": "Colombia",
+          "opponent_group": "K",
+          "probability": 0.011
+        },
+        {
+          "opponent_id": 765,
+          "opponent_name": "Portugal",
+          "opponent_group": "K",
+          "probability": 0.011
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.004
+          "probability": 0.007
         }
       ]
     },
@@ -2511,40 +2287,34 @@
       "crest_url": "https://crests.football-data.org/9396.svg",
       "opponents": [
         {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.107
-        },
-        {
           "opponent_id": 828,
           "opponent_name": "Canada",
           "opponent_group": "B",
-          "probability": 0.08
+          "probability": 0.181
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.035
+          "probability": 0.037
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.02
+          "probability": 0.023
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.015
+          "probability": 0.013
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.001
+          "probability": 0.002
         }
       ]
     },
@@ -2555,45 +2325,33 @@
       "crest_url": "https://crests.football-data.org/772.png",
       "opponents": [
         {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.446
-        },
-        {
           "opponent_id": 828,
           "opponent_name": "Canada",
           "opponent_group": "B",
-          "probability": 0.296
+          "probability": 0.744
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.085
+          "probability": 0.07
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.033
+          "probability": 0.038
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.011
+          "probability": 0.014
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.002
-        },
-        {
-          "opponent_id": 8030,
-          "opponent_name": "Qatar",
-          "opponent_group": "B",
           "probability": 0.001
         }
       ]
@@ -2608,43 +2366,49 @@
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.458
-        },
-        {
-          "opponent_id": 778,
-          "opponent_name": "Algeria",
-          "opponent_group": "J",
-          "probability": 0.235
+          "probability": 0.452
         },
         {
           "opponent_id": 762,
           "opponent_name": "Argentina",
           "opponent_group": "J",
-          "probability": 0.205
+          "probability": 0.224
+        },
+        {
+          "opponent_id": 778,
+          "opponent_name": "Algeria",
+          "opponent_group": "J",
+          "probability": 0.218
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.05
+          "probability": 0.056
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.026
+          "probability": 0.025
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.01
+          "probability": 0.008
+        },
+        {
+          "opponent_id": 805,
+          "opponent_name": "Belgium",
+          "opponent_group": "G",
+          "probability": 0.006
         },
         {
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.006
+          "probability": 0.004
         },
         {
           "opponent_id": 773,
@@ -2653,28 +2417,10 @@
           "probability": 0.004
         },
         {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.002
-        },
-        {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.002
-        },
-        {
-          "opponent_id": 799,
-          "opponent_name": "Croatia",
-          "opponent_group": "L",
-          "probability": 0.001
-        },
-        {
-          "opponent_id": 8872,
-          "opponent_name": "Norway",
-          "opponent_group": "I",
-          "probability": 0.001
+          "probability": 0.003
         }
       ]
     },
@@ -2688,61 +2434,49 @@
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.415
+          "probability": 0.391
         },
         {
           "opponent_id": 815,
           "opponent_name": "Morocco",
           "opponent_group": "C",
-          "probability": 0.171
+          "probability": 0.18
         },
         {
           "opponent_id": 8872,
           "opponent_name": "Norway",
           "opponent_group": "I",
-          "probability": 0.143
+          "probability": 0.137
         },
         {
           "opponent_id": 764,
           "opponent_name": "Brazil",
           "opponent_group": "C",
-          "probability": 0.124
+          "probability": 0.108
         },
         {
           "opponent_id": 8873,
           "opponent_name": "Scotland",
           "opponent_group": "C",
-          "probability": 0.041
+          "probability": 0.06
         },
         {
           "opponent_id": 759,
           "opponent_name": "Germany",
           "opponent_group": "E",
-          "probability": 0.024
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.016
-        },
-        {
-          "opponent_id": 828,
-          "opponent_name": "Canada",
-          "opponent_group": "B",
-          "probability": 0.008
+          "probability": 0.039
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.004
+          "probability": 0.009
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.002
+          "probability": 0.006
         }
       ]
     },
@@ -2753,106 +2487,88 @@
       "crest_url": "https://crests.football-data.org/788.svg",
       "opponents": [
         {
-          "opponent_id": 772,
-          "opponent_name": "South Korea",
-          "opponent_group": "A",
-          "probability": 0.446
-        },
-        {
-          "opponent_id": 774,
-          "opponent_name": "South Africa",
-          "opponent_group": "A",
-          "probability": 0.107
-        },
-        {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.087
+          "probability": 0.224
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.073
+          "probability": 0.205
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.07
-        },
-        {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
-          "opponent_group": "J",
-          "probability": 0.056
+          "probability": 0.164
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.051
+          "probability": 0.134
         },
         {
-          "opponent_id": 798,
-          "opponent_name": "Czechia",
-          "opponent_group": "A",
-          "probability": 0.044
+          "opponent_id": 816,
+          "opponent_name": "Austria",
+          "opponent_group": "J",
+          "probability": 0.119
         },
         {
           "opponent_id": 783,
           "opponent_name": "New Zealand",
           "opponent_group": "G",
-          "probability": 0.033
-        },
-        {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 791,
-          "opponent_name": "Ecuador",
-          "opponent_group": "E",
-          "probability": 0.007
+          "probability": 0.063
         },
         {
           "opponent_id": 1935,
           "opponent_name": "Ivory Coast",
           "opponent_group": "E",
-          "probability": 0.005
+          "probability": 0.021
         },
         {
-          "opponent_id": 792,
-          "opponent_name": "Sweden",
-          "opponent_group": "F",
-          "probability": 0.004
+          "opponent_id": 804,
+          "opponent_name": "Senegal",
+          "opponent_group": "I",
+          "probability": 0.019
+        },
+        {
+          "opponent_id": 791,
+          "opponent_name": "Ecuador",
+          "opponent_group": "E",
+          "probability": 0.015
         },
         {
           "opponent_id": 766,
           "opponent_name": "Japan",
           "opponent_group": "F",
-          "probability": 0.004
+          "probability": 0.01
+        },
+        {
+          "opponent_id": 792,
+          "opponent_name": "Sweden",
+          "opponent_group": "F",
+          "probability": 0.009
         },
         {
           "opponent_id": 9460,
           "opponent_name": "Cura\u00e7ao",
           "opponent_group": "E",
-          "probability": 0.004
-        },
-        {
-          "opponent_id": 771,
-          "opponent_name": "United States",
-          "opponent_group": "D",
-          "probability": 0.001
+          "probability": 0.008
         },
         {
           "opponent_id": 8062,
           "opponent_name": "Iraq",
           "opponent_group": "I",
-          "probability": 0.001
+          "probability": 0.007
+        },
+        {
+          "opponent_id": 8601,
+          "opponent_name": "Netherlands",
+          "opponent_group": "F",
+          "probability": 0.002
         }
       ]
     },
@@ -2863,76 +2579,10 @@
       "crest_url": "https://crests.football-data.org/usa.svg",
       "opponents": [
         {
-          "opponent_id": 8030,
-          "opponent_name": "Qatar",
-          "opponent_group": "B",
-          "probability": 0.406
-        },
-        {
           "opponent_id": 1060,
           "opponent_name": "Bosnia-Herzegovina",
           "opponent_group": "B",
-          "probability": 0.303
-        },
-        {
-          "opponent_id": 778,
-          "opponent_name": "Algeria",
-          "opponent_group": "J",
-          "probability": 0.096
-        },
-        {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
-          "probability": 0.047
-        },
-        {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
-          "opponent_group": "J",
-          "probability": 0.045
-        },
-        {
-          "opponent_id": 791,
-          "opponent_name": "Ecuador",
-          "opponent_group": "E",
-          "probability": 0.024
-        },
-        {
-          "opponent_id": 8062,
-          "opponent_name": "Iraq",
-          "opponent_group": "I",
-          "probability": 0.022
-        },
-        {
-          "opponent_id": 1935,
-          "opponent_name": "Ivory Coast",
-          "opponent_group": "E",
-          "probability": 0.018
-        },
-        {
-          "opponent_id": 792,
-          "opponent_name": "Sweden",
-          "opponent_group": "F",
-          "probability": 0.016
-        },
-        {
-          "opponent_id": 9460,
-          "opponent_name": "Cura\u00e7ao",
-          "opponent_group": "E",
-          "probability": 0.015
-        },
-        {
-          "opponent_id": 766,
-          "opponent_name": "Japan",
-          "opponent_group": "F",
-          "probability": 0.007
-        },
-        {
-          "opponent_id": 788,
-          "opponent_name": "Switzerland",
-          "opponent_group": "B",
-          "probability": 0.001
+          "probability": 1.0
         }
       ]
     },
@@ -2946,61 +2596,67 @@
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.184
+          "probability": 0.199
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.093
+          "probability": 0.094
         },
         {
           "opponent_id": 762,
           "opponent_name": "Argentina",
           "opponent_group": "J",
-          "probability": 0.082
+          "probability": 0.09
         },
         {
           "opponent_id": 769,
           "opponent_name": "Mexico",
           "opponent_group": "A",
-          "probability": 0.082
+          "probability": 0.065
         },
         {
           "opponent_id": 825,
           "opponent_name": "Egypt",
           "opponent_group": "G",
-          "probability": 0.072
+          "probability": 0.054
         },
         {
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.026
-        },
-        {
-          "opponent_id": 770,
-          "opponent_name": "England",
-          "opponent_group": "L",
-          "probability": 0.012
+          "probability": 0.017
         },
         {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.006
+          "probability": 0.011
         },
         {
           "opponent_id": 773,
           "opponent_name": "France",
           "opponent_group": "I",
-          "probability": 0.004
+          "probability": 0.009
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
           "probability": 0.003
+        },
+        {
+          "opponent_id": 770,
+          "opponent_name": "England",
+          "opponent_group": "L",
+          "probability": 0.003
+        },
+        {
+          "opponent_id": 8872,
+          "opponent_name": "Norway",
+          "opponent_group": "I",
+          "probability": 0.002
         },
         {
           "opponent_id": 763,
@@ -3020,19 +2676,19 @@
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.038
+          "probability": 0.031
         },
         {
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.017
+          "probability": 0.014
         },
         {
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.013
+          "probability": 0.012
         }
       ]
     }
