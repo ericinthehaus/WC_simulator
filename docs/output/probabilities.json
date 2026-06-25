@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "June 25, 2026 20:09 UTC",
+    "last_updated": "June 25, 2026 23:26 UTC",
     "n_simulations": 1000,
     "mean_goals": 1.38,
-    "matches_completed": 54,
+    "matches_completed": 56,
     "matches_total": 72
   },
   "teams": [
@@ -40,8 +40,8 @@
       "p_2nd": 0.0,
       "p_3rd": 1.0,
       "p_4th": 0.0,
-      "p_advances": 0.917,
-      "p_eliminated": 0.083
+      "p_advances": 0.859,
+      "p_eliminated": 0.141
     },
     {
       "team_id": 798,
@@ -136,8 +136,8 @@
       "p_2nd": 0.0,
       "p_3rd": 1.0,
       "p_4th": 0.0,
-      "p_advances": 0.33,
-      "p_eliminated": 0.67
+      "p_advances": 0.18,
+      "p_eliminated": 0.82
     },
     {
       "team_id": 836,
@@ -169,11 +169,11 @@
       "group": "D",
       "crest_url": "https://crests.football-data.org/779.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.673,
-      "p_3rd": 0.327,
+      "p_2nd": 0.671,
+      "p_3rd": 0.329,
       "p_4th": 0.0,
-      "p_advances": 0.941,
-      "p_eliminated": 0.059
+      "p_advances": 0.905,
+      "p_eliminated": 0.095
     },
     {
       "team_id": 761,
@@ -181,11 +181,11 @@
       "group": "D",
       "crest_url": "https://crests.football-data.org/761.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.327,
-      "p_3rd": 0.673,
+      "p_2nd": 0.329,
+      "p_3rd": 0.671,
       "p_4th": 0.0,
-      "p_advances": 0.746,
-      "p_eliminated": 0.254
+      "p_advances": 0.709,
+      "p_eliminated": 0.291
     },
     {
       "team_id": 803,
@@ -212,28 +212,28 @@
       "p_eliminated": 0.0
     },
     {
-      "team_id": 1935,
-      "team_name": "Ivory Coast",
-      "group": "E",
-      "crest_url": "https://crests.football-data.org/787.svg",
-      "p_1st": 0.0,
-      "p_2nd": 0.702,
-      "p_3rd": 0.203,
-      "p_4th": 0.095,
-      "p_advances": 0.871,
-      "p_eliminated": 0.129
-    },
-    {
       "team_id": 791,
       "team_name": "Ecuador",
       "group": "E",
       "crest_url": "https://crests.football-data.org/791.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.095,
-      "p_3rd": 0.576,
-      "p_4th": 0.329,
-      "p_advances": 0.323,
-      "p_eliminated": 0.677
+      "p_2nd": 0.0,
+      "p_3rd": 1.0,
+      "p_4th": 0.0,
+      "p_advances": 1.0,
+      "p_eliminated": 0.0
+    },
+    {
+      "team_id": 1935,
+      "team_name": "Ivory Coast",
+      "group": "E",
+      "crest_url": "https://crests.football-data.org/787.svg",
+      "p_1st": 0.0,
+      "p_2nd": 1.0,
+      "p_3rd": 0.0,
+      "p_4th": 0.0,
+      "p_advances": 1.0,
+      "p_eliminated": 0.0
     },
     {
       "team_id": 9460,
@@ -241,20 +241,20 @@
       "group": "E",
       "crest_url": "https://crests.football-data.org/curacao.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.203,
-      "p_3rd": 0.221,
-      "p_4th": 0.576,
-      "p_advances": 0.298,
-      "p_eliminated": 0.702
+      "p_2nd": 0.0,
+      "p_3rd": 0.0,
+      "p_4th": 1.0,
+      "p_advances": 0.0,
+      "p_eliminated": 1.0
     },
     {
       "team_id": 766,
       "team_name": "Japan",
       "group": "F",
       "crest_url": "https://crests.football-data.org/766.svg",
-      "p_1st": 0.369,
-      "p_2nd": 0.321,
-      "p_3rd": 0.31,
+      "p_1st": 0.383,
+      "p_2nd": 0.3,
+      "p_3rd": 0.317,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -264,9 +264,9 @@
       "team_name": "Netherlands",
       "group": "F",
       "crest_url": "https://crests.football-data.org/8601.svg",
-      "p_1st": 0.448,
-      "p_2nd": 0.51,
-      "p_3rd": 0.042,
+      "p_1st": 0.428,
+      "p_2nd": 0.533,
+      "p_3rd": 0.039,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -276,12 +276,12 @@
       "team_name": "Sweden",
       "group": "F",
       "crest_url": "https://crests.football-data.org/792.svg",
-      "p_1st": 0.183,
-      "p_2nd": 0.169,
-      "p_3rd": 0.648,
+      "p_1st": 0.189,
+      "p_2nd": 0.167,
+      "p_3rd": 0.644,
       "p_4th": 0.0,
-      "p_advances": 0.95,
-      "p_eliminated": 0.05
+      "p_advances": 0.93,
+      "p_eliminated": 0.07
     },
     {
       "team_id": 802,
@@ -300,9 +300,9 @@
       "team_name": "Egypt",
       "group": "G",
       "crest_url": "https://crests.football-data.org/825.svg",
-      "p_1st": 0.553,
-      "p_2nd": 0.222,
-      "p_3rd": 0.225,
+      "p_1st": 0.605,
+      "p_2nd": 0.194,
+      "p_3rd": 0.201,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -312,24 +312,24 @@
       "team_name": "Belgium",
       "group": "G",
       "crest_url": "https://crests.football-data.org/805.svg",
-      "p_1st": 0.123,
-      "p_2nd": 0.493,
-      "p_3rd": 0.201,
-      "p_4th": 0.183,
-      "p_advances": 0.782,
-      "p_eliminated": 0.218
+      "p_1st": 0.133,
+      "p_2nd": 0.534,
+      "p_3rd": 0.159,
+      "p_4th": 0.174,
+      "p_advances": 0.796,
+      "p_eliminated": 0.204
     },
     {
       "team_id": 840,
       "team_name": "Iran",
       "group": "G",
       "crest_url": "https://crests.football-data.org/iran.svg",
-      "p_1st": 0.324,
-      "p_2nd": 0.151,
-      "p_3rd": 0.451,
-      "p_4th": 0.074,
-      "p_advances": 0.663,
-      "p_eliminated": 0.337
+      "p_1st": 0.262,
+      "p_2nd": 0.146,
+      "p_3rd": 0.523,
+      "p_4th": 0.069,
+      "p_advances": 0.611,
+      "p_eliminated": 0.389
     },
     {
       "team_id": 783,
@@ -337,20 +337,20 @@
       "group": "G",
       "crest_url": "https://crests.football-data.org/783.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.134,
-      "p_3rd": 0.123,
-      "p_4th": 0.743,
-      "p_advances": 0.219,
-      "p_eliminated": 0.781
+      "p_2nd": 0.126,
+      "p_3rd": 0.117,
+      "p_4th": 0.757,
+      "p_advances": 0.201,
+      "p_eliminated": 0.799
     },
     {
       "team_id": 760,
       "team_name": "Spain",
       "group": "H",
       "crest_url": "https://crests.football-data.org/760.svg",
-      "p_1st": 0.67,
-      "p_2nd": 0.217,
-      "p_3rd": 0.113,
+      "p_1st": 0.655,
+      "p_2nd": 0.235,
+      "p_3rd": 0.11,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -360,24 +360,24 @@
       "team_name": "Cape Verde Islands",
       "group": "H",
       "crest_url": "https://crests.football-data.org/cape_verde.svg",
-      "p_1st": 0.031,
-      "p_2nd": 0.442,
-      "p_3rd": 0.19,
-      "p_4th": 0.337,
-      "p_advances": 0.602,
-      "p_eliminated": 0.398
+      "p_1st": 0.041,
+      "p_2nd": 0.418,
+      "p_3rd": 0.218,
+      "p_4th": 0.323,
+      "p_advances": 0.617,
+      "p_eliminated": 0.383
     },
     {
       "team_id": 758,
       "team_name": "Uruguay",
       "group": "H",
       "crest_url": "https://crests.football-data.org/758.svg",
-      "p_1st": 0.299,
-      "p_2nd": 0.076,
-      "p_3rd": 0.563,
-      "p_4th": 0.062,
-      "p_advances": 0.563,
-      "p_eliminated": 0.437
+      "p_1st": 0.304,
+      "p_2nd": 0.1,
+      "p_3rd": 0.535,
+      "p_4th": 0.061,
+      "p_advances": 0.573,
+      "p_eliminated": 0.427
     },
     {
       "team_id": 801,
@@ -385,19 +385,19 @@
       "group": "H",
       "crest_url": "https://crests.football-data.org/saudi_arabia.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.265,
-      "p_3rd": 0.134,
-      "p_4th": 0.601,
-      "p_advances": 0.399,
-      "p_eliminated": 0.601
+      "p_2nd": 0.247,
+      "p_3rd": 0.137,
+      "p_4th": 0.616,
+      "p_advances": 0.381,
+      "p_eliminated": 0.619
     },
     {
       "team_id": 773,
       "team_name": "France",
       "group": "I",
       "crest_url": "https://crests.football-data.org/773.svg",
-      "p_1st": 0.717,
-      "p_2nd": 0.283,
+      "p_1st": 0.728,
+      "p_2nd": 0.272,
       "p_3rd": 0.0,
       "p_4th": 0.0,
       "p_advances": 1.0,
@@ -408,8 +408,8 @@
       "team_name": "Norway",
       "group": "I",
       "crest_url": "https://crests.football-data.org/813.svg",
-      "p_1st": 0.283,
-      "p_2nd": 0.717,
+      "p_1st": 0.272,
+      "p_2nd": 0.728,
       "p_3rd": 0.0,
       "p_4th": 0.0,
       "p_advances": 1.0,
@@ -422,10 +422,10 @@
       "crest_url": "https://crests.football-data.org/senegal.svg",
       "p_1st": 0.0,
       "p_2nd": 0.0,
-      "p_3rd": 0.687,
-      "p_4th": 0.313,
-      "p_advances": 0.356,
-      "p_eliminated": 0.644
+      "p_3rd": 0.697,
+      "p_4th": 0.303,
+      "p_advances": 0.326,
+      "p_eliminated": 0.674
     },
     {
       "team_id": 8062,
@@ -434,10 +434,10 @@
       "crest_url": "https://crests.football-data.org/iraq.svg",
       "p_1st": 0.0,
       "p_2nd": 0.0,
-      "p_3rd": 0.313,
-      "p_4th": 0.687,
-      "p_advances": 0.054,
-      "p_eliminated": 0.946
+      "p_3rd": 0.303,
+      "p_4th": 0.697,
+      "p_advances": 0.028,
+      "p_eliminated": 0.972
     },
     {
       "team_id": 762,
@@ -457,11 +457,11 @@
       "group": "J",
       "crest_url": "https://crests.football-data.org/816.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.689,
-      "p_3rd": 0.311,
+      "p_2nd": 0.691,
+      "p_3rd": 0.309,
       "p_4th": 0.0,
-      "p_advances": 0.944,
-      "p_eliminated": 0.056
+      "p_advances": 0.925,
+      "p_eliminated": 0.075
     },
     {
       "team_id": 778,
@@ -469,11 +469,11 @@
       "group": "J",
       "crest_url": "https://crests.football-data.org/algeria.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.311,
-      "p_3rd": 0.689,
+      "p_2nd": 0.309,
+      "p_3rd": 0.691,
       "p_4th": 0.0,
-      "p_advances": 0.747,
-      "p_eliminated": 0.253
+      "p_advances": 0.726,
+      "p_eliminated": 0.274
     },
     {
       "team_id": 8049,
@@ -492,9 +492,9 @@
       "team_name": "Portugal",
       "group": "K",
       "crest_url": "https://crests.football-data.org/765.svg",
-      "p_1st": 0.392,
-      "p_2nd": 0.603,
-      "p_3rd": 0.005,
+      "p_1st": 0.396,
+      "p_2nd": 0.6,
+      "p_3rd": 0.004,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -504,8 +504,8 @@
       "team_name": "Colombia",
       "group": "K",
       "crest_url": "https://crests.football-data.org/818.svg",
-      "p_1st": 0.608,
-      "p_2nd": 0.392,
+      "p_1st": 0.604,
+      "p_2nd": 0.396,
       "p_3rd": 0.0,
       "p_4th": 0.0,
       "p_advances": 1.0,
@@ -517,11 +517,11 @@
       "group": "K",
       "crest_url": "https://crests.football-data.org/congo_dr.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.005,
-      "p_3rd": 0.628,
-      "p_4th": 0.367,
-      "p_advances": 0.353,
-      "p_eliminated": 0.647
+      "p_2nd": 0.004,
+      "p_3rd": 0.614,
+      "p_4th": 0.382,
+      "p_advances": 0.325,
+      "p_eliminated": 0.675
     },
     {
       "team_id": 8070,
@@ -530,19 +530,19 @@
       "crest_url": "https://crests.football-data.org/8070.png",
       "p_1st": 0.0,
       "p_2nd": 0.0,
-      "p_3rd": 0.367,
-      "p_4th": 0.633,
-      "p_advances": 0.023,
-      "p_eliminated": 0.977
+      "p_3rd": 0.382,
+      "p_4th": 0.618,
+      "p_advances": 0.01,
+      "p_eliminated": 0.99
     },
     {
       "team_id": 763,
       "team_name": "Ghana",
       "group": "L",
       "crest_url": "https://crests.football-data.org/ghana.svg",
-      "p_1st": 0.225,
-      "p_2nd": 0.318,
-      "p_3rd": 0.457,
+      "p_1st": 0.232,
+      "p_2nd": 0.281,
+      "p_3rd": 0.487,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -552,9 +552,9 @@
       "team_name": "England",
       "group": "L",
       "crest_url": "https://crests.football-data.org/770.svg",
-      "p_1st": 0.528,
-      "p_2nd": 0.461,
-      "p_3rd": 0.011,
+      "p_1st": 0.499,
+      "p_2nd": 0.487,
+      "p_3rd": 0.014,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -564,12 +564,12 @@
       "team_name": "Croatia",
       "group": "L",
       "crest_url": "https://crests.football-data.org/799.svg",
-      "p_1st": 0.247,
-      "p_2nd": 0.221,
-      "p_3rd": 0.532,
+      "p_1st": 0.269,
+      "p_2nd": 0.232,
+      "p_3rd": 0.499,
       "p_4th": 0.0,
-      "p_advances": 0.919,
-      "p_eliminated": 0.081
+      "p_advances": 0.898,
+      "p_eliminated": 0.102
     },
     {
       "team_id": 1836,
