@@ -9,11 +9,11 @@
       "home_team_name": "Jordan",
       "away_team_name": "Argentina",
       "group_letter": "J",
-      "home_win_pct": 0.207,
-      "draw_pct": 0.247,
-      "away_win_pct": 0.546,
-      "avg_home_score": 1.04,
-      "avg_away_score": 1.8,
+      "home_win_pct": 0.218,
+      "draw_pct": 0.225,
+      "away_win_pct": 0.557,
+      "avg_home_score": 1.07,
+      "avg_away_score": 1.9,
       "most_common_score": "1-1"
     },
     {
@@ -21,11 +21,11 @@
       "home_team_name": "Algeria",
       "away_team_name": "Austria",
       "group_letter": "J",
-      "home_win_pct": 0.33,
-      "draw_pct": 0.267,
-      "away_win_pct": 0.403,
-      "avg_home_score": 1.17,
-      "avg_away_score": 1.37,
+      "home_win_pct": 0.324,
+      "draw_pct": 0.29,
+      "away_win_pct": 0.386,
+      "avg_home_score": 1.19,
+      "avg_away_score": 1.31,
       "most_common_score": "1-1"
     },
     {
@@ -33,11 +33,11 @@
       "home_team_name": "Colombia",
       "away_team_name": "Portugal",
       "group_letter": "K",
-      "home_win_pct": 0.375,
-      "draw_pct": 0.22,
-      "away_win_pct": 0.405,
+      "home_win_pct": 0.342,
+      "draw_pct": 0.244,
+      "away_win_pct": 0.414,
       "avg_home_score": 1.54,
-      "avg_away_score": 1.6,
+      "avg_away_score": 1.69,
       "most_common_score": "1-1"
     },
     {
@@ -46,35 +46,11 @@
       "away_team_name": "Uzbekistan",
       "group_letter": "K",
       "home_win_pct": 0.372,
-      "draw_pct": 0.28,
-      "away_win_pct": 0.348,
-      "avg_home_score": 1.2,
-      "avg_away_score": 1.11,
-      "most_common_score": "1-1"
-    },
-    {
-      "match_id": 537413,
-      "home_team_name": "Panama",
-      "away_team_name": "England",
-      "group_letter": "L",
-      "home_win_pct": 0.303,
-      "draw_pct": 0.234,
-      "away_win_pct": 0.463,
-      "avg_home_score": 1.27,
-      "avg_away_score": 1.7,
-      "most_common_score": "1-1"
-    },
-    {
-      "match_id": 537414,
-      "home_team_name": "Croatia",
-      "away_team_name": "Ghana",
-      "group_letter": "L",
-      "home_win_pct": 0.464,
-      "draw_pct": 0.265,
-      "away_win_pct": 0.271,
-      "avg_home_score": 1.56,
-      "avg_away_score": 1.11,
-      "most_common_score": "1-1"
+      "draw_pct": 0.281,
+      "away_win_pct": 0.347,
+      "avg_home_score": 1.1,
+      "avg_away_score": 1.06,
+      "most_common_score": "0-1"
     }
   ]
 }
