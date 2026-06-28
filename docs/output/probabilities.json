@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "June 27, 2026 23:08 UTC",
+    "last_updated": "June 28, 2026 04:07 UTC",
     "n_simulations": 1000,
     "mean_goals": 1.38,
-    "matches_completed": 68,
+    "matches_completed": 70,
     "matches_total": 72
   },
   "teams": [
@@ -40,8 +40,8 @@
       "p_2nd": 0.0,
       "p_3rd": 1.0,
       "p_4th": 0.0,
-      "p_advances": 0.312,
-      "p_eliminated": 0.688
+      "p_advances": 0.0,
+      "p_eliminated": 1.0
     },
     {
       "team_id": 798,
@@ -328,8 +328,8 @@
       "p_2nd": 0.0,
       "p_3rd": 1.0,
       "p_4th": 0.0,
-      "p_advances": 0.902,
-      "p_eliminated": 0.098
+      "p_advances": 0.738,
+      "p_eliminated": 0.262
     },
     {
       "team_id": 783,
@@ -457,11 +457,11 @@
       "group": "J",
       "crest_url": "https://crests.football-data.org/816.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.676,
-      "p_3rd": 0.324,
+      "p_2nd": 0.677,
+      "p_3rd": 0.323,
       "p_4th": 0.0,
-      "p_advances": 0.8,
-      "p_eliminated": 0.2
+      "p_advances": 0.677,
+      "p_eliminated": 0.323
     },
     {
       "team_id": 778,
@@ -469,11 +469,11 @@
       "group": "J",
       "crest_url": "https://crests.football-data.org/algeria.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.324,
-      "p_3rd": 0.676,
+      "p_2nd": 0.323,
+      "p_3rd": 0.677,
       "p_4th": 0.0,
-      "p_advances": 0.614,
-      "p_eliminated": 0.386
+      "p_advances": 0.585,
+      "p_eliminated": 0.415
     },
     {
       "team_id": 8049,
@@ -492,9 +492,9 @@
       "team_name": "Portugal",
       "group": "K",
       "crest_url": "https://crests.football-data.org/765.svg",
-      "p_1st": 0.414,
-      "p_2nd": 0.584,
-      "p_3rd": 0.002,
+      "p_1st": 0.0,
+      "p_2nd": 1.0,
+      "p_3rd": 0.0,
       "p_4th": 0.0,
       "p_advances": 1.0,
       "p_eliminated": 0.0
@@ -504,8 +504,8 @@
       "team_name": "Colombia",
       "group": "K",
       "crest_url": "https://crests.football-data.org/818.svg",
-      "p_1st": 0.586,
-      "p_2nd": 0.414,
+      "p_1st": 1.0,
+      "p_2nd": 0.0,
       "p_3rd": 0.0,
       "p_4th": 0.0,
       "p_advances": 1.0,
@@ -517,11 +517,11 @@
       "group": "K",
       "crest_url": "https://crests.football-data.org/congo_dr.svg",
       "p_1st": 0.0,
-      "p_2nd": 0.002,
-      "p_3rd": 0.651,
-      "p_4th": 0.347,
-      "p_advances": 0.372,
-      "p_eliminated": 0.628
+      "p_2nd": 0.0,
+      "p_3rd": 1.0,
+      "p_4th": 0.0,
+      "p_advances": 1.0,
+      "p_eliminated": 0.0
     },
     {
       "team_id": 8070,
@@ -530,8 +530,8 @@
       "crest_url": "https://crests.football-data.org/8070.png",
       "p_1st": 0.0,
       "p_2nd": 0.0,
-      "p_3rd": 0.347,
-      "p_4th": 0.653,
+      "p_3rd": 0.0,
+      "p_4th": 1.0,
       "p_advances": 0.0,
       "p_eliminated": 1.0
     },

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27",
+    "last_updated": "2026-06-28",
     "n_simulations": 1000
   },
   "matches": [
@@ -9,11 +9,11 @@
       "home_team_name": "Jordan",
       "away_team_name": "Argentina",
       "group_letter": "J",
-      "home_win_pct": 0.218,
-      "draw_pct": 0.225,
-      "away_win_pct": 0.557,
-      "avg_home_score": 1.07,
-      "avg_away_score": 1.9,
+      "home_win_pct": 0.265,
+      "draw_pct": 0.219,
+      "away_win_pct": 0.516,
+      "avg_home_score": 1.1,
+      "avg_away_score": 1.75,
       "most_common_score": "1-1"
     },
     {
@@ -21,36 +21,12 @@
       "home_team_name": "Algeria",
       "away_team_name": "Austria",
       "group_letter": "J",
-      "home_win_pct": 0.324,
-      "draw_pct": 0.29,
-      "away_win_pct": 0.386,
-      "avg_home_score": 1.19,
-      "avg_away_score": 1.31,
+      "home_win_pct": 0.323,
+      "draw_pct": 0.262,
+      "away_win_pct": 0.415,
+      "avg_home_score": 1.17,
+      "avg_away_score": 1.35,
       "most_common_score": "1-1"
-    },
-    {
-      "match_id": 537407,
-      "home_team_name": "Colombia",
-      "away_team_name": "Portugal",
-      "group_letter": "K",
-      "home_win_pct": 0.342,
-      "draw_pct": 0.244,
-      "away_win_pct": 0.414,
-      "avg_home_score": 1.54,
-      "avg_away_score": 1.69,
-      "most_common_score": "1-1"
-    },
-    {
-      "match_id": 537408,
-      "home_team_name": "Congo DR",
-      "away_team_name": "Uzbekistan",
-      "group_letter": "K",
-      "home_win_pct": 0.372,
-      "draw_pct": 0.281,
-      "away_win_pct": 0.347,
-      "avg_home_score": 1.1,
-      "avg_away_score": 1.06,
-      "most_common_score": "0-1"
     }
   ]
 }

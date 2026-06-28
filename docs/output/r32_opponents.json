@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27",
+    "last_updated": "2026-06-28",
     "n_simulations": 1000
   },
   "matchups": [
@@ -14,19 +14,13 @@
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.324
-        },
-        {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.192
+          "probability": 0.323
         },
         {
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.098
+          "probability": 0.262
         }
       ]
     },
@@ -68,13 +62,7 @@
           "opponent_id": 760,
           "opponent_name": "Spain",
           "opponent_group": "H",
-          "probability": 0.676
-        },
-        {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.124
+          "probability": 0.677
         }
       ]
     },
@@ -88,25 +76,7 @@
           "opponent_id": 804,
           "opponent_name": "Senegal",
           "opponent_group": "I",
-          "probability": 0.372
-        },
-        {
-          "opponent_id": 772,
-          "opponent_name": "South Korea",
-          "opponent_group": "A",
-          "probability": 0.312
-        },
-        {
-          "opponent_id": 778,
-          "opponent_name": "Algeria",
-          "opponent_group": "J",
-          "probability": 0.192
-        },
-        {
-          "opponent_id": 816,
-          "opponent_name": "Austria",
-          "opponent_group": "J",
-          "probability": 0.124
+          "probability": 1.0
         }
       ]
     },
@@ -176,13 +146,7 @@
           "opponent_id": 763,
           "opponent_name": "Ghana",
           "opponent_group": "L",
-          "probability": 0.586
-        },
-        {
-          "opponent_id": 799,
-          "opponent_name": "Croatia",
-          "opponent_group": "L",
-          "probability": 0.414
+          "probability": 1.0
         }
       ]
     },
@@ -196,13 +160,7 @@
           "opponent_id": 770,
           "opponent_name": "England",
           "opponent_group": "L",
-          "probability": 0.37
-        },
-        {
-          "opponent_id": 799,
-          "opponent_name": "Croatia",
-          "opponent_group": "L",
-          "probability": 0.002
+          "probability": 1.0
         }
       ]
     },
@@ -216,19 +174,7 @@
           "opponent_id": 765,
           "opponent_name": "Portugal",
           "opponent_group": "K",
-          "probability": 0.584
-        },
-        {
-          "opponent_id": 818,
-          "opponent_name": "Colombia",
-          "opponent_group": "K",
-          "probability": 0.414
-        },
-        {
-          "opponent_id": 1934,
-          "opponent_name": "Congo DR",
-          "opponent_group": "K",
-          "probability": 0.002
+          "probability": 1.0
         }
       ]
     },
@@ -267,22 +213,10 @@
       "crest_url": "https://crests.football-data.org/770.svg",
       "opponents": [
         {
-          "opponent_id": 804,
-          "opponent_name": "Senegal",
-          "opponent_group": "I",
-          "probability": 0.628
-        },
-        {
           "opponent_id": 1934,
           "opponent_name": "Congo DR",
           "opponent_group": "K",
-          "probability": 0.37
-        },
-        {
-          "opponent_id": 765,
-          "opponent_name": "Portugal",
-          "opponent_group": "K",
-          "probability": 0.002
+          "probability": 1.0
         }
       ]
     },
@@ -324,13 +258,7 @@
           "opponent_id": 818,
           "opponent_name": "Colombia",
           "opponent_group": "K",
-          "probability": 0.586
-        },
-        {
-          "opponent_id": 765,
-          "opponent_name": "Portugal",
-          "opponent_group": "K",
-          "probability": 0.414
+          "probability": 1.0
         }
       ]
     },
@@ -344,7 +272,7 @@
           "opponent_id": 788,
           "opponent_name": "Switzerland",
           "opponent_group": "B",
-          "probability": 0.902
+          "probability": 0.738
         }
       ]
     },
@@ -456,19 +384,7 @@
           "opponent_id": 799,
           "opponent_name": "Croatia",
           "opponent_group": "L",
-          "probability": 0.584
-        },
-        {
-          "opponent_id": 763,
-          "opponent_name": "Ghana",
-          "opponent_group": "L",
-          "probability": 0.414
-        },
-        {
-          "opponent_id": 770,
-          "opponent_name": "England",
-          "opponent_group": "L",
-          "probability": 0.002
+          "probability": 1.0
         }
       ]
     },
@@ -479,16 +395,10 @@
       "crest_url": "https://crests.football-data.org/senegal.svg",
       "opponents": [
         {
-          "opponent_id": 770,
-          "opponent_name": "England",
-          "opponent_group": "L",
-          "probability": 0.628
-        },
-        {
           "opponent_id": 805,
           "opponent_name": "Belgium",
           "opponent_group": "G",
-          "probability": 0.372
+          "probability": 1.0
         }
       ]
     },
@@ -507,20 +417,6 @@
       ]
     },
     {
-      "team_id": 772,
-      "team_name": "South Korea",
-      "group": "A",
-      "crest_url": "https://crests.football-data.org/772.png",
-      "opponents": [
-        {
-          "opponent_id": 805,
-          "opponent_name": "Belgium",
-          "opponent_group": "G",
-          "probability": 0.312
-        }
-      ]
-    },
-    {
       "team_id": 760,
       "team_name": "Spain",
       "group": "H",
@@ -530,13 +426,13 @@
           "opponent_id": 816,
           "opponent_name": "Austria",
           "opponent_group": "J",
-          "probability": 0.676
+          "probability": 0.677
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.324
+          "probability": 0.323
         }
       ]
     },
@@ -564,13 +460,13 @@
           "opponent_id": 840,
           "opponent_name": "Iran",
           "opponent_group": "G",
-          "probability": 0.902
+          "probability": 0.738
         },
         {
           "opponent_id": 778,
           "opponent_name": "Algeria",
           "opponent_group": "J",
-          "probability": 0.098
+          "probability": 0.262
         }
       ]
     },

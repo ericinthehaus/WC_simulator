@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27",
+    "last_updated": "2026-06-28",
     "n_simulations": 1000,
     "show_conditional": true
   },
@@ -12,7 +12,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 324,
+          "n_sims": 323,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -21,7 +21,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 290,
+          "n_sims": 262,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 1.0,
@@ -30,7 +30,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 386,
+          "n_sims": 415,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 1.0,
@@ -46,7 +46,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 557,
+          "n_sims": 516,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -55,7 +55,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 225,
+          "n_sims": 219,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -64,7 +64,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 218,
+          "n_sims": 265,
           "p_1st": 1.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -80,7 +80,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 386,
+          "n_sims": 415,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -89,7 +89,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 290,
+          "n_sims": 262,
           "p_1st": 0.0,
           "p_2nd": 1.0,
           "p_3rd": 0.0,
@@ -98,12 +98,12 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 324,
+          "n_sims": 323,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 1.0,
           "p_4th": 0.0,
-          "p_advances": 0.3827
+          "p_advances": 0.0
         }
       ]
     },
@@ -114,7 +114,7 @@
       "outcomes": [
         {
           "matchday_3_result": "win",
-          "n_sims": 218,
+          "n_sims": 265,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -123,7 +123,7 @@
         },
         {
           "matchday_3_result": "draw",
-          "n_sims": 225,
+          "n_sims": 219,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
@@ -132,143 +132,7 @@
         },
         {
           "matchday_3_result": "loss",
-          "n_sims": 557,
-          "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.0,
-          "p_4th": 1.0,
-          "p_advances": 0.0
-        }
-      ]
-    },
-    {
-      "team_id": 818,
-      "team_name": "Colombia",
-      "group": "K",
-      "outcomes": [
-        {
-          "matchday_3_result": "win",
-          "n_sims": 342,
-          "p_1st": 1.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.0,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        },
-        {
-          "matchday_3_result": "draw",
-          "n_sims": 244,
-          "p_1st": 1.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.0,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        },
-        {
-          "matchday_3_result": "loss",
-          "n_sims": 414,
-          "p_1st": 0.0,
-          "p_2nd": 1.0,
-          "p_3rd": 0.0,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        }
-      ]
-    },
-    {
-      "team_id": 1934,
-      "team_name": "Congo DR",
-      "group": "K",
-      "outcomes": [
-        {
-          "matchday_3_result": "win",
-          "n_sims": 372,
-          "p_1st": 0.0,
-          "p_2nd": 0.0054,
-          "p_3rd": 0.9946,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        },
-        {
-          "matchday_3_result": "draw",
-          "n_sims": 281,
-          "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 1.0,
-          "p_4th": 0.0,
-          "p_advances": 0.0
-        },
-        {
-          "matchday_3_result": "loss",
-          "n_sims": 347,
-          "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.0,
-          "p_4th": 1.0,
-          "p_advances": 0.0
-        }
-      ]
-    },
-    {
-      "team_id": 765,
-      "team_name": "Portugal",
-      "group": "K",
-      "outcomes": [
-        {
-          "matchday_3_result": "win",
-          "n_sims": 414,
-          "p_1st": 1.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.0,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        },
-        {
-          "matchday_3_result": "draw",
-          "n_sims": 244,
-          "p_1st": 0.0,
-          "p_2nd": 1.0,
-          "p_3rd": 0.0,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        },
-        {
-          "matchday_3_result": "loss",
-          "n_sims": 342,
-          "p_1st": 0.0,
-          "p_2nd": 0.9942,
-          "p_3rd": 0.0058,
-          "p_4th": 0.0,
-          "p_advances": 1.0
-        }
-      ]
-    },
-    {
-      "team_id": 8070,
-      "team_name": "Uzbekistan",
-      "group": "K",
-      "outcomes": [
-        {
-          "matchday_3_result": "win",
-          "n_sims": 347,
-          "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 1.0,
-          "p_4th": 0.0,
-          "p_advances": 0.0
-        },
-        {
-          "matchday_3_result": "draw",
-          "n_sims": 281,
-          "p_1st": 0.0,
-          "p_2nd": 0.0,
-          "p_3rd": 0.0,
-          "p_4th": 1.0,
-          "p_advances": 0.0
-        },
-        {
-          "matchday_3_result": "loss",
-          "n_sims": 372,
+          "n_sims": 516,
           "p_1st": 0.0,
           "p_2nd": 0.0,
           "p_3rd": 0.0,
